@@ -1,7 +1,7 @@
 # Meteor Addons List
 
 A list to help newcomers discover addons.
-This gist might not stay for long as an addon marketplace system is being planned.
+This repo might not stay for long as an addon marketplace system is being planned.
 
 If you are looking for other fabric mods to be used alongside Meteor, check [this](https://github.com/MeteorRejects/meteor-lists/blob/master/MeteorAdditionals.md) list out
 

@@ -1,0 +1,2 @@
+- [Meteor Addons List](https://github.com/MeteorRejects/meteor-lists/blob/master/MeteorAddons.md) A list to help newcomers discover addons. 
+- [Meteor Additionals](https://github.com/MeteorRejects/meteor-lists/blob/master/MeteorAdditionals.md) A list of recommended mods to be used alongside meteor.

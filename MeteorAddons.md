@@ -32,6 +32,7 @@ These addons are made and maintained by developers from Meteor's community.
 | ---- | ----------- | ---- | ------- |
 | Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 |
 | Item Scroller Dupe | An addon for the Item Scroller dupe | [Repository](https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon) | ChrstnCrrnd |
+| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat |
 
 ## Private Addons
 

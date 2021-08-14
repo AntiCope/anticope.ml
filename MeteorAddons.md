@@ -35,15 +35,6 @@ These addons are made and maintained by developers from Meteor's community.
 |<img src='https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon/blob/master/src/main/resources/assets/dupe/icon.png?raw=true' width="32px">| Item Scroller Dupe | An addon for the Item Scroller dupe | [Repository](https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon) | ChrstnCrrnd |
 |<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat |
 
-## Private Addons
-
-These are just known private addons. The sources aren't disclosed, so I can't link them here.
-*Note: I don't necessarily have these addons, don't come to me asking for them*
-
-- Meteor+
-- Ghostware
-- Venomhack
-
 ## Addon Template
 
 The addon template for those of you who want to develop your own meteor addon.

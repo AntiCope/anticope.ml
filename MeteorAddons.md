@@ -17,17 +17,17 @@ These addons are made and maintained by the official [Meteor Development Team](h
 
 These addons are made and maintained by developers from Meteor's community.
 
-**Utilities**
+#### Utilities
 | - | Name | Description | Link | Authors |
 | --- | ---- | ----------- | ---- | ------- |
 |<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/MeteorRejects/meteor-rejects) | Cloudburst & StormyBytes |
 |<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat |
 |<img src='https://github.com/AntiCope/meteor-python-addon/blob/main/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/MeteorRejects/meteor-python-addon) | Cloudburst |
-|<img src='/res/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny |
-|<img src='/res/unknown_icon.png?raw=true' width="32px">| Motor Tunez | Music player for meteor. Requires [**rounded-ui**](https://github.com/JFronny/meteor-client/tree/rounded-ui) | [Repository](https://github.com/JFronny/MotorTunez) | JFronny |
+|<img src='https://github.com/AntiCope/meteor-lists/raw/master/res/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny |
+|<img src='https://github.com/AntiCope/meteor-lists/raw/master/res/unknown_icon.png?raw=true' width="32px">| Motor Tunez | Music player for meteor. Requires [**rounded-ui**](https://github.com/JFronny/meteor-client/tree/rounded-ui) | [Repository](https://github.com/JFronny/MotorTunez) | JFronny |
 
 
-**Duping**
+#### Duping
 | - | Name | Description | Link | Authors |
 | --- | ---- | ----------- | ---- | ------- |
 |<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 |

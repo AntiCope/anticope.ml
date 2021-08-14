@@ -3,7 +3,7 @@
 A list to help newcomers discover addons.
 This repo might not stay for long as an addon marketplace system is being planned.
 
-If you are looking for other fabric mods to be used alongside Meteor, check [this](https://github.com/MeteorRejects/meteor-lists/blob/master/MeteorAdditionals.md) list out
+If you are looking for other fabric mods to be used alongside Meteor, check [this](/MeteorAdditionals.md) list out
 
 ## Official Addons
 

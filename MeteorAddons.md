@@ -8,6 +8,7 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 ## Official Addons
 
 These addons are made and maintained by the official [Meteor Development Team](https://github.com/MeteorDevelopment).
+
 | - | Name | Description | Link |
 | --- | ---- | ----------- | -------- |
 |<img src='https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true' width="32px">| Auto Mount Bypass Dupe (archived) | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) |

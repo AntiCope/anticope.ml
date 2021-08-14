@@ -1,7 +1,7 @@
 theme: jekyll-theme-hacker
 markdown: GFM
 title: meteor-lists
-url: "https://anticope.github.io/meteor-lists"
+url: "https://anticope.github.io"
 plugins:
   - jekyll-sitemap
 

@@ -10,3 +10,7 @@ gems:
 
 whitelist:
   - jekyll-sitemap
+  
+defaults:
+  scope:
+    path: *.md

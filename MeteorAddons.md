@@ -40,3 +40,15 @@ These addons are made and maintained by developers from Meteor's community.
 The addon template for those of you who want to develop your own meteor addon.
 
 https://github.com/MeteorDevelopment/meteor-addon-template
+
+# Untested Addons
+Addons directly scraped from Github
+```diff
+! ⚠ These addons where not manually or automatically checked for code quality, malware or content. ⚠
+! This means that some of these addons might crash your game, steal or delete your data. Remember to screen each addon before using it
+```
+<details>
+  
+  [Untested Addons](/UntestedAddons.md)
+  
+</details>

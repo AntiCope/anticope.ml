@@ -11,22 +11,37 @@ tested = repo_regex.findall(open("MeteorAddons.md", "r", encoding='utf-8').read(
 tested = set(tested)
 print(f"Found tested addons: {len(tested)}")
 
-# Request all code snippets in java extending MeteorAddon class
-r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&access_token={GH_TOKEN}")
+# get template size & name
+r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template")
+repo = r.json()
+template_name = repo["name"]
+template_size = repo["size"]
+del repo
 
-# function that formats repos contents to exclute private and tested repos and add code size property
+# function that formats repos contents to exclute private and tested repos and repos which are just unmodified templates and add code size property
 def parse_repo(repo):
     repo = repo['repository']
     if repo['private']:
         return None
     if repo['html_url'] in tested:
         return None
+    if repo['name'] == template_name:
+        return None
+    if repo['size'] == template_size:
+        return None
     r = requests.get(repo['url'])
     repo.update(r.json())
     return repo
 
-# load repos
+# Request all code snippets in java extending MeteorAddon class
+r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100&access_token={GH_TOKEN}")
 repos = r.json()['items']
+
+# Request all forks of meteor-addon-template because some people cant click generate
+r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template/forks?per_page=100")
+repos.extend(r.json()['items'])
+
+# load repos
 repos = [parse_repo(repo) for repo in repos]
 repos = list(filter(bool, repos))
 repos.sort(key=lambda x: x['size'], reverse=True)

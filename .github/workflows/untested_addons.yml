@@ -39,6 +39,13 @@ jobs:
           python3 -m pip install --upgrade pip setuptools wheel
           python3 -m pip install -r requirements.txt
     
+      - name: Generate UntestedAddons.md
+        run: |
+          python3 --version
+          python3 untested_addons.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
       # Commits all changed files to the repository
       - name: Commit to the repo
         run: |

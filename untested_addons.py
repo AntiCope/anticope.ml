@@ -26,10 +26,10 @@ def parse_repo(repo):
         return None
     if repo['name'] == template_name:
         return None
-    if repo['size'] == template_size:
-        return None
     r = requests.get(repo['url'])
     repo.update(r.json())
+    if repo['size'] == template_size:
+        return None
     return repo
 
 # Request all code snippets in java extending MeteorAddon class

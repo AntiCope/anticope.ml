@@ -12,5 +12,5 @@ whitelist:
   - jekyll-sitemap
   
 defaults:
-  scope:
+ - scope:
     path: *.md

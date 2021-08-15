@@ -12,9 +12,9 @@ tested = set(tested)
 print(f"Found tested addons: {len(tested)}")
 
 # Request all code snippets in java extending MeteorAddon class
-r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&access_token={GH_TOKEN}")
+r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&access_token={GH_TOKEN}")
 
-# function that formats repos contents to exclute private repos and add code size property
+# function that formats repos contents to exclute private and tested repos and add code size property
 def parse_repo(repo):
     repo = repo['repository']
     if repo['private']:

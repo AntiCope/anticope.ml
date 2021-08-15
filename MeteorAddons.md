@@ -1,4 +1,4 @@
-# Meteor Addons List
+# Meteor Addons
 
 A list to help newcomers discover addons.
 This repo might not stay for long as an addon marketplace system is being planned.

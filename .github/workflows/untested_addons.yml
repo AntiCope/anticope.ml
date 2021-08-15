@@ -5,6 +5,7 @@ on:
     paths:
       - 'res/UntestedAddons.template.md'
       - '.github/workflows/untested_addons.yml'
+      - 'untested_addons.py'
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:

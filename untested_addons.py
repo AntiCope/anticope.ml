@@ -1,8 +1,15 @@
 import requests
 import json
 from os import getenv
+import re
 
 GH_TOKEN = getenv("GH_TOKEN")
+repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
+
+# create list of tested addons
+tested = repo_regex.findall(open("MeteorAddons.md", "r", encoding='utf-8').read())
+tested = set(tested)
+print(f"Found tested addons: {len(tested)}")
 
 # Request all code snippets in java extending MeteorAddon class
 r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&access_token={GH_TOKEN}")
@@ -11,6 +18,8 @@ r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+lang
 def parse_repo(repo):
     repo = repo['repository']
     if repo['private']:
+        return None
+    if repo['html_url'] in tested:
         return None
     r = requests.get(repo['url'])
     repo.update(r.json())

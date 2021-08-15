@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'res/UntestedAddons.template.md'
+      - '.github/workflows/untested_addons.yml'
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:

@@ -11,8 +11,8 @@ List of **untested** addons scraped directly from GitHub. Most of them are proba
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
 | Kismet | Osshe Requested!! | [Repository](https://github.com/WoBo-wow/Kismet) | WoBo-wow |
-| awesomemeteorplugin | None | [Repository](https://github.com/unfidelity/awesomemeteorplugin) | unfidelity |
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repository](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | HENRYMARTIN5 |
+| awesomemeteorplugin | None | [Repository](https://github.com/unfidelity/awesomemeteorplugin) | unfidelity |
 | MeteorLegit | None | [Repository](https://github.com/Drakesdrs/MeteorLegit) | Drakesdrs |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repository](https://github.com/hashalite/packetfly-addon) | hashalite |
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |

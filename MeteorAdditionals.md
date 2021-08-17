@@ -44,8 +44,9 @@ Here are some of the mods known to be incompatible or cause issues with Meteor.
 
 **Clients**
 - [Inertia Client](https://inertiaclient.com/)
-- [Wurst Client](https://www.wurstclient.net/download/)
+- [Wurst Client](https://www.wurstclient.net/)
 - [Aristois Client](https://aristois.net/)
+
 
 **Others**
 - [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated above, Optifine is and never will be compatible with Meteor.

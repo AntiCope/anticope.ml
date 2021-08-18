@@ -1,0 +1,17 @@
+name: Update Table of Contents
+
+on:
+  push:
+    paths:
+      - '*.md'
+      
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate TOC
+        uses: technote-space/toc-generator@v4
+        with:
+          FOLDING: true
+          TARGET_PATHS: '*.md'
+    

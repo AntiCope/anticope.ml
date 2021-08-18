@@ -1,7 +1,14 @@
 
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Untested Addons](#untested-addons)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Untested Addons
 List of **untested** addons scraped directly from GitHub. Most of them are probably just forks of [meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template) without any changes. Sorted by code size.

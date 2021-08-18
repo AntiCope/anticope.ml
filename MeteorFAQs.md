@@ -75,6 +75,7 @@ Optifine is and never will be supported by Meteor. We recommend using these inst
 - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
 
 More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
+*We recommend you read [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAdditionals.md) list of Meteor Addons too*
 
 ## How to use Meteor with Baritone?
 

@@ -121,7 +121,7 @@
   <summary>Answer</summary>
   
   Finding dupes isn't an easy task. Public dupes get patched very quickly so alot of dupes are kept private.
-  You can check out [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAddons.md#duping) list of Meteor Duping addons.
+  You can check out [this](/MeteorAddons.md#duping) list of Meteor Duping addons.
   Some might work, and some may not.
 </details>
 

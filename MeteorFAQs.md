@@ -80,7 +80,7 @@
 ## How to use meteor on 1.12.2/1.16.5/1.17 (older versions)
 
 
-### I want to connect to a \<insert older version\> server!
+### I want to connect to an old server!
 
 <details>
   <summary>Use multiconnect</summary>

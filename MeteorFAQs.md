@@ -18,11 +18,6 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 - [How to use Meteor with Baritone?](#how-to-use-meteor-with-baritone)
 - [How to dupe with this client?](#how-to-dupe-with-this-client)
 - [How to use notebot](#how-to-use-notebot)
-  - [Loading songs](#loading-songs)
-  - [Supported formats](#supported-formats)
-  - [Previewing](#previewing)
-  - [Playing](#playing)
-  - [Recording](#recording)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 
 </details>

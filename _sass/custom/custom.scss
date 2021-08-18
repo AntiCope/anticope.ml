@@ -16,7 +16,7 @@ td {
 
     @include mq(lg) {
         margin-left: max(
-            (100% - #{$nav-width + $content-width}) / 2,
+            calc(100% - #{$nav-width + $content-width}) / 2,
             $nav-width
         );
     }

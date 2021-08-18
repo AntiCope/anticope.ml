@@ -161,6 +161,7 @@
 ### Loading songs
 
 <details>
+  <summary>Insert notebot files into notebot folder</summary>
 
   To load songs you need to put a file with supported format inside folder located in `.minecraft/meteor-client/notebot` *(Create it, if it doesn't exist)*.
 
@@ -169,6 +170,7 @@
 ### Supported formats
 
 <details>
+  <summary>Classic Nbs, OpenNbs v5, .txt</summary>
   
   - Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn fs-1">specification</a>
   - OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn fs-1">song downloads</a> <a href="https://opennbs.org/nbs" class="btn fs-1">specification</a>
@@ -179,6 +181,7 @@
 ### Previewing
 
 <details>
+  <summary>Use the <kbd>Preview</kbd> button</summary>
 
 Before playing songs you can preview them. To preview a song you can either:
 - Press the <kbd>Preview</kbd> button next to the song you want to preview
@@ -189,6 +192,7 @@ Before playing songs you can preview them. To preview a song you can either:
 ### Playing
 
 <details>
+  <summary>.notebot play</summary>
 
 To play a song you can either:
 -  place noteblocks around you in a 5 block radius
@@ -201,6 +205,7 @@ To start playing a song you can press the <kbd>Load</kbd> button next to the son
 ### Recording
 
 <details>
+  <summary>.notebot record</summary>
 
 You can also record in-game sound to play them back later.
 1. Run `.notebot record start` to start recording
@@ -216,7 +221,7 @@ After that you will see your new recording inside the list of recordings
 <details>
   <summary>Either you broke a rule or don't have an account</summary>
   
-  You most likely have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
+  You probably have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
   and have been muted by staff.
 
   If you did not break a rule, then [this](https://discord.com/channels/689197705683140636/689198722097348624/870066829622652989) might explain why.

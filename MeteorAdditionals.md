@@ -4,7 +4,8 @@ A list of recommended mods to be used alongside meteor.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+<details>
+<summary>Table of Contents</summary>
 
 - [Optifine Alternatives](#optifine-alternatives)
   - [Performance](#performance)
@@ -14,6 +15,7 @@ A list of recommended mods to be used alongside meteor.
 - [Meteor Addons](#meteor-addons)
 - [Incompatibilities](#incompatibilities)
 
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Optifine Alternatives

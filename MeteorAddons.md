@@ -7,7 +7,8 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+<details>
+<summary>Table of Contents</summary>
 
   - [Official Addons](#official-addons)
   - [Community Addons](#community-addons)
@@ -16,6 +17,7 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
   - [Addon Template](#addon-template)
 - [Untested Addons](#untested-addons)
 
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Official Addons

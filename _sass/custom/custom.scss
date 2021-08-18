@@ -10,10 +10,6 @@ td {
 }
 
 .main {
-    @include mq(#{$content-width + $nav-width}) {
-        max-width: #{$content-width + $nav-width};
-    }
-
     @include mq(lg) {
         margin-left: calc(
             (100% - #{$nav-width + $content-width}) / 2

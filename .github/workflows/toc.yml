@@ -18,4 +18,5 @@ jobs:
         with:
           FOLDING: true
           TARGET_PATHS: '*.md'
-    
+          COMMIT_NAME: 'AntiCope'
+          COMMIT_EMAIL: 'AntiCope@users.noreply.github.com'

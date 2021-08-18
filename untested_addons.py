@@ -10,6 +10,8 @@ repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 tested = repo_regex.findall(open("MeteorAddons.md", "r", encoding='utf-8').read())
 tested = set(tested)
 print(f"Found tested addons: {len(tested)}")
+# count addons (-1 bc of MeteorDevelopment/meteor-addon-template)
+addon_count = len(tested) - 1
 
 # get template size & name
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template")
@@ -55,6 +57,19 @@ file.write(template)
 # add a line for each repo
 for repo in repos:
     print(f"Adding: {repo['full_name']}")
+    addon_count += 1
     file.write(f"\n| {repo['name']} | {repo['description']} | [Repository]({repo['html_url']}) | {repo['owner']['login']} |")
 
+file.close()
+
+# update counter in README
+file = open("README.md", "r+")
+content = file.read()
+file.seek(0)
+content = content.replace(
+    "https://img.shields.io/badge/Addons-0-green",
+    f"https://img.shields.io/badge/Addons-{addon_count}-green"
+)
+file.write(content)
+file.truncate()
 file.close()

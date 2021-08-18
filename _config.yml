@@ -5,9 +5,6 @@ logo: "https://github.com/AntiCope/meteor-lists/blob/master/res/icon.png?raw=tru
 title: meteor-lists
 url: "https://anticope.github.io"
 
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
-
 gh_edit_link: true
 gh_edit_link_text: "View this page on GitHub."
 gh_edit_repository: "https://github.com/AntiCope/meteor-lists"

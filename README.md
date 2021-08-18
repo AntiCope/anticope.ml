@@ -37,3 +37,4 @@ The main articles on this wiki.
 Articles that were too complex to be in the main articles.
 
 - [NoteBot Guide](/subpage/NoteBotGuide.md) | A guide on how to use notebot.
+- [Swarm Guide](/subpage/SwarmGuide.md) | A guide on how to use the Swarm System.

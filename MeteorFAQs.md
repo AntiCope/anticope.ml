@@ -169,10 +169,10 @@
 ### Supported formats
 
 <details>
-
-- Classic `.nbs` files [[specification]](https://www.stuffbydavid.com/mcnbs/format)
-- OpenNBS v5 `.nbs` files  [[song downloads]](https://opennbs.org/songs) [[specification]](https://opennbs.org/nbs)
-- .txt files using format `<tick>:<note>` [[song downloads]](https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip)
+  
+  - Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn btn-blue">specification</a>
+  - OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn btn-blue">song downloads</a> <a href="https://opennbs.org/nbs" class="btn btn-blue">specification</a>
+  - .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn btn-blue">song downloads</a>
 
 </details>
 

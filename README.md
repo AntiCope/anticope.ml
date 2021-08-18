@@ -1,14 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
-
-- [Main Pages](#main-pages)
-- [Sub Pages](#sub-pages)
-
-</details>
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/88768753?s=200&v=4" alt="logo" width="20%"/>
 </p>
@@ -23,6 +12,17 @@
   <img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists" alt="Last commit">
 </div>
 <p> </p>
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Main Pages](#main-pages)
+- [Sub Pages](#sub-pages)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Main Pages
 

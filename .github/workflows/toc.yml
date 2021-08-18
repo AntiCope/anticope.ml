@@ -1,6 +1,6 @@
 name: Update Table of Contents
 
-concurrency: 
+concurrency:
   group: "main"
   cancel-in-progress: false
 
@@ -21,6 +21,6 @@ jobs:
         uses: technote-space/toc-generator@v4
         with:
           FOLDING: true
-          TARGET_PATHS: '*.md'
+          TARGET_PATHS: ['*.md', 'subpage/*.md']
           COMMIT_NAME: "AntiCope"
           COMMIT_EMAIL: "null"

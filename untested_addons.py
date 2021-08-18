@@ -66,10 +66,11 @@ file.close()
 file = open("README.md", "r+")
 content = file.read()
 file.seek(0)
-content = content.replace(
-    "https://img.shields.io/badge/Addons-0-green",
-    f"https://img.shields.io/badge/Addons-{addon_count}-green"
-)
+content = re.sub(
+    "https://img\.shields\.io/badge/Addons-[0-9]+-green",
+    f"https://img.shields.io/badge/Addons-{addon_count}-green",
+    content
+    )
 file.write(content)
 file.truncate()
 file.close()

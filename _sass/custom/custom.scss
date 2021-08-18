@@ -2,3 +2,9 @@ th,
 td {
     min-width: 0;
 }
+
+.side-bar { 
+    @include mq(lg) {
+        width: $nav-width;
+    }
+}

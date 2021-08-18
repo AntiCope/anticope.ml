@@ -6,6 +6,9 @@
 <p align="center">
   A rewritten and more detailed FAQ page for those that find the original FAQ page not helpful.
 </p>
+<p align="center">
+    https://meteorclient.com/faq
+</p>
 <div align="center">
   <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-green" alt="Better FAQ: Yes">
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
@@ -29,7 +32,7 @@ Inside the gui, you left click to toggle a module and right click to configure t
 
 3. If the hud elements are red, that indicates that they are **off**. To toggle them simply left click and right click to configure.
 
-### How to prevent people noticing me using Meteor?
+### How to prevent people noticing me use Meteor?
 
 We **highly discourage** usage of Meteor on servers (such as hypixel) that forbid usage of utility clients like Meteor.
 Meteor is built for anarchy servers, where usage of utility clients like meteor and alike are allowed (and encouraged).

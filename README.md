@@ -1,2 +1,3 @@
 - [Meteor Addons](/MeteorAddons.md) A list to help newcomers discover addons. 
 - [Meteor Additionals](/MeteorAdditionals.md) A list of recommended mods to be used alongside meteor.
+- [Meteor FAQs](https://github.com/AntiCope/meteor-lists/blob/master/MeteorFAQs.md) A better FAQ page for meteor.

@@ -16,6 +16,10 @@
 
 *Click on the answers for more details.*
 
+# Table of Contents
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 ## How do I use the client?
 
 

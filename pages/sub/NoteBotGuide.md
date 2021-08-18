@@ -4,7 +4,16 @@ A guide on how to use notebot.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
 
+- [Loading songs](#loading-songs)
+- [Supported formats](#supported-formats)
+- [Previewing](#previewing)
+- [Playing](#playing)
+- [Recording](#recording)
+
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- I have no idea how the TOC thingy works, just adding this incase it does -->
 

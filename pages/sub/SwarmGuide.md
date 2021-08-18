@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Swarm Guide](#swarm-guide)
+  - [Setting up a host server](#setting-up-a-host-server)
+  - [Connecting workers](#connecting-workers)
+  - [Controlling workers](#controlling-workers)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Swarm Guide
 
 Swarm is a module that essentially allows multiple instances of Meteor to be controlled by one instance. This allows large tasks to be completed quickly and efficiently by utilising many features of Baritone.

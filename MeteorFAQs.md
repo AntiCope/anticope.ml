@@ -18,8 +18,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
+**Table of Contents**
 
 - [How do I use the client?](#how-do-i-use-the-client)
   - [How do I open the GUI?](#how-do-i-open-the-gui)
@@ -33,7 +32,6 @@
 - [How to dupe with this client?](#how-to-dupe-with-this-client)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 
-</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How do I use the client?

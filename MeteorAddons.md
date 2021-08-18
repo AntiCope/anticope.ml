@@ -34,7 +34,7 @@ These addons are made and maintained by the official [Meteor Development Team](h
 These addons are made and maintained by developers from Meteor's community.
 Each were manually checked for code quality and safety. 
 
-*If you want your addon to be added in here open [a new issue](https://github.com/AntiCope/meteor-lists/issues/new) or dm `SByte#0001` or `Cloudburst#7680`*
+*If you want your addon to be added in here open [a new issue](https://github.com/AntiCope/meteor-lists/issues/new) or dm `SByte#0001` or `Cloudburst#7680` on discord*
 
 #### Utilities
 | Icon | Name | Description | Link | Authors |

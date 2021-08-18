@@ -5,8 +5,20 @@ This repo might not stay for long as an addon marketplace system is being planne
 
 If you are looking for other fabric mods to be used alongside Meteor, check [this](/MeteorAdditionals.md) list out
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+  - [Official Addons](#official-addons)
+  - [Community Addons](#community-addons)
+      - [Utilities](#utilities)
+      - [Duping](#duping)
+  - [Addon Template](#addon-template)
+- [Untested Addons](#untested-addons)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Official Addons
 

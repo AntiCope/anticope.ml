@@ -16,8 +16,25 @@
 
 *Click on the answers for more details.*
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [How do I use the client?](#how-do-i-use-the-client)
+  - [How do I open the GUI?](#how-do-i-open-the-gui)
+  - [How do I activate HUD?](#how-do-i-activate-hud)
+  - [How to prevent people noticing me use Meteor?](#how-to-prevent-people-noticing-me-use-meteor)
+- [How to use meteor on 1.12.2/1.16.5/1.17 (older versions)](#how-to-use-meteor-on-11221165117-older-versions)
+  - [I want to connect to a \<insert older version\> server!](#i-want-to-connect-to-a-%5Cinsert-older-version%5C-server)
+  - [My other mods aren't on 1.17.1](#my-other-mods-arent-on-1171)
+- [How to use Meteor with Optifine?](#how-to-use-meteor-with-optifine)
+- [How to use Meteor with Baritone?](#how-to-use-meteor-with-baritone)
+- [How to dupe with this client?](#how-to-dupe-with-this-client)
+- [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How do I use the client?
 

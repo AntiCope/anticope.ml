@@ -8,3 +8,15 @@ td {
         width: $nav-width;
     }
 }
+
+.main {
+    @include mq(md) {
+        max-width: #{$content-width + $nav-width};
+    }
+
+    @include mq(lg) {
+        margin-left: calc(
+            (100% - #{$nav-width + $content-width}) / 2
+        );
+    }
+}

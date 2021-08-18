@@ -55,7 +55,7 @@ repos.sort(key=lambda x: x['size'], reverse=True)
 file = open("UntestedAddons.md", 'w+', encoding='utf-8')
 template = open("res/UntestedAddons.template.md", "r", encoding='utf-8').read()
 template = template.split("<!-- START TEMPLATE -->")[1]
-template = template.replace("{{ date }}", datetime.now().strftime('%Y-%m-%d %H:%M'))
+template = template.replace("{{ date }}", datetime.utcnow().strftime('%Y-%m-%d %H:%M (UTC)'))
 file.write(template)
 
 # add a line for each repo

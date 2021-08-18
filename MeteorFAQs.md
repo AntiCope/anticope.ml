@@ -127,7 +127,7 @@
   - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
 
   More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
-  *We recommend you read [this](/MeteorAdditionals.md) list of Meteor Addons too*
+  **We recommend you read [this](/MeteorAdditionals.md) list of Meteor Addons too**
 </details>
 
 ## How to use Meteor with Baritone?
@@ -157,7 +157,7 @@
 
 <details>
 
-  To load songs you need to put a file with supported format inside folder located in ` .minecraft/meteor-client/notebot `. *(Create it, if it doesn't exist)*.
+  To load songs you need to put a file with supported format inside folder located in `.minecraft/meteor-client/notebot` *(Create it, if it doesn't exist)*.
 
 </details>
 
@@ -165,9 +165,9 @@
 
 <details>
 
-- Classic .nbs files [[specification]](https://www.stuffbydavid.com/mcnbs/format)
-- OpenNBS v5 .nbs files  [[song downloads]](https://opennbs.org/songs) [[specification]](https://opennbs.org/nbs)
-- .txt files using format ` <tick>:<note> ` [[song downloads]](https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip)
+- Classic `.nbs` files [[specification]](https://www.stuffbydavid.com/mcnbs/format)
+- OpenNBS v5 `.nbs` files  [[song downloads]](https://opennbs.org/songs) [[specification]](https://opennbs.org/nbs)
+- .txt files using format `<tick>:<note>` [[song downloads]](https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip)
 
 </details>
 
@@ -177,7 +177,7 @@
 
 Before playing songs you can preview them. To preview a song you can either:
 - Press the <kbd>Preview</kbd> button next to the song you want to preview
-- Use the ` .notebot preview <song> ` command
+- Use the `.notebot preview <song>` command
 
 </details>
 
@@ -189,7 +189,7 @@ To play a song you can either:
 -  place noteblocks around you in a 5 block radius
 -  hold noteblocks in your hotbar and let the module do all the work
 
-To start playing a song you can press the <kbd>Load</kbd> button next to the song you want to load or use the ` .notebot play <song> `command
+To start playing a song you can press the <kbd>Load</kbd> button next to the song you want to load or use the `.notebot play <song>` command
 
 </details>
 
@@ -198,9 +198,9 @@ To start playing a song you can press the <kbd>Load</kbd> button next to the son
 <details>
 
 You can also record in-game sound to play them back later.
-1. Run ` .notebot record start ` to start recording
+1. Run `.notebot record start` to start recording
 2. Stand next to some noteblocks
-3. Run ` .notebot record save <name> `
+3. Run `.notebot record save <name>`
 
 After that you will see your new recording inside the list of recordings
 

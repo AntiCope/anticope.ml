@@ -24,7 +24,7 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 
 These addons are made and maintained by the official [Meteor Development Team](https://github.com/MeteorDevelopment).
 
-| - | Name | Description | Link |
+| Icon | Name | Description | Link |
 | --- | ---- | ----------- | -------- |
 |<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe (archived) | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) |
 |<img src="https://github.com/MeteorDevelopment/meteor-book-dupe-addon/blob/main/src/main/resources/assets/bookdupe/icon.png?raw=true" width="32px">| Book Dupe Addon (archived) | Adds the book dupe | [Repository](https://github.com/MeteorDevelopment/meteor-book-dupe-addon) |
@@ -34,7 +34,7 @@ These addons are made and maintained by the official [Meteor Development Team](h
 These addons are made and maintained by developers from Meteor's community.
 
 #### Utilities
-| - | Name | Description | Link | Authors |
+| Icon | Name | Description | Link | Authors |
 | --- | ---- | ----------- | ---- | ------- |
 |<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/MeteorRejects/meteor-rejects) | Cloudburst & StormyBytes |
 |<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat |
@@ -44,7 +44,7 @@ These addons are made and maintained by developers from Meteor's community.
 
 
 #### Duping
-| - | Name | Description | Link | Authors |
+| Icon | Name | Description | Link | Authors |
 | --- | ---- | ----------- | ---- | ------- |
 |<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 |
 |<img src='https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon/blob/master/src/main/resources/assets/dupe/icon.png?raw=true' width="32px">| Item Scroller Dupe | An addon for the Item Scroller dupe | [Repository](https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon) | ChrstnCrrnd |

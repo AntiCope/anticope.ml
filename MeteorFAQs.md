@@ -1,25 +1,10 @@
 # Meteor FAQs
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/88768753?s=200&v=4" alt="logo" width="20%"/>
-</p>
-<p align="center">
-  A rewritten and more detailed FAQ page for those that find the original FAQ page not helpful.
-</p>
-<p align="center">
-  <a href="https://meteorclient.com/faq">https://meteorclient.com/faq</a>
-</p>
-<div align="center">
-  <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-green" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
-</div>
-
-*Click on the answers for more details.*
+A rewritten and more detailed FAQ page for those that find the [original FAQ](https://meteorclient.com/faq) page unhelpful.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
+**Table of Contents**
 
 - [How do I use the client?](#how-do-i-use-the-client)
   - [How do I open the GUI?](#how-do-i-open-the-gui)
@@ -39,8 +24,9 @@
   - [Recording](#recording)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 
-</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+*Click on the answers for more details.*
 
 ## How do I use the client?
 

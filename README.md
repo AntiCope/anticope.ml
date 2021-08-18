@@ -14,8 +14,8 @@
 <div align="center">  
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
   <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-green" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/Verified-Addons-9-green" alt="Verified Addons Count">
-  <img src="https://img.shields.io/badge/Total-Addons-30-green" alt="Total Addons Count">
+  <img src="https://img.shields.io/badge/Verified%20Addons-9-green" alt="Verified Addons Count">
+  <img src="https://img.shields.io/badge/Total%20Addons-30-green" alt="Total Addons Count">
 </div>
 <p> </p>
 

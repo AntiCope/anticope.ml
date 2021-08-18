@@ -48,7 +48,9 @@ repos.sort(key=lambda x: x['size'], reverse=True)
 
 # create markdown file, write template to it
 file = open("UntestedAddons.md", 'w+', encoding='utf-8')
-file.write(open("res/UntestedAddons.template.md", "r", encoding='utf-8').read())
+template = open("res/UntestedAddons.template.md", "r", encoding='utf-8').read()
+template = template.split("<!-- START TEMPLATE -->")[1]
+file.write(template)
 
 # add a line for each repo
 for repo in repos:

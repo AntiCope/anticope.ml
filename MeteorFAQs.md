@@ -86,16 +86,21 @@
   <summary>Use multiconnect</summary>
   
   Your only choice is to use multiconnect as older versions of meteor are unsupported.
-  1. Download [multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) and put it in your mods folder alongside meteor.
-  Your mods folder should look something like this 
-
+ 
+  Download [multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) and put it in your mods folder alongside meteor.
+  
+  Your mods folder should look something like this
+  
   ![image](https://user-images.githubusercontent.com/72693226/129830229-51108c71-ea20-4172-b5c5-f9102e021b8d.png)
-
-  2. Launch fabric **for 1.17.1**. 
-
+  
+  Launch fabric **for 1.17.1**.
+  
   ![image](https://user-images.githubusercontent.com/72693226/129830462-b2167e40-1afd-4948-9c3e-fdb507bde839.png)
-
-  Don't launch fabric for an older version, that is not how multiconnect works. 
+  
+  **Don't launch fabric for an older version, that is not how multiconnect works.**
+  
+  </p>
+  
   Multiconnect allows you to connect to older version servers (e.g. 1.12.2) while you are playing minecraft 1.17.1 with meteor.
 </details>
 

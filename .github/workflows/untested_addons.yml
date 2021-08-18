@@ -9,7 +9,7 @@ on:
     paths:
       - 'res/UntestedAddons.template.md'
       - '.github/workflows/untested_addons.yml'
-      - 'subpage/untested_addons.py'
+      - 'pages/sub/untested_addons.py'
       - 'README.md'
   schedule:
     - cron: "0 5 * * *"
@@ -49,7 +49,7 @@ jobs:
       - name: Generate UntestedAddons.md
         run: |
           python3 --version
-          python3 untested_addons.py
+          python3 pages/sub/untested_addons.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 

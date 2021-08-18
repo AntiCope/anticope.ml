@@ -170,9 +170,9 @@
 
 <details>
   
-  - Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn btn-outline fs-3">specification</a>
-  - OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn btn-outline fs-3">song downloads</a> <a href="https://opennbs.org/nbs" class="btn btn-outline fs-3">specification</a>
-  - .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn btn-outline fs-3">song downloads</a>
+  - Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn fs-1">specification</a>
+  - OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn fs-1">song downloads</a> <a href="https://opennbs.org/nbs" class="btn fs-1">specification</a>
+  - .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn fs-1">song downloads</a>
 
 </details>
 

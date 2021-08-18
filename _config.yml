@@ -1,7 +1,9 @@
-theme: jekyll-theme-midnight
+remote_theme: "dracula/gh-pages"
 markdown: GFM
 title: meteor-lists
 url: "https://anticope.github.io"
+show_downloads: false
+show_header: true
 plugins:
   - jekyll-sitemap
 

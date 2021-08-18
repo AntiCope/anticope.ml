@@ -12,6 +12,7 @@ tested = set(tested)
 print(f"Found tested addons: {len(tested)}")
 # count addons (-1 bc of MeteorDevelopment/meteor-addon-template)
 addon_count = len(tested) - 1
+total_addon_count = addon_count
 
 # get template size & name
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template")
@@ -44,6 +45,7 @@ r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-te
 repos.extend(r.json())
 
 # load repos
+
 repos = [parse_repo(repo) for repo in repos]
 repos = list(filter(bool, repos))
 repos.sort(key=lambda x: x['size'], reverse=True)
@@ -57,7 +59,7 @@ file.write(template)
 # add a line for each repo
 for repo in repos:
     print(f"Adding: {repo['full_name']}")
-    addon_count += 1
+    total_addon_count += 1
     file.write(f"\n| {repo['name']} | {repo['description']} | [Repository]({repo['html_url']}) | {repo['owner']['login']} |")
 
 file.close()
@@ -67,8 +69,13 @@ file = open("README.md", "r+")
 content = file.read()
 file.seek(0)
 content = re.sub(
-    "https://img\.shields\.io/badge/Addons-[0-9]+-green",
-    f"https://img.shields.io/badge/Addons-{addon_count}-green",
+    "https://img\.shields\.io/badge/Verified-Addons-[0-9]+-green",
+    f"https://img.shields.io/badge/Verified-Addons-{addon_count}-green",
+    content
+    )
+content = re.sub(
+    "https://img\.shields\.io/badge/Total-Addons-[0-9]+-green",
+    f"https://img.shields.io/badge/Total-Addons-{total_addon_count}-green",
     content
     )
 file.write(content)

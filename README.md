@@ -14,7 +14,7 @@
 <div align="center">  
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
   <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-green" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/Addons-7-green" alt="Addons Count">
+  <img src="https://img.shields.io/badge/Addons-0-green" alt="Addons Count">
 </div>
 <p> </p>
 

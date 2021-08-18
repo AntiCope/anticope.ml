@@ -6,6 +6,7 @@ on:
       - 'res/UntestedAddons.template.md'
       - '.github/workflows/untested_addons.yml'
       - 'untested_addons.py'
+      - 'README.md'
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
@@ -52,7 +53,7 @@ jobs:
       - name: Commit to the repo
         run: |
           git config user.name "AntiCope"
-          git config user.email "AntiCope@users.noreply.github.com'"
+          git config user.email ""
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m 'Update UntestedAddons.md' || echo

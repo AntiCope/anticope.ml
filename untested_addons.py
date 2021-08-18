@@ -2,6 +2,7 @@ import requests
 import json
 from os import getenv
 import re
+from datetime import datetime
 
 GH_TOKEN = getenv("GH_TOKEN")
 repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
@@ -54,6 +55,7 @@ repos.sort(key=lambda x: x['size'], reverse=True)
 file = open("UntestedAddons.md", 'w+', encoding='utf-8')
 template = open("res/UntestedAddons.template.md", "r", encoding='utf-8').read()
 template = template.split("<!-- START TEMPLATE -->")[1]
+template = template.replace("{{ date }}", datetime.now().strftime('%Y-%m-%d %H:%M'))
 file.write(template)
 
 # add a line for each repo
@@ -69,13 +71,13 @@ file = open("README.md", "r+")
 content = file.read()
 file.seek(0)
 content = re.sub(
-    "https://img\.shields\.io/badge/Verified-Addons-[0-9]+-green",
-    f"https://img.shields.io/badge/Verified-Addons-{addon_count}-green",
+    "https://img\.shields\.io/badge/Verified-Addons-[0-9]+-blue",
+    f"https://img.shields.io/badge/Verified-Addons-{addon_count}-blue",
     content
     )
 content = re.sub(
-    "https://img\.shields\.io/badge/Total-Addons-[0-9]+-green",
-    f"https://img.shields.io/badge/Total-Addons-{total_addon_count}-green",
+    "https://img\.shields\.io/badge/Total-Addons-[0-9]+-blueviolet",
+    f"https://img.shields.io/badge/Total-Addons-{total_addon_count}-blueviolet",
     content
     )
 file.write(content)

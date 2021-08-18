@@ -4,7 +4,8 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+<details>
+<summary>Table of Contents</summary>
 
 - [How do I use the client?](#how-do-i-use-the-client)
   - [How do I open the GUI?](#how-do-i-open-the-gui)
@@ -24,6 +25,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   - [Recording](#recording)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 *Click on the answers for more details.*

@@ -32,6 +32,9 @@ These addons are made and maintained by the official [Meteor Development Team](h
 ## Community Addons
 
 These addons are made and maintained by developers from Meteor's community.
+Each were manually checked for code quality and safety. 
+
+*If you want your addon to be added in here, dm `SByte#0001` or `Cloudburst#7680`*
 
 #### Utilities
 | Icon | Name | Description | Link | Authors |

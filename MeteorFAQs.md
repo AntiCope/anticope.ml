@@ -9,7 +9,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 
 - [How do I use the client?](#how-do-i-use-the-client)
   - [How do I open the GUI?](#how-do-i-open-the-gui)
-  - [How do I activate HUD?](#how-do-i-activate-hud)
+  - [How do I use the HUD?](#how-do-i-use-the-hud)
   - [How to prevent people noticing me use Meteor?](#how-to-prevent-people-noticing-me-use-meteor)
 - [How to use meteor on 1.12.2/1.16.5/1.17 (older versions)](#how-to-use-meteor-on-11221165117-older-versions)
   - [I want to connect to an old server!](#i-want-to-connect-to-an-old-server)

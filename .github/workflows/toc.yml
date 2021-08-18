@@ -1,5 +1,9 @@
 name: Update Table of Contents
 
+concurrency: 
+  group: "main"
+  cancel-in-progress: false
+
 on:
   push:
     paths:

@@ -1,5 +1,9 @@
 name: Generate UntestedAddons.md
 
+concurrency: 
+  group: "main"
+  cancel-in-progress: false
+
 on:
   push:
     paths:

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '*.md'
+      - '.github/workflows/toc.yml'
       
 jobs:
   generate:
@@ -12,6 +13,6 @@ jobs:
       - name: Generate TOC
         uses: technote-space/toc-generator@v4
         with:
-          FOLDING: true
+          FOLDING: false
           TARGET_PATHS: '*.md'
     

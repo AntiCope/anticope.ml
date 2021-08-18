@@ -7,7 +7,7 @@
   A rewritten and more detailed FAQ page for those that find the original FAQ page not helpful.
 </p>
 <p align="center">
-    https://meteorclient.com/faq
+  <a href="https://meteorclient.com/faq">https://meteorclient.com/faq</a>
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-green" alt="Better FAQ: Yes">

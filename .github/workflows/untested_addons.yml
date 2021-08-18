@@ -1,6 +1,6 @@
 name: Generate UntestedAddons.md
 
-concurrency: 
+concurrency:
   group: "main"
   cancel-in-progress: false
 
@@ -9,7 +9,7 @@ on:
     paths:
       - 'res/UntestedAddons.template.md'
       - '.github/workflows/untested_addons.yml'
-      - 'untested_addons.py'
+      - 'subpage/untested_addons.py'
       - 'README.md'
   schedule:
     - cron: "0 5 * * *"
@@ -39,13 +39,13 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-      
+
       # Install dependencies with `pip`
       - name: Install requirements
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           python3 -m pip install -r requirements.txt
-    
+
       - name: Generate UntestedAddons.md
         run: |
           python3 --version

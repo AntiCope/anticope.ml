@@ -19,6 +19,6 @@
 </div>
 <p> </p>
 
-- [Meteor Addons](/MeteorAddons.md) A list to help newcomers discover addons. 
-- [Meteor Additionals](/MeteorAdditionals.md) A list of recommended mods to be used alongside meteor.
-- [Meteor FAQs](/MeteorFAQs.md) A better FAQ page for meteor.
+- [Meteor FAQs](/MeteorFAQs.md) | A better FAQ page for meteor.
+- [Meteor Addons](/MeteorAddons.md) | A list to help newcomers discover addons. 
+- [Meteor Additionals](/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.

@@ -40,7 +40,7 @@
 ### How do I open the GUI?
 
 <details>
-  <summary>Right shift (default)</summary>
+  <summary><kbd>Right Shift</kbd> (default)</summary>
   
   The default keybinding for opening the GUI is right shift, but you can change that in `pause menu > options > controls`.
 
@@ -143,6 +143,61 @@
   Finding dupes isn't an easy task. Public dupes get patched very quickly so alot of dupes are kept private.
   You can check out the duping section of [this](/MeteorAddons.md) list of Meteor Addons.
   Some might work, and some may not.
+</details>
+
+## How to use notebot
+
+### Loading songs
+
+<details>
+
+  To load songs you need to put a file with supported format inside folder located in ` .minecraft/meteor-client/notebot `. *(Create it, if it doesn't exist)*.
+
+</details>
+
+### Supported formats
+
+<details>
+
+- Classic .nbs files [[specification]](https://www.stuffbydavid.com/mcnbs/format)
+- OpenNBS v5 .nbs files  [[song downloads]](https://opennbs.org/songs) [[specification]](https://opennbs.org/nbs)
+- .txt files using format ` <tick>:<note> ` [[song downloads]](https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip)
+
+</details>
+
+### Previewing
+
+<details>
+
+Before playing songs you can preview them. To preview a song you can either:
+- Press the <kbd>Preview</kbd> button next to the song you want to preview
+- Use the ` .notebot preview <song> ` command
+
+</details>
+
+### Playing
+
+<details>
+
+To play a song you can either:
+-  place noteblocks around you in a 5 block radius
+-  hold noteblocks in your hotbar and let the module do all the work
+
+To start playing a song you can press the <kbd>Load</kbd> button next to the song you want to load or use the ` .notebot play <song> `command
+
+</details>
+
+### Recording
+
+<details>
+
+You can also record in-game sound to play them back later.
+1. Run ` .notebot record start ` to start recording
+2. Stand next to some noteblocks
+3. Run ` .notebot record save <name> `
+
+After that you will see your new recording inside the list of recordings
+
 </details>
 
 ## Why can't I talk in the Meteor Discord?

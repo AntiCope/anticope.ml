@@ -93,9 +93,10 @@ Finding dupes isn't an easy task. Public dupes get patched very quickly so alot 
 You can check out [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAddons.md#duping) list of Meteor Duping addons.
 Some might work, and some may not.
 
-## Why am I muted in the Meteor Discord?
+## Why can't I talk in the Meteor Discord?
 
-You most likely have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel.
+You most likely have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
+and have been muted by staff.
 
 If you did not break a rule, then [this](https://discord.com/channels/689197705683140636/689198722097348624/870066829622652989) might explain why.
 Due to the amount of users in the discord server increasing, public channels have been closed to only users who have roles. 

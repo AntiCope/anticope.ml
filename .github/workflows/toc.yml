@@ -5,7 +5,10 @@ on:
     paths:
       - '*.md'
       - '.github/workflows/toc.yml'
-      
+  workflow_run:
+    workflows: ["Generate UntestedAddons.md"]
+    types:
+      - completed
 jobs:
   generate:
     runs-on: ubuntu-latest

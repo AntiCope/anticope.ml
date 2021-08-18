@@ -83,8 +83,17 @@ Baritone's default command prefix is `#` or you can use the Meteor command `.b`.
 You can view all of Baritone's commands [here](https://github.com/cabaletta/baritone/blob/master/USAGE.md) 
 and settings [here](https://baritone.leijurv.com/baritone/api/Settings.html).
 
- ## How to dupe with this client?
- 
- Finding dupes isn't an easy task. Public dupes get patched very quickly so alot of dupes are kept private.
- You can check out [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAddons.md#duping) list of Meteor Duping addons.
- Some might work, and some may not.
+## How to dupe with this client?
+
+Finding dupes isn't an easy task. Public dupes get patched very quickly so alot of dupes are kept private.
+You can check out [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAddons.md#duping) list of Meteor Duping addons.
+Some might work, and some may not.
+
+## Why am I muted in the Meteor Discord?
+
+You most likely have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel.
+
+If you did not break a rule, then [this](https://discord.com/channels/689197705683140636/689198722097348624/870066829622652989) might explain why.
+Due to the amount of users in the discord server increasing, public channels have been closed to only users who have roles. 
+
+You can get a role by creating an account [here](https://meteorclient.com/account).

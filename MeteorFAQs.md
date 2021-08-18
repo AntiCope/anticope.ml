@@ -43,17 +43,17 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   Inside the gui, you left click to toggle a module and right click to configure that module. 
 </details>
   
-### How do I activate HUD?
+### How do I use the HUD?
 
 <details>
   <summary>Turn on the HUD Module</summary>
   
-  1. Activate the HUD Module in the render category.
-  2. Go to the HUD tab (the top of your screen)
+  - Activate the HUD Module in the render category.
+  - Go to the HUD tab (the top of your screen)
 
   ![image](https://user-images.githubusercontent.com/72693226/129832108-683ea81a-028c-4d96-8419-4a5dfde5f527.png)
 
-  3. If the hud elements are red, that indicates that they are **off**. To toggle them simply left click and right click to configure.
+  - If the hud elements are red, that indicates that they are **off**. To toggle them simply left click and right click to configure (scale and other attributes).
 </details>
 
 ### How to prevent people noticing me use Meteor?
@@ -97,7 +97,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 ### My other mods aren't on 1.17.1
 
 <details>
-  <summary>Thats sad</summary>
+  <summary>That is quite saddening.</summary>
 
   If that mod is sodium, you are one of the many who didn't know sodium is **already** on 1.17.1. 
   You can get it [here](https://modrinth.org/mod/sodium)
@@ -182,7 +182,7 @@ Before playing songs you can preview them. To preview a song you can either:
 ### Playing
 
 <details>
-  <summary>.notebot play</summary>
+  <summary><code>.notebot play</code></summary>
 
 To play a song you can either:
 -  place noteblocks around you in a 5 block radius
@@ -195,7 +195,7 @@ To start playing a song you can press the <kbd>Load</kbd> button next to the son
 ### Recording
 
 <details>
-  <summary>.notebot record</summary>
+  <summary><code>.notebot record</code></summary>
 
 You can also record in-game sound to play them back later.
 1. Run `.notebot record start` to start recording
@@ -211,7 +211,7 @@ After that you will see your new recording inside the list of recordings
 <details>
   <summary>Either you broke a rule or don't have an account</summary>
   
-  You probably have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
+  You may have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
   and have been muted by staff.
 
   If you did not break a rule, then [this](https://discord.com/channels/689197705683140636/689198722097348624/870066829622652989) might explain why.

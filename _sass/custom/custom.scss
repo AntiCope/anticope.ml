@@ -10,7 +10,7 @@ td {
 }
 
 .main {
-    @include mq(lg) {
+    @include mq(#{$content-width + $nav-width}) {
         max-width: #{$content-width + $nav-width};
     }
 

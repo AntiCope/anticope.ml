@@ -25,7 +25,7 @@
   - [How do I activate HUD?](#how-do-i-activate-hud)
   - [How to prevent people noticing me use Meteor?](#how-to-prevent-people-noticing-me-use-meteor)
 - [How to use meteor on 1.12.2/1.16.5/1.17 (older versions)](#how-to-use-meteor-on-11221165117-older-versions)
-  - [I want to connect to a \<insert older version\> server!](#i-want-to-connect-to-a-%5Cinsert-older-version%5C-server)
+  - [I want to connect to an old server!](#i-want-to-connect-to-an-old-server)
   - [My other mods aren't on 1.17.1](#my-other-mods-arent-on-1171)
 - [How to use Meteor with Optifine?](#how-to-use-meteor-with-optifine)
 - [How to use Meteor with Baritone?](#how-to-use-meteor-with-baritone)

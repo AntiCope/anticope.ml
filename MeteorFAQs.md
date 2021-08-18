@@ -14,13 +14,15 @@
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
 </div>
 
+*Click on the answers for more details.*
+
 ## How do I use the client?
 
 
 ### How do I open the GUI?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Right shift (default)</summary>
   
   The default keybinding for opening the GUI is right shift, but you can change that in `pause menu > options > controls`.
 
@@ -30,7 +32,7 @@
 ### How do I activate HUD?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Turn on the HUD Module</summary>
   
   1. Activate the HUD Module in the render category.
   2. Go to the HUD tab (the top of your screen)
@@ -43,7 +45,7 @@
 ### How to prevent people noticing me use Meteor?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Stop cheating</summary>
   
   We **highly discourage** usage of Meteor on servers (such as hypixel) that forbid usage of utility clients like Meteor.
   Meteor is built for anarchy servers, where usage of utility clients like meteor and alike are allowed (and encouraged).
@@ -57,7 +59,7 @@
 ### I want to connect to a \<insert older version\> server!
 
 <details>
-  <summary>Answer</summary>
+  <summary>Use multiconnect</summary>
   
   Your only choice is to use multiconnect as older versions of meteor are unsupported.
   1. Download [multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) and put it in your mods folder alongside meteor.
@@ -76,7 +78,7 @@
 ### My other mods aren't on 1.17.1
 
 <details>
-  <summary>Answer</summary>
+  <summary>Thats sad</summary>
 
   If that mod is sodium, you are one of the many who didn't know sodium is **already** on 1.17.1. 
   You can get it [here](https://modrinth.org/mod/sodium)
@@ -92,7 +94,7 @@
 ## How to use Meteor with Optifine?
 
 <details>
-  <summary>Answer</summary>
+  <summary>You simply don't</summary>
   
   Optifine is and never will be supported by Meteor. We recommend using these instead,
 
@@ -101,13 +103,13 @@
   - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
 
   More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
-  *We recommend you read [this](https://github.com/AntiCope/meteor-lists/blob/master/MeteorAdditionals.md) list of Meteor Addons too*
+  *We recommend you read [this](/MeteorAdditionals.md) list of Meteor Addons too*
 </details>
 
 ## How to use Meteor with Baritone?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Use the built-in baritone</summary>
   
   Meteor comes with Baritone built in, you don't need to download a standalone baritone.
   Baritone's default command prefix is `#` or you can use the Meteor command `.b`.
@@ -118,17 +120,17 @@
 ## How to dupe with this client?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Use meteor addons</summary>
   
   Finding dupes isn't an easy task. Public dupes get patched very quickly so alot of dupes are kept private.
-  You can check out [this](/MeteorAddons.md#duping) list of Meteor Duping addons.
+  You can check out the duping section of [this](/MeteorAddons.md) list of Meteor Addons.
   Some might work, and some may not.
 </details>
 
 ## Why can't I talk in the Meteor Discord?
 
 <details>
-  <summary>Answer</summary>
+  <summary>Either you broke a rule or don't have an account</summary>
   
   You most likely have broken one of the rules in the [#rules](https://discord.com/channels/689197705683140636/816501672477720626/) channel 
   and have been muted by staff.

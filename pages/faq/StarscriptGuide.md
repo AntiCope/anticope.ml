@@ -1,26 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
-
-  - [layout: default
-title: Starscript Guide
-parent: Meteor FAQ
-nav_order: 3](#layout-default%0Atitle-starscript-guide%0Aparent-meteor-faq%0Anav_order-3)
-- [Starscript](#starscript)
-  - [Variables](#variables)
-    - [General](#general)
-    - [Player](#player)
-    - [Crosshair target](#crosshair-target)
-    - [Server](#server)
-  - [Objects](#objects)
-    - [Item](#item)
-    - [Block](#block)
-    - [Entity](#entity)
-
-</details>
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ---
 layout: default
 title: Starscript Guide
@@ -31,6 +8,9 @@ nav_order: 3
 # Starscript
 [Starscript](https://github.com/MeteorDevelopment/starscript) is the formatting language currently used in Discord Presence and .say command.  
 Full syntax can be found [here](https://github.com/MeteorDevelopment/starscript/wiki).
+
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 ## Variables
 A list of standard variables can be found [here](https://github.com/MeteorDevelopment/starscript/wiki#standard-variables).

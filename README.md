@@ -17,13 +17,13 @@
 
 The main articles on this wiki.
 
-- [Meteor FAQs](/MeteorFAQs.md) | A rewritten and better FAQ page.
-- [Meteor Addons](/MeteorAddons.md) | A list of verified addons to be used alongside Meteor
-- [Meteor Additionals](/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.
+- [Meteor FAQs](/pages/main/MeteorFAQs.md) | A rewritten and better FAQ page.
+- [Meteor Addons](/pages/main/MeteorAddons.md) | A list of verified addons to be used alongside Meteor
+- [Meteor Additionals](/pages/main/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.
 
 ## Sub Pages
 
 Articles that were too complex to be in the main articles.
 
-- [NoteBot Guide](/subpage/NoteBotGuide.md) | A guide on how to use notebot.
-- [Swarm Guide](/subpage/SwarmGuide.md) | A guide on how to use the Swarm System.
+- [NoteBot Guide](/pages/sub/NoteBotGuide.md) | A guide on how to use notebot.
+- [Swarm Guide](/pages/sub/SwarmGuide.md) | A guide on how to use the Swarm System.

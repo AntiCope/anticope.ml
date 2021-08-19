@@ -49,7 +49,7 @@ jobs:
       - name: Generate UnverifiedAddons.md
         run: |
           python3 --version
-          python3 pages/sub/unverified_addons.py
+          python3 pages/addons/unverified_addons.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 

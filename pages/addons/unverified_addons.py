@@ -53,7 +53,7 @@ repos.sort(key=lambda x: x['size'], reverse=True)
 
 # create markdown file, write template to it
 file = open("pages/addons/UnverifiedAddons.md", 'w+', encoding='utf-8')
-template = open("resources/UnverifiedAddons.template.md", "r", encoding='utf-8').read()
+template = open("resources/Unverifiedaddons.template.md", "r", encoding='utf-8').read()
 template = template.split("<!-- START TEMPLATE -->")[1]
 template = template.replace("{{ date }}", datetime.utcnow().strftime('%Y-%m-%d %H:%M (UTC)'))
 file.write(template)

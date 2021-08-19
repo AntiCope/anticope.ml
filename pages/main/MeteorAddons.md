@@ -1,3 +1,10 @@
+---
+layout: default
+title: Meteor Addons
+parent: Main Pages
+nav_order: 2
+---
+
 # Meteor Addons
 
 A list to help newcomers discover addons.
@@ -32,7 +39,7 @@ These addons are made and maintained by the official [Meteor Development Team](h
 ## Community Addons
 
 These addons are made and maintained by developers from Meteor's community.
-Each were manually checked for code quality and safety. 
+Each were manually checked for code quality and safety.
 
 *If you want your addon to be added in here open [a new issue](https://github.com/AntiCope/meteor-lists/issues/new) or dm `SByte#0001` or `Cloudburst#7680` on discord*
 
@@ -63,11 +70,11 @@ https://github.com/MeteorDevelopment/meteor-addon-template
 Addons directly scraped from Github
 
 <div class="text-yellow-200">
-⚠ These addons where not manually or automatically checked for code quality, malware or content. This means that some of these addons might crash your game, steal or delete your data. Remember to screen each addon before using 
+⚠ These addons where not manually or automatically checked for code quality, malware or content. This means that some of these addons might crash your game, steal or delete your data. Remember to screen each addon before using
 </div>
 
 <details>
-  
+
   [Untested Addons](/UntestedAddons.md)
-  
+
 </details>

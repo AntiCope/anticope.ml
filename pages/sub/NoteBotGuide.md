@@ -1,3 +1,10 @@
+---
+layout: default
+title: NoteBot Guide
+parent: Sub Pages
+nav_order: 2
+---
+
 # NoteBot Guide
 
 A guide on how to use notebot.

@@ -153,7 +153,6 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
     <summary>Read this notebot guide</summary>
 
     We have a seperate section for NoteBot [here](faq/NoteBotGuide.md) as it is too big to fit in this question.
-
 </details>
 
 ## Why can't I talk in the Meteor Discord?

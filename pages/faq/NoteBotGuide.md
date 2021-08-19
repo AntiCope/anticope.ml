@@ -30,14 +30,14 @@ To load songs you need to put a file with supported format inside folder located
 
 ## Supported formats
 
-- Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn fs-1">specification</a>
-- OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn fs-1">song downloads</a> <a href="https://opennbs.org/nbs" class="btn fs-1">specification</a>
-- .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn fs-1">song downloads</a>
+- Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn btn-blue fs-1">specification</a>
+- OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn btn-blue fs-1">song downloads</a> <a href="https://opennbs.org/nbs" class="btn btn-blue fs-1">specification</a>
+- .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn btn-blue fs-1">song downloads</a>
 
 ## Previewing
 
 Before playing songs you can preview them. To preview a song you can either:
-- Press the <kbd class="btn btn-outline fs-1">Preview</kbd> button next to the song you want to preview
+- Press the <kbd class="btn fs-1">Preview</kbd> button next to the song you want to preview
 - Use the `.notebot preview <song>` command
 
 ## Playing
@@ -46,7 +46,7 @@ To play a song you can either:
 -  place noteblocks around you in a 5 block radius
 -  hold noteblocks in your hotbar and let the module do all the work
 
-To start playing a song you can press the <kbd class="btn btn-outline fs-1">Load</kbd> button next to the song you want to load or use the `.notebot play <song>` command
+To start playing a song you can press the <kbd class="btn fs-1">Load</kbd> button next to the song you want to load or use the `.notebot play <song>` command
 
 ## Recording
 

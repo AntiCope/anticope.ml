@@ -73,8 +73,4 @@ Addons directly scraped from Github
 ⚠ These addons where not manually or automatically checked for code quality, malware or content. This means that some of these addons might crash your game, steal or delete your data. Remember to screen each addon before using
 </div>
 
-<details>
-
-  [Untested Addons](addons/UnverifiedAddons.md)
-
-</details>
+[Untested Addons](addons/UnverifiedAddons.md)

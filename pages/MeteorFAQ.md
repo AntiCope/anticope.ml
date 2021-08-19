@@ -121,6 +121,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   - [Sodium](https://modrinth.org/mod/sodium) | Performance improvements (better than Optifine)
   - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) | Server optimizations
   - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
+  - [Iris](https://irisshaders.net/) | Shader support and bundled Sodium
 
   More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
   **We recommend you read [this](/MeteorAdditionals.md) list of Meteor Addons too**

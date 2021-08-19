@@ -1,7 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 markdown: GFM
-logo: "https://github.com/AntiCope/meteor-lists/blob/master/res/icon.png?raw=true"
+logo: "https://github.com/AntiCope/meteor-lists/blob/master/resources/icon.png?raw=true"
 title: meteor-lists
 url: "https://anticope.github.io"
 

@@ -11,6 +11,9 @@ gh_edit_repository: "https://github.com/AntiCope/meteor-lists"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 
+aux_links:
+  "Star on GitHub":
+    - "//github.com/AntiCope/meteor-lists/"
 
 plugins:
   - jekyll-sitemap

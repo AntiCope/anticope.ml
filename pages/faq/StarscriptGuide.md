@@ -46,14 +46,14 @@ A list of standard variables can be found [here](https://github.com/MeteorDevelo
 - `player.pos.z`: Player's Z position.
 - `player.yaw`: Player's yaw rotation.
 - `player.pitch`: Player's pitch rotation.
-- `player.hand`: Player’s main held item. See [Item](https://github.com/MeteorDevelopment/meteor-client/wiki/Starscript#item).
-- `player.offhand`: Player’s offhand held item. See [Item](https://github.com/MeteorDevelopment/meteor-client/wiki/Starscript#item).
-- `player.get_item(slot)`: Item in the specified slot. See [Item](https://github.com/MeteorDevelopment/meteor-client/wiki/Starscript#item).
+- `player.hand`: Player’s main held item. See [Item](#item).
+- `player.offhand`: Player’s offhand held item. See [Item](#item).
+- `player.get_item(slot)`: Item in the specified slot. See [Item](#item).
 - `player.count_items(id)`: Number of items in the entire inventory.
 
 ### Crosshair target
 - `crosshair_target.type`: Either `miss`, `block` or `entity` string.
-- `crosshair_target.value`: Either empty string, [Block](https://github.com/MeteorDevelopment/meteor-client/wiki/Starscript#block) or [Entity](https://github.com/MeteorDevelopment/meteor-client/wiki/Starscript#entity).
+- `crosshair_target.value`: Either empty string, [Block](#block) or [Entity](#entity).
 
 ### Server
 - `server`: Server name.

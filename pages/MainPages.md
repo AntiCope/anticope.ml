@@ -2,7 +2,7 @@
 layout: default
 title: Main Pages
 has_children: true
-nav_order: 2
+nav_order: 1
 has_toc: false
 ---
 
@@ -10,6 +10,6 @@ has_toc: false
 
 The main articles on this wiki.
 
-- [Meteor FAQs](/pages/main/MeteorFAQs.md) | A rewritten and better FAQ page.
-- [Meteor Addons](/pages/main/MeteorAddons.md) | A list of verified addons to be used alongside Meteor
-- [Meteor Additionals](/pages/main/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.
+- [Meteor FAQs](main/MeteorFAQs.md) | A rewritten and better FAQ page.
+- [Meteor Addons](main/MeteorAddons.md) | A list of verified addons to be used alongside Meteor
+- [Meteor Additionals](main/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.

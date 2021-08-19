@@ -27,3 +27,4 @@ Articles that were too complex to be in the main articles.
 
 - [NoteBot Guide](pages/faq/NoteBotGuide.md) | A guide on how to use notebot.
 - [Swarm Guide](pages/faq/SwarmGuide.md) | A guide on how to use the Swarm System.
+- [Unverified Addons)(pages/addons/UnverifiedAddons.md) | List of **unverified** addons indexed by Github

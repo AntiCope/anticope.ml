@@ -14,10 +14,9 @@ Swarm is a module that essentially allows multiple instances of Meteor to be con
 <details>
 <summary>Table of Contents</summary>
 
-- [Swarm Guide](#swarm-guide)
-  - [Setting up a host server](#setting-up-a-host-server)
-  - [Connecting workers](#connecting-workers)
-  - [Controlling workers](#controlling-workers)
+- [Setting up a host server](#setting-up-a-host-server)
+- [Connecting workers](#connecting-workers)
+- [Controlling workers](#controlling-workers)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

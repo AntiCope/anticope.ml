@@ -9,9 +9,13 @@ nav_order: 1
 <!-- END doctoc -->
 
 # Unverified Addons
-List of **untested** addons scraped directly from GitHub. Most of them are probably just forks of [meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template) without any changes. Sorted by code size.
+<div class="text-yellow-200">
+⚠ These addons where not manually or automatically checked for code quality, malware or content. This means that some of these addons might crash your game, steal or delete your data. Remember to screen each addon before using
+</div>
 
-Last updated: `2021-08-19 06:32 (UTC)`.
+Sorted by code size.
+
+Last updated: `2021-08-19 06:34 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |

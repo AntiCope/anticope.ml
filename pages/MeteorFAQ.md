@@ -25,6 +25,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 - [How to dupe with this client?](#how-to-dupe-with-this-client)
 - [How to use notebot?](#how-to-use-notebot)
 - [How to use swarm?](#how-to-use-swarm)
+- [How do I customize Discord Presence?](#how-do-i-customize-discord-presence)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 - [How to use the proxy system?](#how-to-use-the-proxy-system)
 

@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Starscript](#starscript)
+  - [Variables](#variables)
+    - [General](#general)
+    - [Player](#player)
+    - [Crosshair target](#crosshair-target)
+    - [Server](#server)
+  - [Objects](#objects)
+    - [Item](#item)
+    - [Block](#block)
+    - [Entity](#entity)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout: default
 title: Starscript Guide

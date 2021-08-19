@@ -30,7 +30,7 @@ To load songs you need to put a file with supported format inside folder located
 
 ## Supported formats
 
-- Classic `.nbs` files <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn btn-blue fs-1">specification</a>
+- Classic `.nbs` files <a href="https://github.com/thatcraniumguy/Songs/tree/master/NBS%20files" class="btn btn-blue fs-1">song downloads</a> <a href="https://www.stuffbydavid.com/mcnbs/format" class="btn btn-blue fs-1">specification</a>
 - OpenNBS v5 `.nbs` files  <a href="https://opennbs.org/songs" class="btn btn-blue fs-1">song downloads</a> <a href="https://opennbs.org/nbs" class="btn btn-blue fs-1">specification</a>
 - .txt files using format `<tick>:<note>` <a href="https://github.com/BleachDrinker420/BH-resources/raw/main/notebot/songs.zip" class="btn btn-blue fs-1">song downloads</a>
 

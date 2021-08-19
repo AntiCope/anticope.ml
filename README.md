@@ -1,11 +1,3 @@
----
-layout: default
-title: Main Pages
-has_child: true
-nav_order: 1
-has_toc: false
----
-
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/88768753?s=200&v=4" alt="logo" width="20%"/>
 </p>

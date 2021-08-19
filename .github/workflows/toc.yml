@@ -7,8 +7,8 @@ concurrency:
 on:
   push:
     paths:
-      - 'pages/main/*.md'
-      - 'pages/sub/*.md'
+      - 'pages/*.md'
+      - 'pages/*/*.md'
       - '.github/workflows/toc.yml'
   workflow_run:
     workflows: ["Generate UntestedAddons.md"]

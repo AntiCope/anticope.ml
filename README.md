@@ -15,7 +15,7 @@
 <p> </p>
 
 <details>
-  <summary><a href="pages/MeteorFAQ.md">Meteor FAQs</a>
+  <summary><a href="./pages/MeteorFAQ.md">Meteor FAQs</a>
 
   A rewritten and better FAQ page.
   </summary>
@@ -25,7 +25,7 @@
 </details>
 
 <details>
-  <summary><a href="pages/MeteorAddons.md">Meteor Addons</a>
+  <summary><a href="./pages/MeteorAddons.md">Meteor Addons</a>
 
   A list of verified addons to be used alongside Meteor.
   </summary>
@@ -34,7 +34,7 @@
 </details>
 
 <details>
-  <summary><a href="pages/MeteorAdditionals.md">Meteor Additionals</a>
+  <summary><a href="./pages/MeteorAdditionals.md">Meteor Additionals</a>
 
   A list of recommended mods to be used alongside meteor.
   </summary>

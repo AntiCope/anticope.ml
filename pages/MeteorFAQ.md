@@ -147,12 +147,20 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   Some might work, and some may not.
 </details>
 
-## How to use notebot
+## How to use notebot?
 
 <details>
   <summary>Read this notebot guide</summary>
 
   We have a seperate section for NoteBot [here](faq/NoteBotGuide.md) as it is too big to fit in this question.
+</details>
+
+## How to use swarm?
+
+<details>
+  <summary>Read this swarm guide</summary>
+
+  We have a seperate section for Swarm [here](faq/SwarmGuide.md) as it is too big to fit in this question.
 </details>
 
 ## Why can't I talk in the Meteor Discord?

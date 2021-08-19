@@ -37,7 +37,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 ### How do I open the GUI?
 
 <details>
-  <summary><kbd>Right Shift</kbd> (default)</summary>
+  <summary><kbd class="btn fs-1">Right Shift</kbd> (default)</summary>
 
   The default keybinding for opening the GUI is right shift, but you can change that in `pause menu > options > controls`.
 

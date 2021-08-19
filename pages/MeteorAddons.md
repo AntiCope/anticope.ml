@@ -75,6 +75,6 @@ Addons directly scraped from Github
 
 <details>
 
-  [Untested Addons](/UntestedAddons.md)
+  [Untested Addons](addons/UnverifiedAddons.md)
 
 </details>

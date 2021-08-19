@@ -176,3 +176,12 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 
   You can get a role by creating an account [here](https://meteorclient.com/account).
 </details>
+
+## How to use the proxy system?
+
+<details>
+  <summary>It works like how a normal proxy would</summary>
+
+  It works just like a normal socks proxy. If you don't know what a proxy is, then I suggest
+  you google it and find out.
+</details>

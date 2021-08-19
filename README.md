@@ -7,8 +7,8 @@
 <div align="center">
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange?style=for-the-badge" alt="AntiCope Edition">
   <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen?style=for-the-badge" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/Verified%20Addons-15-blue?style=for-the-badge" alt="Verified Addons Count">
-  <img src="https://img.shields.io/badge/Total%20Addons-31-blueviolet?style=for-the-badge" alt="Total Addons Count">
+  <img src="https://img.shields.io/badge/Verified%20Addons-12-blue?style=for-the-badge" alt="Verified Addons Count">
+  <img src="https://img.shields.io/badge/Total%20Addons-28-blueviolet?style=for-the-badge" alt="Total Addons Count">
   <a href="https://github.com/AntiCope/meteor-lists"><img src="https://img.shields.io/github/stars/AntiCope/meteor-lists?color=%23a17f1a&style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/AntiCope/meteor-lists/"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists?style=for-the-badge" alt="Last commit"></a>
   <a href="https://anticope.github.io/meteor-lists/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=Github%20Pages&style=for-the-badge" alt="Deployment status"></a>

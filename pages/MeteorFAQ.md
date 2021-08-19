@@ -105,8 +105,6 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   If that mod is sodium, you are one of the many who didn't know sodium is **already** on 1.17.1.
   You can get it [here](https://modrinth.org/mod/sodium)
 
-  Otherwise, sadly you can't use latest version of meteor.
-  Meteor relies on Circle CI, and storage on Circle CI isn't infinite. So older versions can't be kept.
   We **highly discourage** usage of older versions as it lacks better code, features and bug fixes that newer versions offer.
 
   There exists an [archive](https://github.com/AntiCope/meteor-archive) of historic meteor versions,

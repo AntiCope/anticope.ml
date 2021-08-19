@@ -11,7 +11,7 @@ nav_order: 1
 # Unverified Addons
 List of **untested** addons scraped directly from GitHub. Most of them are probably just forks of [meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template) without any changes. Sorted by code size.
 
-Last updated: `2021-08-19 05:45 (UTC)`.
+Last updated: `2021-08-19 05:50 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |

@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Verified%20Addons-9-blue" alt="Verified Addons Count">
   <img src="https://img.shields.io/badge/Total%20Addons-30-blueviolet" alt="Total Addons Count">
   <img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists" alt="Last commit">
+  <img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=github-pages" alt="Deployment status">
 </div>
 <p> </p>
 

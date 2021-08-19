@@ -14,28 +14,9 @@
 </div>
 <p> </p>
 
-<details>
-  <summary><a href="./pages/MeteorFAQ.md">Meteor FAQs</a>
-
-  A rewritten and better FAQ page.
-  </summary>
-
-  - [NoteBot Guide](pages/faq/NoteBotGuide.md) | A guide on how to use notebot.
-  - [Swarm Guide](pages/faq/SwarmGuide.md) | A guide on how to use the Swarm System.
-</details>
-
-<details>
-  <summary><a href="./pages/MeteorAddons.md">Meteor Addons</a>
-
-  A list of verified addons to be used alongside Meteor.
-  </summary>
-
-  - [Unverified Addons](pages/addons/UnverifiedAddons.md) | List of **unverified** addons indexed by Github
-</details>
-
-<details>
-  <summary><a href="./pages/MeteorAdditionals.md">Meteor Additionals</a>
-
-  A list of recommended mods to be used alongside meteor.
-  </summary>
-</details>
+- [Meteor FAQs](pages/MeteorFAQ.md) | A rewritten and better FAQ page.
+  -  [NoteBot Guide](pages/faq/NoteBotGuide.md) | A guide on how to use notebot.
+  -  [Swarm Guide](pages/faq/SwarmGuide.md) | A guide on how to use the Swarm System.
+- [Meteor Addons](pages/MeteorAddons.md) | A list of verified addons to be used alongside Meteor.
+  -  [Unverified Addons](pages/addons/UnverifiedAddons.md) | List of **unverified** addons indexed by Github
+- [Meteor Additionals](pages/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.

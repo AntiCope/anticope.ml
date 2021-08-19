@@ -16,8 +16,9 @@
 <p> </p>
 
 - [Meteor FAQs](pages/MeteorFAQ.md) | A rewritten and better FAQ page.
-  -  [NoteBot Guide](pages/faq/NoteBotGuide.md) | A guide on how to use notebot.
+  -  [Notebot Guide](pages/faq/NotebotGuide.md) | A guide on how to use Notebot.
   -  [Swarm Guide](pages/faq/SwarmGuide.md) | A guide on how to use the Swarm System.
+  -  [Starscript Guide](page/faq/StarscriptGuide.md) | A guide on how to use Starscript *(used in Discord Presence for example)*.
 - [Meteor Addons](pages/MeteorAddons.md) | A list of verified addons to be used alongside Meteor.
   -  [Unverified Addons](pages/addons/UnverifiedAddons.md) | List of **unverified** addons indexed by Github
 - [Meteor Additionals](pages/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.

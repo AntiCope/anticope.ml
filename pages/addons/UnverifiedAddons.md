@@ -5,15 +5,8 @@ parent: Meteor Addons
 nav_order: 1
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
-
-- [Unverified Addons](#unverified-addons)
-
-</details>
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 # Unverified Addons
 <div class="text-yellow-200">
@@ -22,7 +15,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-08-19 19:23 (UTC)`.
+Last updated: `2021-08-19 19:33 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |

@@ -1,24 +1,12 @@
----
-layout: default
-title: Unverified Addons
-parent: Meteor Addons
-nav_order: 1
----
 
-# Unverified Addons
+
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+# Untested Addons
 List of **untested** addons scraped directly from GitHub. Most of them are probably just forks of [meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template) without any changes. Sorted by code size.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
-
-- [Untested Addons](#untested-addons)
-
-</details>
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-Last updated: `2021-08-19 05:04 (UTC)`.
+Last updated: `2021-08-19 05:38 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |

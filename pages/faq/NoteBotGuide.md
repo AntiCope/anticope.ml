@@ -1,11 +1,11 @@
 ---
 layout: default
-title: NoteBot Guide
+title: Notebot Guide
 parent: Meteor FAQ
 nav_order: 2
 ---
 
-# NoteBot Guide
+# Notebot Guide
 
 A guide on how to use notebot.
 

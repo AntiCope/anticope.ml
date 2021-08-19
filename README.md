@@ -6,11 +6,11 @@
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
-  <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/Verified%20Addons-9-blue" alt="Verified Addons Count">
-  <img src="https://img.shields.io/badge/Total%20Addons-30-blueviolet" alt="Total Addons Count">
-  <img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists" alt="Last commit">
-  <img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=github-pages" alt="Deployment status">
+  <a href="pages/MeteorFAQ.md"><img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen" alt="Better FAQ: Yes"></a>
+  <a href="pages/MeteorAddons.md"><img src="https://img.shields.io/badge/Verified%20Addons-9-blue" alt="Verified Addons Count"></a>
+  <a href="pages/MeteorAddons.md"><img src="https://img.shields.io/badge/Total%20Addons-30-blueviolet" alt="Total Addons Count"></a>
+  <a href="https://github.com/AntiCope/meteor-lists/"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists" alt="Last commit"></a>
+  <a href="https://anticope.github.io/meteor-lists/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=github-pages" alt="Deployment status"></a>
 </div>
 <p> </p>
 

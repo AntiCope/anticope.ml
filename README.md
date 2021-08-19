@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+has_children: false
+nav_order: 1
+has_toc: false
+---
+
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/88768753?s=200&v=4" alt="logo" width="20%"/>
 </p>
@@ -12,8 +20,6 @@
   <img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists" alt="Last commit">
 </div>
 <p> </p>
-
-<!-- please just fucking work -->
 
 ## Main Pages
 

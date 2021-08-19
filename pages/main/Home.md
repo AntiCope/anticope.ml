@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Main Pages
-has_child: true
+has_children: true
 nav_order: 1
 has_toc: false
 ---

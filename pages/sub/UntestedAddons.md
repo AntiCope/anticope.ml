@@ -1,6 +1,7 @@
 ---
 layout: default
 has_toc: false
+nav_exclude: true
 ---
 
 # Untested Addons

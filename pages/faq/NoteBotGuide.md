@@ -37,7 +37,7 @@ To load songs you need to put a file with supported format inside folder located
 ## Previewing
 
 Before playing songs you can preview them. To preview a song you can either:
-- Press the <kbd>Preview</kbd> button next to the song you want to preview
+- Press the <kbd class="btn btn-outline fs-1">Preview</kbd> button next to the song you want to preview
 - Use the `.notebot preview <song>` command
 
 ## Playing
@@ -46,7 +46,7 @@ To play a song you can either:
 -  place noteblocks around you in a 5 block radius
 -  hold noteblocks in your hotbar and let the module do all the work
 
-To start playing a song you can press the <kbd>Load</kbd> button next to the song you want to load or use the `.notebot play <song>` command
+To start playing a song you can press the <kbd class="btn btn-outline fs-1">Load</kbd> button next to the song you want to load or use the `.notebot play <song>` command
 
 ## Recording
 

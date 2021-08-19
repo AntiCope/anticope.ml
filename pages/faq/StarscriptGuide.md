@@ -3,6 +3,10 @@
 <details>
 <summary>Table of Contents</summary>
 
+  - [layout: default
+title: Starscript Guide
+parent: Meteor FAQ
+nav_order: 3](#layout-default%0Atitle-starscript-guide%0Aparent-meteor-faq%0Anav_order-3)
 - [Starscript](#starscript)
   - [Variables](#variables)
     - [General](#general)

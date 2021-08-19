@@ -71,13 +71,13 @@ file = open("README.md", "r+")
 content = file.read()
 file.seek(0)
 content = re.sub(
-    "https://img\.shields\.io/badge/Verified-Addons-[0-9]+-blue",
-    f"https://img.shields.io/badge/Verified-Addons-{addon_count}-blue",
+    "https://img\.shields\.io/badge/Verified%20Addons-[0-9]+-blue",
+    f"https://img.shields.io/badge/Verified%20Addons-{addon_count}-blue",
     content
     )
 content = re.sub(
-    "https://img\.shields\.io/badge/Total-Addons-[0-9]+-blueviolet",
-    f"https://img.shields.io/badge/Total-Addons-{total_addon_count}-blueviolet",
+    "https://img\.shields\.io/badge/Total%20Addons-[0-9]+-blueviolet",
+    f"https://img.shields.io/badge/Total%20Addons-{total_addon_count}-blueviolet",
     content
     )
 file.write(content)

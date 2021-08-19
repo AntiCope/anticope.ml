@@ -8,7 +8,7 @@ GH_TOKEN = getenv("GH_TOKEN")
 repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 
 # create list of verified addons
-verified = repo_regex.findall(open("pages/main/MeteorAddons.md", "r", encoding='utf-8').read())
+verified = repo_regex.findall(open("pages/MeteorAddons.md", "r", encoding='utf-8').read())
 verified = set(verified)
 print(f"Found verified addons: {len(verified)}")
 # count addons (-1 bc of MeteorDevelopment/meteor-addon-template)
@@ -52,7 +52,7 @@ repos = list(filter(bool, repos))
 repos.sort(key=lambda x: x['size'], reverse=True)
 
 # create markdown file, write template to it
-file = open("pages/sub/UnverifiedAddons.md", 'w+', encoding='utf-8')
+file = open("pages/addons/UnverifiedAddons.md", 'w+', encoding='utf-8')
 template = open("resources/UnverifiedAddons.template.md", "r", encoding='utf-8').read()
 template = template.split("<!-- START TEMPLATE -->")[1]
 template = template.replace("{{ date }}", datetime.utcnow().strftime('%Y-%m-%d %H:%M (UTC)'))

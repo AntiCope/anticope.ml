@@ -10,10 +10,10 @@ repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 # create list of verified addons
 verified = repo_regex.findall(open("pages/MeteorAddons.md", "r", encoding='utf-8').read())
 verified = set(verified)
-print(f"Found verified addons: {len(verified)}")
-# count addons (-1 bc of MeteorDevelopment/meteor-addon-template)
-addon_count = len(verified) - 1
+# count addons (minus some links)
+addon_count = len(verified) - 4
 total_addon_count = addon_count
+print(f"Found verified addons: {addon_count}")
 
 # get template size & name
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template")

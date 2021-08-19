@@ -23,8 +23,10 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 - [How to use Meteor with Optifine?](#how-to-use-meteor-with-optifine)
 - [How to use Meteor with Baritone?](#how-to-use-meteor-with-baritone)
 - [How to dupe with this client?](#how-to-dupe-with-this-client)
-- [How to use notebot](#how-to-use-notebot)
+- [How to use notebot?](#how-to-use-notebot)
+- [How to use swarm?](#how-to-use-swarm)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
+- [How to use the proxy system?](#how-to-use-the-proxy-system)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

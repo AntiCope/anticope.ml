@@ -7,12 +7,12 @@ from datetime import datetime
 GH_TOKEN = getenv("GH_TOKEN")
 repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 
-# create list of tested addons
-tested = repo_regex.findall(open("pages/main/MeteorAddons.md", "r", encoding='utf-8').read())
-tested = set(tested)
-print(f"Found tested addons: {len(tested)}")
+# create list of verified addons
+verified = repo_regex.findall(open("pages/main/MeteorAddons.md", "r", encoding='utf-8').read())
+verified = set(verified)
+print(f"Found verified addons: {len(verified)}")
 # count addons (-1 bc of MeteorDevelopment/meteor-addon-template)
-addon_count = len(tested) - 1
+addon_count = len(verified) - 1
 total_addon_count = addon_count
 
 # get template size & name
@@ -22,11 +22,11 @@ template_name = repo["name"]
 template_size = repo["size"]
 del repo
 
-# function that formats repos contents to exclute private and tested repos and repos which are just unmodified templates and add code size property
+# function that formats repos contents to exclute private and verified repos and repos which are just unmodified templates and add code size property
 def parse_repo(repo):
     if repo['private']:
         return None
-    if repo['html_url'] in tested:
+    if repo['html_url'] in verified:
         return None
     if repo['name'] == template_name:
         return None
@@ -52,8 +52,8 @@ repos = list(filter(bool, repos))
 repos.sort(key=lambda x: x['size'], reverse=True)
 
 # create markdown file, write template to it
-file = open("pages/sub/UntestedAddons.md", 'w+', encoding='utf-8')
-template = open("resources/UntestedAddons.template.md", "r", encoding='utf-8').read()
+file = open("pages/sub/UnverifiedAddons.md", 'w+', encoding='utf-8')
+template = open("resources/UnverifiedAddons.template.md", "r", encoding='utf-8').read()
 template = template.split("<!-- START TEMPLATE -->")[1]
 template = template.replace("{{ date }}", datetime.utcnow().strftime('%Y-%m-%d %H:%M (UTC)'))
 file.write(template)

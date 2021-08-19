@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Swarm Guide
-parent: Sub Pages
+parent: Meteor FAQ
 nav_order: 1
 ---
 

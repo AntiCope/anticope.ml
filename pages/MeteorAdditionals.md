@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meteor Additionals
-parent: Main Pages
+has_children: false
 nav_order: 3
 ---
 

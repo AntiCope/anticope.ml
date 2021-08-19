@@ -7,9 +7,9 @@ concurrency:
 on:
   push:
     paths:
-      - 'res/UntestedAddons.template.md'
-      - '.github/workflows/untested_addons.yml'
-      - 'pages/sub/untested_addons.py'
+      - 'res/Unverifiedaddons.template.md'
+      - '.github/workflows/unverified_addons.yml'
+      - 'pages/sub/unverified_addons.py'
       - 'README.md'
   schedule:
     - cron: "0 5 * * *"
@@ -46,10 +46,10 @@ jobs:
           python3 -m pip install --upgrade pip setuptools wheel
           python3 -m pip install -r requirements.txt
 
-      - name: Generate UntestedAddons.md
+      - name: Generate UnverifiedAddons.md
         run: |
           python3 --version
-          python3 pages/sub/untested_addons.py
+          python3 pages/sub/unverified_addons.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
@@ -60,5 +60,5 @@ jobs:
           git config user.email ""
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
-          git commit -m 'Update UntestedAddons.md' || echo
+          git commit -m 'Update UnverifiedAddons.md' || echo
           git push

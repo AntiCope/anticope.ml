@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Meteor FAQs
-parent: Main Pages
+title: Meteor FAQ
+has_children: true
 nav_order: 1
 ---
 # Meteor FAQs

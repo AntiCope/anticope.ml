@@ -3,6 +3,11 @@
 <details>
 <summary>Table of Contents</summary>
 
+- [layout: default
+title: Sub Pages
+has_children: true
+nav_order: 2
+has_toc: false](#layout-default%0Atitle-sub-pages%0Ahas_children-true%0Anav_order-2%0Ahas_toc-false)
 - [Sub Pages](#sub-pages)
 
 </details>

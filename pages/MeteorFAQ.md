@@ -26,6 +26,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 - [How to use notebot?](#how-to-use-notebot)
 - [How to use swarm?](#how-to-use-swarm)
 - [How do I customize Discord Presence?](#how-do-i-customize-discord-presence)
+- [Does this client have New Chunks module?](#does-this-client-have-new-chunks-module)
 - [Why can't I talk in the Meteor Discord?](#why-cant-i-talk-in-the-meteor-discord)
 - [How to use the proxy system?](#how-to-use-the-proxy-system)
 

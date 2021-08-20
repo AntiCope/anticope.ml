@@ -181,7 +181,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   
   Meteor Client doesn't have any new chunk detection modules. There is however [an addon](https://github.com/AntiCope/meteor-rejects) that uses fluids to detect new chunks. This method is less reliable.
   
-  There is no module or addon for the [nocom](https://github.com/nerdsinspace/nocom-explanation#readme) exploit yet.
+  There is no module or addon for the [nocom](https://github.com/nerdsinspace/nocom-explanation#readme) exploit as it only works on paper 1.12.
 </details>
 
 ## Why can't I talk in the Meteor Discord?

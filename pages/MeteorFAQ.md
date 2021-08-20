@@ -173,6 +173,16 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
   We have a seperate section for Starscript *(formatting language used by Discord Presence)* [here](faq/StarscriptGuide.md) as it is too big to fit in this question.
 </details>
 
+## Does this client have New Chunks module?
+
+<details>
+  <summary>New Chunks was an 1.12 exploit.</summary>
+  
+  Meteor Client doesn't have any new chunk detection modules. There is however [an addon](https://github.com/AntiCope/meteor-rejects) that uses fluids to detect new chunks. This method is less reliable.
+  
+  There is no module or addon for the [nocom](https://github.com/nerdsinspace/nocom-explanation#readme) exploit yet.
+</details>
+
 ## Why can't I talk in the Meteor Discord?
 
 <details>

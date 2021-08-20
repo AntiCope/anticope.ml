@@ -5,13 +5,13 @@
   Welcome to the Unofficial Meteor Client wiki!
 </p>
 <div align="center">
-  <img src="https://img.shields.io/badge/AntiCope-Edition-orange?style=for-the-badge" alt="AntiCope Edition">
-  <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen?style=for-the-badge" alt="Better FAQ: Yes">
-  <img src="https://img.shields.io/badge/Verified%20Addons-10-blue?style=for-the-badge" alt="Verified Addons Count">
-  <img src="https://img.shields.io/badge/Total%20Addons-26-blueviolet?style=for-the-badge" alt="Total Addons Count">
-  <a href="https://github.com/AntiCope/meteor-lists"><img src="https://img.shields.io/github/stars/AntiCope/meteor-lists?color=%23a17f1a&style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/AntiCope/meteor-lists/"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists?style=for-the-badge" alt="Last commit"></a>
-  <a href="https://anticope.github.io/meteor-lists/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=Github%20Pages&style=for-the-badge" alt="Deployment status"></a>
+  <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
+  <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen" alt="Better FAQ: Yes">
+  <img src="https://img.shields.io/badge/Verified%20Addons-10-blue" alt="Verified Addons Count">
+  <img src="https://img.shields.io/badge/Total%20Addons-26-blueviolet" alt="Total Addons Count">
+  <a href="https://github.com/AntiCope/meteor-lists"><img src="https://img.shields.io/github/stars/AntiCope/meteor-lists?color=%23a17f1a&&label=Stars&logo=github" alt="Stars"></a>
+  <a href="https://github.com/AntiCope/meteor-lists/"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists?label=Last%20Commit&logo=git" alt="Last commit"></a>
+  <a href="https://anticope.github.io/meteor-lists/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=Pages&logo=github" alt="Deployment status"></a>
 </div>
 <p> </p>
 

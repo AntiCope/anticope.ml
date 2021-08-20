@@ -31,7 +31,7 @@ body:
       label: Authors
       placeholder: Me
   - type: checkboxes
-    id: open-source
+    id: is-open-source
     attributes:
       label: Is your addon open-source?
       description: Check if code for your addon is avaliable on GitHub or any site

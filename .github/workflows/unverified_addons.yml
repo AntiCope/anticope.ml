@@ -10,6 +10,7 @@ on:
       - 'resources/Unverifiedaddons.template.md'
       - '.github/workflows/unverified_addons.yml'
       - 'pages/addons/unverified_addons.py'
+      - 'pages/MeteorAddons.md'
       - 'README.md'
   schedule:
     - cron: "0 5 * * *"

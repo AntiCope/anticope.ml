@@ -3,6 +3,10 @@
 <details>
 <summary>Table of Contents</summary>
 
+- [layout: default
+title: Installation Guide
+parent: Meteor FAQ
+nav_order: 1](#layout-default%0Atitle-installation-guide%0Aparent-meteor-faq%0Anav_order-1)
 - [Downloading](#downloading)
 - [Installing](#installing)
   - [MultiMC (recommended)](#multimc-recommended)

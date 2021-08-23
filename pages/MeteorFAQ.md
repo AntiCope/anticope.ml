@@ -125,7 +125,7 @@ Read [this installation guide](faq/InstallationGuide.md).
 
   Optifine is and never will be supported by Meteor. We recommend using these instead,
 
-  - [Sodium](https://modrinth.org/mod/sodium) | Performance improvements (better than Optifine)
+  - [Sodium](https://modrinth.com/mod/sodium) | Performance improvements (better than Optifine)
   - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) | Server optimizations
   - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
   - [Iris](https://irisshaders.net/) | Shader support and bundled Sodium

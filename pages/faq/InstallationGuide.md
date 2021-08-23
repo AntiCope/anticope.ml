@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Downloading](#downloading)
+- [Installing](#installing)
+  - [MultiMC (recommended)](#multimc-recommended)
+  - [Minecraft Launcher](#minecraft-launcher)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout: default
 title: Installation Guide

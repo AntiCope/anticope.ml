@@ -13,6 +13,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 <details>
 <summary>Table of Contents</summary>
 
+- [How do I install this client?](#how-do-i-install-this-client)
 - [How do I use the client?](#how-do-i-use-the-client)
   - [How do I open the GUI?](#how-do-i-open-the-gui)
   - [How do I use the HUD?](#how-do-i-use-the-hud)

@@ -22,13 +22,13 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-08-22 05:14 (UTC)`.
+Last updated: `2021-08-23 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
+| oa-auto-dupe | An addon to automatically perform the piston dupe on openanarchy.org | [Repository](https://github.com/GhostTypes/oa-auto-dupe) | GhostTypes |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
-| meteor-addon-template-1.16.5 | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/Ezzer29/meteor-addon-template-1.16.5) | Ezzer29 |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | The-Public-Addone | A Meteor Client addon devoted to making previously private exploits or mods public. | [Repository](https://github.com/Declipsonator/The-Public-Addone) | Declipsonator |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |

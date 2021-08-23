@@ -2,7 +2,7 @@
 layout: default
 title: Starscript Guide
 parent: Meteor FAQ
-nav_order: 3
+nav_order: 4
 ---
 
 # Starscript

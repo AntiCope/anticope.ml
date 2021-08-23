@@ -35,6 +35,10 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 
 *Click on the answers for more details.*
 
+## How do I install this client?
+Read [this installation guide](faq/InstallationGuide.md).
+
+
 ## How do I use the client?
 
 
@@ -151,28 +155,13 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 </details>
 
 ## How to use notebot?
-
-<details>
-  <summary>Read this Notebot guide</summary>
-
-  We have a seperate section for Notebot [here](faq/NotebotGuide.md) as it is too big to fit in this question.
-</details>
+Read [this notebot guide](faq/NotebotGuide.md).
 
 ## How to use swarm?
-
-<details>
-  <summary>Read this Swarm guide</summary>
-
-  We have a seperate section for Swarm [here](faq/SwarmGuide.md) as it is too big to fit in this question.
-</details>
+Read [this swarm guide](faq/SwarmGuide.md).
 
 ## How do I customize Discord Presence?
-
-<details>
-  <summary>Read this Starscript guide</summary>
-
-  We have a seperate section for Starscript *(formatting language used by Discord Presence)* [here](faq/StarscriptGuide.md) as it is too big to fit in this question.
-</details>
+Read [this starscript guide](faq/StarscriptGuide.md).
 
 ## Does this client have New Chunks module?
 

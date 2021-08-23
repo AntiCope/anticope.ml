@@ -16,6 +16,7 @@
 <p> </p>
 
 - [Meteor FAQs](pages/MeteorFAQ.md) | A rewritten and better FAQ page.
+  -  [Installation Guide](pages/faq/InstallationGuide.md) | A guide on how to install Meteor Client.
   -  [Notebot Guide](pages/faq/NotebotGuide.md) | A guide on how to use Notebot.
   -  [Swarm Guide](pages/faq/SwarmGuide.md) | A guide on how to use the Swarm System.
   -  [Starscript Guide](pages/faq/StarscriptGuide.md) | A guide on how to use Starscript *(used in Discord Presence for example)*.

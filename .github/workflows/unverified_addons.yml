@@ -58,7 +58,7 @@ jobs:
       - name: Commit to the repo
         run: |
           git config user.name "AntiCope"
-          git config user.email "88768753+AntiCope@users.noreply.github.com"
+          git config user.email "null"
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m 'Update UnverifiedAddons.md' || echo

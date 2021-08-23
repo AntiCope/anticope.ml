@@ -33,7 +33,7 @@ More alternatives and the reason why its not supported [here](https://gist.githu
 ### Performance
 
 - [Sodium](https://modrinth.com/mod/sodium) | Performance improvements (better than Optifine)
-- [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) | Server optimizations
+- [Lithium](https://modrinth.com/mod/lithium) | Server optimizations
 - [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
 - [Starlight](https://github.com/Spottedleaf/Starlight) | Lighting engine improvements (incompatible with Phosphor)
 

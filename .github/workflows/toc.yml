@@ -24,4 +24,4 @@ jobs:
           FOLDING: true
           TARGET_PATHS: 'pages/*.md, pages/*/*.md'
           COMMIT_NAME: "AntiCope"
-          COMMIT_EMAIL: "null"
+          COMMIT_EMAIL: "88768753+AntiCope@users.noreply.github.com"

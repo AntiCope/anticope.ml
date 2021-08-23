@@ -110,7 +110,7 @@ Read [this installation guide](faq/InstallationGuide.md).
   <summary>That is quite saddening.</summary>
 
   If that mod is sodium, you are one of the many who didn't know sodium is **already** on 1.17.1.
-  You can get it [here](https://modrinth.org/mod/sodium)
+  You can get it [here](https://modrinth.com/mod/sodium)
 
   We **highly discourage** usage of older versions as it lacks better code, features and bug fixes that newer versions offer.
 

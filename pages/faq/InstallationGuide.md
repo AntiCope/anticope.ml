@@ -1,20 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Table of Contents</summary>
-
-- [layout: default
-title: Installation Guide
-parent: Meteor FAQ
-nav_order: 1](#layout-default%0Atitle-installation-guide%0Aparent-meteor-faq%0Anav_order-1)
-- [Downloading](#downloading)
-- [Installing](#installing)
-  - [MultiMC (recommended)](#multimc-recommended)
-  - [Minecraft Launcher](#minecraft-launcher)
-
-</details>
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ---
 layout: default
 title: Installation Guide
@@ -22,6 +5,8 @@ parent: Meteor FAQ
 nav_order: 1
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 ## Downloading
 

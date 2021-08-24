@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-08-23 06:14 (UTC)`.
+Last updated: `2021-08-24 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -34,7 +34,6 @@ Last updated: `2021-08-23 06:14 (UTC)`.
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
-| meteor-villager-roller | Module for Meteor Client that continiously breaks and places work block of villager until it has desired trade | [Repository](https://github.com/maxsupermanhd/meteor-villager-roller) | maxsupermanhd |
 | Kismet | Osshe Requested!! | [Repository](https://github.com/WoBo-wow/Kismet) | WoBo-wow |
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repository](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | HENRYMARTIN5 |
 | awesomemeteorplugin | None | [Repository](https://github.com/unfidelity/awesomemeteorplugin) | unfidelity |

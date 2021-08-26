@@ -21,6 +21,7 @@ A rewritten and more detailed FAQ page for those that find the [original FAQ](ht
 - [How to use meteor on 1.12.2/1.16.5/1.17 (older versions)](#how-to-use-meteor-on-11221165117-older-versions)
   - [I want to connect to an old server!](#i-want-to-connect-to-an-old-server)
   - [My other mods aren't on 1.17.1](#my-other-mods-arent-on-1171)
+  - [My hardware doesn't support Minecraft 1.17](#my-hardware-doesnt-support-minecraft-117)
 - [How to use Meteor with Optifine?](#how-to-use-meteor-with-optifine)
 - [How to use Meteor with Baritone?](#how-to-use-meteor-with-baritone)
 - [How to dupe with this client?](#how-to-dupe-with-this-client)

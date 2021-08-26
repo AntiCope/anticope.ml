@@ -111,11 +111,16 @@ Read [this installation guide](faq/InstallationGuide.md).
 
   If that mod is sodium, you are one of the many who didn't know sodium is **already** on 1.17.1.
   You can get it [here](https://modrinth.com/mod/sodium)
-
+</details>
+  
+### My hardware doesn't support Minecraft 1.17
+<details>
+  <summary>Get better a pc or ...</summary>
+  
   We **highly discourage** usage of older versions as it lacks better code, features and bug fixes that newer versions offer.
 
-  There exists an [archive](https://github.com/AntiCope/meteor-archive) of historic meteor versions,
-  however, if you wish to use it, be aware that **if you experience bugs or issues with it, no one will help you fix it**
+  However, there exists an [archive](https://github.com/AntiCope/meteor-archive) of historic meteor versions,
+  but, if you wish to use it, be aware that **if you experience bugs or issues with it, no one will help you fix them**.
 </details>
 
 ## How to use Meteor with Optifine?

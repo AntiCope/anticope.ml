@@ -53,6 +53,8 @@ More alternatives and the reason why its not supported [here](https://gist.githu
 
 - [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) | Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.
 - [KaptainWutax's SeedCracker](https://github.com/KaptainWutax/SeedCracker) | Fast, Automatic In-Game Seed Cracker for Minecraft.
+- [ClientCommands](https://github.com/Earthcomputer/clientcommands) | Duplicates few features from Meteor Client, but also contains useful features, like cracking [rng](https://github.com/Earthcomputer/clientcommands/wiki/rng) seed or printing entity data
+- [SeedMapper](https://github.com/xpple/SeedMapper) | Adds useful tools that use world seed
 
 ## Meteor Addons
 

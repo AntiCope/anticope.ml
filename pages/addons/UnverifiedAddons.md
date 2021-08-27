@@ -22,12 +22,11 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-08-27 05:14 (UTC)`.
+Last updated: `2021-08-27 08:08 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
 | oa-auto-dupe | An addon to automatically perform the piston dupe on openanarchy.org | [Repository](https://github.com/GhostTypes/oa-auto-dupe) | GhostTypes |
-| orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/GhostTypes/orion) | GhostTypes |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |

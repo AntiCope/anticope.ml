@@ -46,7 +46,8 @@ More alternatives and the reason why its not supported [here](https://gist.githu
 ## Radar | Map
 
 - [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | An ingame minimap interface
-- [Amidst](https://github.com/toolbox4minecraft/amidst/releases) | Advanced Minecraft Interface and Data/Structure Tracking **(Not a fabric mod!)**
+- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) | Fullscreen map on a keybind
+- [Amidst](https://github.com/toolbox4minecraft/amidst/releases) | Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
 
 ## Misc
 
@@ -72,6 +73,6 @@ Here are some of the mods known to be incompatible or cause issues with Meteor.
 
 
 **Others**
-- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated above, Optifine is and never will be compatible with Meteor.
+- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated [above](#optifine-alternatives), Optifine is and never will be compatible with Meteor.
 - [Replay Mod](https://www.replaymod.com/) | Only crashes when opening the replay list. Recording should still be fine.
 - [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)

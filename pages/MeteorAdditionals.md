@@ -77,4 +77,3 @@ Here are some of the mods known to be incompatible or cause issues with Meteor.
 **Others**
 - [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated [above](#optifine-alternatives), Optifine is and never will be compatible with Meteor.
 - [Replay Mod](https://www.replaymod.com/) | Only crashes when opening the replay list. Recording should still be fine.
-- [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)

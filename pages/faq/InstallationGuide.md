@@ -21,7 +21,7 @@ nav_order: 1
 ## Downloading
 
 The latest release of Meteor can be downloaded from [here](https://meteorclient.com/download) (for Minecraft 1.17.1).  
-*Disclaimer: If your antivirus flags Meteor as dangerous, it is probably because it is an executable (jar) file. If you have any concerns feel free to check the source code located within this repository.*
+*Disclaimer: If your antivirus flags Meteor as dangerous, it is probably because it is an executable (jar) file. If you have any concerns feel free to check the source code located [here](https://github.com/MeteorDevelopment/meteor-client).*
 
 ## Installing
 

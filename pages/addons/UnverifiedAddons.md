@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-08-30 05:15 (UTC)`.
+Last updated: `2021-08-31 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Last updated: `2021-08-30 05:15 (UTC)`.
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repository](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | HENRYMARTIN5 |
 | awesomemeteorplugin | None | [Repository](https://github.com/unfidelity/awesomemeteorplugin) | unfidelity |
 | MeteorLegit | None | [Repository](https://github.com/Drakesdrs/MeteorLegit) | Drakesdrs |
+| just-totest- | None | [Repository](https://github.com/Dasyat1s/just-totest-) | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repository](https://github.com/hashalite/packetfly-addon) | hashalite |
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |

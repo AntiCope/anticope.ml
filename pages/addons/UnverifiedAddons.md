@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-04 05:14 (UTC)`.
+Last updated: `2021-09-05 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -42,3 +42,4 @@ Last updated: `2021-09-04 05:14 (UTC)`.
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
+| Perfect-Auto-Totem | None | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |

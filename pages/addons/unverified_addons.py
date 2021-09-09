@@ -37,7 +37,7 @@ def parse_repo(repo):
     return repo
 
 # Request all code snippets in java extending MeteorAddon class
-r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100&access_token={GH_TOKEN}")
+r = requests.get("https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100", headers={"Authorization": f"token {GH_TOKEN}"})
 repos = None
 try:
     repos = r.json()['items']

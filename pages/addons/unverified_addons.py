@@ -38,7 +38,13 @@ def parse_repo(repo):
 
 # Request all code snippets in java extending MeteorAddon class
 r = requests.get(f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100&access_token={GH_TOKEN}")
-repos = r.json()['items']
+repos = None
+try:
+    repos = r.json()['items']
+except KeyError:
+    if r.status_code != 200:
+        print(r.json())
+    raise KeyError
 repos = [repo['repository'] for repo in repos]
 
 # Request all forks of meteor-addon-template because some people cant click generate

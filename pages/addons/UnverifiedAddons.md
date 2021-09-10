@@ -22,10 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-09 05:54 (UTC)`.
+Last updated: `2021-09-10 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
+| banana-plus-src | 8$ meteor reject paste | [Repository](https://github.com/EurekaEffect/banana-plus-src) | EurekaEffect |
+| gqrlAddon | None | [Repository](https://github.com/kyv3-v2/gqrlAddon) | kyv3-v2 |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
@@ -40,9 +42,8 @@ Last updated: `2021-09-09 05:54 (UTC)`.
 | just-totest- | None | [Repository](https://github.com/Dasyat1s/just-totest-) | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repository](https://github.com/hashalite/packetfly-addon) | hashalite |
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
-| boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | Perfect-Auto-Totem | None | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |
+| boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
-| MeteorAddonPlus | None | [Repository](https://github.com/kyv3-v2/MeteorAddonPlus) | kyv3-v2 |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |

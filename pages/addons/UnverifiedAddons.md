@@ -22,10 +22,11 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-11 05:14 (UTC)`.
+Last updated: `2021-09-12 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
+| meteor-utils | None | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa |
 | banana-plus-src | 8$ meteor reject paste | [Repository](https://github.com/EurekaEffect/banana-plus-src) | EurekaEffect |
 | gqrlAddon | None | [Repository](https://github.com/kyv3-v2/gqrlAddon) | kyv3-v2 |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
@@ -33,6 +34,7 @@ Last updated: `2021-09-11 05:14 (UTC)`.
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | The-Public-Addone | A Meteor Client addon devoted to making previously private exploits or mods public. | [Repository](https://github.com/Declipsonator/The-Public-Addone) | Declipsonator |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
+| meteor-litematica-printer | None | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa |
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
 | Kismet | Osshe Requested!! | [Repository](https://github.com/WoBo-wow/Kismet) | WoBo-wow |
@@ -46,4 +48,5 @@ Last updated: `2021-09-11 05:14 (UTC)`.
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
+| chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |

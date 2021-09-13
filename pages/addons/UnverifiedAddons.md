@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-13 05:15 (UTC)`.
+Last updated: `2021-09-13 10:59 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -44,7 +44,7 @@ Last updated: `2021-09-13 05:15 (UTC)`.
 | just-totest- | None | [Repository](https://github.com/Dasyat1s/just-totest-) | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repository](https://github.com/hashalite/packetfly-addon) | hashalite |
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
-| Perfect-Auto-Totem | None | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |
+| Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |

@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Total%20Addons-36-blueviolet" alt="Total Addons Count">
   <a href="https://github.com/AntiCope/meteor-lists"><img src="https://img.shields.io/github/stars/AntiCope/meteor-lists?color=%23a17f1a&&label=Stars&logo=github" alt="Stars"></a>
   <a href="https://github.com/AntiCope/meteor-lists/"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-lists?label=Last%20Commit&logo=git" alt="Last commit"></a>
-  <a href="https://anticope.github.io/meteor-lists/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=Pages&logo=github" alt="Deployment status"></a>
+  <a href="https://anticope.github.io/"><img src="https://img.shields.io/github/deployments/AntiCope/meteor-lists/github-pages?label=Pages&logo=github" alt="Deployment status"></a>
 </div>
 <p> </p>
 

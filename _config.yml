@@ -7,13 +7,13 @@ url: "https://anticope.github.io"
 
 gh_edit_link: true
 gh_edit_link_text: "View this page on GitHub."
-gh_edit_repository: "https://github.com/AntiCope/meteor-lists"
+gh_edit_repository: "https://github.com/AntiCope/anticope.github.io"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 
 aux_links:
   "Star on GitHub":
-    - "//github.com/AntiCope/meteor-lists/"
+    - "//github.com/AntiCope/anticope.github.io/"
 
 plugins:
   - jekyll-sitemap

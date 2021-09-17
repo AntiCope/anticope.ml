@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-16 05:15 (UTC)`.
+Last updated: `2021-09-17 05:15 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -33,8 +33,8 @@ Last updated: `2021-09-16 05:15 (UTC)`.
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | The-Public-Addone | A Meteor Client addon devoted to making previously private exploits or mods public. | [Repository](https://github.com/Declipsonator/The-Public-Addone) | Declipsonator |
-| meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
 | meteor-litematica-printer | None | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa |
+| meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
 | Kismet | Osshe Requested!! | [Repository](https://github.com/WoBo-wow/Kismet) | WoBo-wow |

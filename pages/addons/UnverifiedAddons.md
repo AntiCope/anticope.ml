@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-09-25 05:14 (UTC)`.
+Last updated: `2021-09-26 05:14 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -46,8 +46,8 @@ Last updated: `2021-09-25 05:14 (UTC)`.
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
+| MeteorPlus | None | [Repository](https://github.com/JohanDevv/MeteorPlus) | JohanDevv |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |
-| MeteorPlus | None | [Repository](https://github.com/JohanDevv/MeteorPlus) | JohanDevv |
 | NAZIcleint | Nazi client addon for meteor | [Repository](https://github.com/darkisfunman/NAZIcleint) | darkisfunman |

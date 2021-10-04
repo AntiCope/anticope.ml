@@ -58,7 +58,6 @@ Each were manually checked for code quality and safety.
 | Icon | Name | Description | Link | Authors |
 | --- | ---- | ----------- | ---- | ------- |
 |<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 |
-|<img src='https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon/blob/master/src/main/resources/assets/dupe/icon.png?raw=true' width="32px">| Item Scroller Dupe | An addon for the Item Scroller dupe | [Repository](https://github.com/ChrstnCrrnd/1.17-dupe-meteor-addon) | ChrstnCrrnd |
 |<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat |
 |<img src='https://github.com/GhostTypes/oa-auto-dupe/raw/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Piston Dupe | A more sophisticated version of the item frame dupe addon. | [Repository](https://github.com/GhostTypes/oa-auto-dupe) | GhostTypes |
 

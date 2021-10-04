@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-10-04 05:15 (UTC)`.
+Last updated: `2021-10-04 17:16 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -34,7 +34,6 @@ Last updated: `2021-10-04 05:15 (UTC)`.
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | meteor-litematica-printer | None | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
-| 1.17-dupe-meteor-addon | haha dupe | [Repository](https://github.com/Chrstncr/1.17-dupe-meteor-addon) | Chrstncr |
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
 | Kismet | Osshe Requested!! | [Repository](https://github.com/WoBo-wow/Kismet) | WoBo-wow |

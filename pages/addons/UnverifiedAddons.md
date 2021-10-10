@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-10-09 05:15 (UTC)`.
+Last updated: `2021-10-10 05:15 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -51,4 +51,3 @@ Last updated: `2021-10-09 05:15 (UTC)`.
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |
-| NAZIcleint | Nazi client addon for meteor | [Repository](https://github.com/darkisfunman/NAZIcleint) | darkisfunman |

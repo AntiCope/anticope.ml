@@ -59,11 +59,13 @@ Each were manually checked for code quality and safety.
 |<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat |
 |<img src='https://github.com/GhostTypes/oa-auto-dupe/raw/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Piston Dupe | A more sophisticated version of the item frame dupe addon. | [Repository](https://github.com/GhostTypes/oa-auto-dupe) | GhostTypes |
 
-## Addon Template
+## Addon Templates
 
-The addon template for those of you who want to develop your own meteor addon.
+Addon templates for those of you who want to develop your own meteor addon.
 
-https://github.com/MeteorDevelopment/meteor-addon-template
+- [official, java](https://github.com/MeteorDevelopment/meteor-addon-template)
+- [unofficial, kotlin](https://github.com/ChaotenHG/meteor-kotlin-addon-template)
+
 
 # Untested Addons
 Addons directly scraped from Github

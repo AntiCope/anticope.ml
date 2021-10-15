@@ -11,15 +11,21 @@ repo_regex = re.compile("https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 verified = repo_regex.findall(open("pages/MeteorAddons.md", "r", encoding='utf-8').read())
 verified = set(verified)
 # count addons (minus some links)
-addon_count = len(verified) - 4
+addon_count = len(verified) - 5
 total_addon_count = addon_count
 print(f"Found verified addons: {addon_count}")
 
-# get template size & name
+# get templates size & name
+template_names = []
+template_sizes = []
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template")
 repo = r.json()
-template_name = repo["name"]
-template_size = repo["size"]
+template_names.append(repo["name"])
+template_sizes.append(repo["size"])
+r = requests.get("https://api.github.com/repos/ChaotenHG/meteor-kotlin-addon-template")
+repo = r.json()
+template_names.append(repo["name"])
+template_sizes.append(repo["size"])
 del repo
 
 # function that formats repos contents to exclute private and verified repos and repos which are just unmodified templates and add code size property
@@ -28,11 +34,11 @@ def parse_repo(repo):
         return None
     if repo['html_url'] in verified:
         return None
-    if repo['name'] == template_name:
+    if repo['name'] in template_names:
         return None
     r = requests.get(repo['url'])
     repo.update(r.json())
-    if repo['size'] == template_size:
+    if repo['size'] in template_sizes:
         return None
     return repo
 
@@ -47,8 +53,10 @@ except KeyError:
     raise KeyError
 repos = [repo['repository'] for repo in repos]
 
-# Request all forks of meteor-addon-template because some people cant click generate
+# Request all forks of templates because some people cant click generate
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template/forks?per_page=100")
+repos.extend(r.json())
+r = requests.get("https://api.github.com/repos/ChaotenHG/meteor-kotlin-addon-template/forks?per_page=100")
 repos.extend(r.json())
 
 # load repos

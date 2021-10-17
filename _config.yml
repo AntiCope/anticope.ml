@@ -1,19 +1,19 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 markdown: GFM
-logo: "https://github.com/AntiCope/anticope.github.io/blob/master/resources/icon.png?raw=true"
+logo: "https://anticope.ml/resources/icon.png"
 title: "Unofficial Meteor Client wiki"
-url: "https://anticope.github.io"
+url: "https://anticope.ml"
 
 gh_edit_link: true
 gh_edit_link_text: "View this page on GitHub."
-gh_edit_repository: "https://github.com/AntiCope/anticope.github.io"
+gh_edit_repository: "https://github.com/AntiCope/anticope.ml"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 
 aux_links:
   "Star on GitHub":
-    - "//github.com/AntiCope/anticope.github.io/"
+    - "https://github.com/AntiCope/anticope.ml/"
 
 plugins:
   - jekyll-sitemap

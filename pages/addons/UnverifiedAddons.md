@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-10-17 12:56 (UTC)`.
+Last updated: `2021-10-18 05:15 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -31,8 +31,8 @@ Last updated: `2021-10-17 12:56 (UTC)`.
 | gqrlAddon | None | [Repository](https://github.com/kyv3-v2/gqrlAddon) | kyv3-v2 |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
-| meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | meteor-litematica-printer | None | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa |
+| meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repository](https://github.com/VoidCyborg/meteor-obsidian-farm) | VoidCyborg |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repository](https://github.com/vitrack/meteor-reply-addon) | vitrack |
 | BIGBIG | None | [Repository](https://github.com/oyzipfile/BIGBIG) | oyzipfile |
 | brewing-stand-dupe | None | [Repository](https://github.com/nbtm-sh/brewing-stand-dupe) | nbtm-sh |
@@ -47,6 +47,7 @@ Last updated: `2021-10-17 12:56 (UTC)`.
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repository](https://github.com/hashalite/boatphase-addon) | hashalite |
+| karasic | karasic addon for meteor client | [Repository](https://github.com/Kiriyaga7615/karasic) | Kiriyaga7615 |
 | sortirleak | ывфыфв | [Repository](https://github.com/iacher/sortirleak) | iacher |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
 | meteor-container-dump | None | [Repository](https://github.com/AntiCope/meteor-container-dump) | AntiCope |
@@ -56,5 +57,5 @@ Last updated: `2021-10-17 12:56 (UTC)`.
 | meteortest | None | [Repository](https://github.com/Dancam38/meteortest) | Dancam38 |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
-| meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repository](https://github.com/CWKevo/meteor-tp-command-addon) | CWKevo |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |
+| meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repository](https://github.com/CWKevo/meteor-tp-command-addon) | CWKevo |

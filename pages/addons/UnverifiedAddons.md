@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-10-18 05:15 (UTC)`.
+Last updated: `2021-10-19 05:15 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -57,5 +57,5 @@ Last updated: `2021-10-18 05:15 (UTC)`.
 | meteortest | None | [Repository](https://github.com/Dancam38/meteortest) | Dancam38 |
 | AzECode | None | [Repository](https://github.com/AzEdownload/AzECode) | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
-| Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |
 | meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repository](https://github.com/CWKevo/meteor-tp-command-addon) | CWKevo |
+| Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |

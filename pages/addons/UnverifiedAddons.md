@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-10-22 05:15 (UTC)`.
+Last updated: `2021-10-22 19:11 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -42,7 +42,6 @@ Last updated: `2021-10-22 05:15 (UTC)`.
 | MeteorLegit | None | [Repository](https://github.com/Drakesdrs/MeteorLegit) | Drakesdrs |
 | just-totest- | None | [Repository](https://github.com/Dasyat1s/just-totest-) | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repository](https://github.com/hashalite/packetfly-addon) | hashalite |
-| MeteorAdditions | Addons for my fork of Meteor, partially based off of/inspired by https://github.com/Wurst-Imperium/Wurst7 | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repository](https://github.com/JFronny/MotorTunez) | JFronny |
 | nocaveculling-addon | An addon for Meteor Client that adds a NoCaveCulling module. | [Repository](https://github.com/hashalite/nocaveculling-addon) | hashalite |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repository](https://github.com/l1tecorejz/Perfect-Auto-Totem) | l1tecorejz |

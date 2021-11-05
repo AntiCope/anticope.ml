@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-11-04 05:15 (UTC)`.
+Last updated: `2021-11-05 05:15 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
@@ -49,7 +49,6 @@ Last updated: `2021-11-04 05:15 (UTC)`.
 | karasic | karasic addon for meteor client | [Repository](https://github.com/Kiriyaga7615/karasic) | Kiriyaga7615 |
 | sortirleak | ывфыфв | [Repository](https://github.com/iacher/sortirleak) | iacher |
 | nopush-addon | An addon for Meteor Client that adds a No Push module. | [Repository](https://github.com/hashalite/nopush-addon) | hashalite |
-| meteor-container-dump | None | [Repository](https://github.com/AntiCope/meteor-container-dump) | AntiCope |
 | zimt-addon | meteor client addon | [Repository](https://github.com/PiPaPo4/zimt-addon) | PiPaPo4 |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repository](https://github.com/nothub/meteor-baritone-tweaks) | nothub |
 | meteortest | None | [Repository](https://github.com/Dancam38/meteortest) | Dancam38 |
@@ -57,3 +56,4 @@ Last updated: `2021-11-04 05:15 (UTC)`.
 | chatbot | testing how to make an addon that interacts with the chat | [Repository](https://github.com/0sleep/chatbot) | 0sleep |
 | Addon | Meteor Client Addon | [Repository](https://github.com/memefinderr/Addon) | memefinderr |
 | meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repository](https://github.com/CWKevo/meteor-tp-command-addon) | CWKevo |
+| MeteorPatch | None | [Repository](https://github.com/8MiYile/MeteorPatch) | 8MiYile |

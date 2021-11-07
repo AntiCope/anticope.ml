@@ -22,14 +22,13 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-11-07 05:15 (UTC)`.
+Last updated: `2021-11-07 07:03 (UTC)`.
 
 | Name | Description | Link | Authors |
 | --- | --- | --- | --- |
 | meteor-utils | None | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa |
 | banana-plus-src | 8$ meteor reject paste | [Repository](https://github.com/EurekaEffect/banana-plus-src) | EurekaEffect |
 | gqrlAddon | None | [Repository](https://github.com/kyv3-v2/gqrlAddon) | kyv3-v2 |
-| orion | None | [Repository](https://github.com/StormyBytes/orion) | StormyBytes |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repository](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | ItsNautilus |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repository](https://github.com/SpwCode/meteor-autologin-addon) | SpwCode |
 | meteor-litematica-printer | None | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa |

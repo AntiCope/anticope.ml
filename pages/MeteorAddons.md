@@ -31,10 +31,10 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 
 These addons are made and maintained by the official [Meteor Development Team](https://github.com/MeteorDevelopment).
 
-| Icon | Name | Description | Link |
-| --- | ---- | ----------- | -------- |
-|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe (archived) | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) |
-|<img src="https://github.com/MeteorDevelopment/meteor-book-dupe-addon/blob/main/src/main/resources/assets/bookdupe/icon.png?raw=true" width="32px">| Book Dupe Addon (archived) | Adds the book dupe | [Repository](https://github.com/MeteorDevelopment/meteor-book-dupe-addon) |
+| Icon | Name | Description | Link | Status |
+| --- | ---- | ----------- | -------- | --- |
+|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) | Archived |
+|<img src="https://github.com/MeteorDevelopment/meteor-book-dupe-addon/blob/main/src/main/resources/assets/bookdupe/icon.png?raw=true" width="32px">| Book Dupe Addon (archived) | Adds the book dupe | [Repository](https://github.com/MeteorDevelopment/meteor-book-dupe-addon) | Archived |
 
 ## Community Addons
 
@@ -44,19 +44,19 @@ Each were manually checked for code quality and safety.
 *If you want your addon to be added in here open [a new issue](https://github.com/AntiCope/meteor-lists/issues/new?assignees=&labels=addon&template=addon_verification.yml&title=Addon+Verification) or dm `SByte#7574` or `Cloudburst#7680` on discord*
 
 #### Utilities
-| Icon | Name | Description | Link | Authors |
-| --- | ---- | ----------- | ---- | ------- |
-|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes |
-|<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat |
-|<img src='https://github.com/AntiCope/orion/raw/main/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) |
-|<img src='https://github.com/AntiCope/meteor-python-addon/blob/main/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst |
-|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny |
+| Icon | Name | Description | Link | Authors | Status |
+| --- | ---- | ----------- | ---- | ------- | ------- |
+|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | Usable |
+|<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat | Usable |
+|<img src='https://github.com/AntiCope/orion/raw/main/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) | Usable |
+|<img src='https://github.com/AntiCope/meteor-python-addon/blob/main/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | Usable |
+|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | Not updated |
 
 #### Duping
-| Icon | Name | Description | Link | Authors |
-| --- | ---- | ----------- | ---- | ------- |
-|<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 |
-|<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat |
+| Icon | Name | Description | Link | Authors | Status |
+| --- | ---- | ----------- | ---- | ------- | ------- |
+|<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 | Not updated |
+|<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat | Not updated |
 
 ## Addon Templates
 

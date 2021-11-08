@@ -28,7 +28,7 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Status
+## Status
 - 💡 Available for latest dev build
 - ✔️ Available for latest release
 - ❌ Unavailable for latest release

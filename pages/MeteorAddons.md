@@ -17,6 +17,7 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 <details>
 <summary>Table of Contents</summary>
 
+    - [Status](#status)
   - [Official Addons](#official-addons)
   - [Community Addons](#community-addons)
       - [Utilities](#utilities)

@@ -12,7 +12,7 @@ This repo might not stay for long as an addon marketplace system is being planne
 
 If you are looking for other fabric mods to be used alongside Meteor, check [this](/MeteorAdditionals.md) list out
 
-*If you looking to get your addon verified or found mismatched/outdated information here, open [a new issue](https://github.com/AntiCope/meteor-lists/issues/new?assignees=&labels=addon&template=addon_verification.yml&title=Addon+Verification) or dm `SByte#7574` or `Cloudburst#7680` on discord*
+*If you looking to get your addon verified or found mismatched/outdated information here, open [a new issue](https://github.com/AntiCope/anticope.ml/issues/new/choose) or dm `SByte#7574` or `Cloudburst#7680` on discord*
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

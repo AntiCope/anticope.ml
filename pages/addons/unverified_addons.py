@@ -75,10 +75,14 @@ template = template.replace("{{ date }}", datetime.utcnow().strftime('%Y-%m-%d %
 file.write(template)
 
 # add a line for each repo
+def parse_timestamp(matchobj:re.Match):
+    return datetime.strptime(" ".join(matchobj.groups()), "%Y %m %d").strftime("%d %b %Y")
 for repo in repos:
     print(f"Adding: {repo['full_name']}")
     total_addon_count += 1
-    file.write(f"\n| {repo['name']} | {repo['description']} | [Repository]({repo['html_url']}) | {repo['owner']['login']} |")
+    last_pushed_timestamp = re.sub(
+        r'([0-9]+)-([0-9]+)-([0-9]+)T[0-9:]+Z', parse_timestamp, repo['pushed_at'])  # Date only
+    file.write(f"\n| {repo['name']} | {repo['description']} | [Repo]({repo['html_url']}) | {last_pushed_timestamp} | {repo['owner']['login']} |")
 
 file.close()
 

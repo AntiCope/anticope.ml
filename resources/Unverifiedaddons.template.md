@@ -28,5 +28,5 @@ Sorted by code size.
 
 Last updated: `{{ date }}`.
 
-| Name | Description | Link | Authors |
-| --- | --- | --- | --- |
+| Name | Description | Link | Last Updated | Authors |
+| --- | --- | --- | --- | --- |

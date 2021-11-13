@@ -2,7 +2,7 @@
 layout: default
 title: Meteor Additionals
 has_children: false
-nav_order: 3
+nav_order: 2
 ---
 
 # Meteor Additionals

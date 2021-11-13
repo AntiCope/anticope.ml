@@ -2,7 +2,7 @@
 layout: default
 title: Meteor Addons
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Meteor Addons

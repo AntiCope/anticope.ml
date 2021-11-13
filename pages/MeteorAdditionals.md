@@ -17,7 +17,7 @@ A list of recommended mods to be used alongside meteor.
 - [Optifine Alternatives](#optifine-alternatives)
   - [Performance](#performance)
   - [Shaders](#shaders)
-- [Radar | Map](#radar--map)
+- [Radar Map](#radar-map)
 - [Misc](#misc)
 - [Meteor Addons](#meteor-addons)
 - [Incompatibilities](#incompatibilities)

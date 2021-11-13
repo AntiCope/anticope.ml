@@ -32,29 +32,54 @@ More alternatives and the reason why its not supported [here](https://gist.githu
 
 ### Performance
 
-- [Sodium](https://modrinth.com/mod/sodium) | Performance improvements (better than Optifine)
-- [Lithium](https://modrinth.com/mod/lithium) | Server optimizations
-- [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
-- [Starlight](https://github.com/Spottedleaf/Starlight) | Lighting engine improvements (incompatible with Phosphor)
+- [Sodium](https://modrinth.com/mod/sodium)<br>
+Performance improvements (better than Optifine)
+
+- [Lithium](https://modrinth.com/mod/lithium)<br>
+Server optimizations
+
+- [Phosphor](https://modrinth.com/mod/phosphor)<br>
+Lighting engine improvements
+
+- [Starlight](https://github.com/Spottedleaf/Starlight)<br>
+Lighting engine improvements (incompatible with Phosphor)
+
 
 ### Shaders
 
-- [Canvas Renderer](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer) | A new rendering engine. Incompatible with Sodium
-- [Iris](https://modrinth.com/mod/iris) | Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with a custom modified version of Sodium.
+- [Canvas Renderer](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer)<br>
+A new rendering engine. Incompatible with Sodium
+
+- [Iris](https://modrinth.com/mod/iris)<br>
+Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with a custom modified version of Sodium.
 
 
-## Radar | Map
+## Radar Map
 
-- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | An ingame minimap interface
-- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) | Fullscreen map on a keybind
-- [Amidst](https://github.com/toolbox4minecraft/amidst/releases) | Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
+- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)<br>
+An ingame minimap interface
+
+- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)<br>
+Fullscreen map on a keybind
+
+- [Amidst](https://github.com/toolbox4minecraft/amidst/releases)<br>
+Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
+
 
 ## Misc
 
-- [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) | Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.
-- [KaptainWutax's SeedCracker](https://github.com/KaptainWutax/SeedCracker) | Fast, Automatic In-Game Seed Cracker for Minecraft.
-- [ClientCommands](https://github.com/Earthcomputer/clientcommands) | Duplicates few features from Meteor Client, but also contains useful features, like cracking [rng](https://github.com/Earthcomputer/clientcommands/wiki/rng) seed or printing entity data
-- [SeedMapper](https://github.com/xpple/SeedMapper) | Adds useful tools that use world seed
+- [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect)<br>
+Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.
+
+- [KaptainWutax's SeedCracker](https://github.com/KaptainWutax/SeedCracker)<br>
+Fast, Automatic In-Game Seed Cracker for Minecraft.
+
+- [ClientCommands](https://github.com/Earthcomputer/clientcommands)<br>
+Duplicates few features from Meteor Client, but also contains useful features, like cracking [rng](https://github.com/Earthcomputer/clientcommands/wiki/rng) seed or printing entity data
+
+- [SeedMapper](https://github.com/xpple/SeedMapper)<br>
+Adds useful tools that use world seed
+
 
 ## Meteor Addons
 

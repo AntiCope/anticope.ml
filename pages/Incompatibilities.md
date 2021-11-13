@@ -27,6 +27,12 @@ Here are some of the mods known to be incompatible or cause issues with Meteor.
 - [Aristois Client](https://aristois.net/)
 
 ## Others
-- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated in [additionals](/MeteorAdditionals.md), Optifine is and never will be compatible with Meteor. More reasons as to why [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
-- [Replay Mod](https://www.replaymod.com/) | Only crashes when opening the replay list. Recording should still be fine.
-- [Voxel Map](https://www.curseforge.com/minecraft/mc-mods/voxelmap) | Causes rendering issues such as custom font to not render correctly.
+- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric)<br>
+As stated in [additionals](/MeteorAdditionals.md), Optifine is and never will be compatible with Meteor.
+More reasons as to why [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
+
+- [Replay Mod](https://www.replaymod.com/)<br>
+Only crashes when opening the replay list. Recording should still be fine.
+
+- [Voxel Map](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
+Causes rendering issues such as custom font to not render correctly.

@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-11-13 06:07 (UTC)`.
+Last updated: `2021-11-13 21:01 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@ Last updated: `2021-11-13 06:07 (UTC)`.
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
-| meteor-litematica-printer | None | [Repo](https://github.com/kkllffaa/meteor-litematica-printer) | 10 Nov 2021 | kkllffaa |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/SpwCode/meteor-autologin-addon) | 04 May 2021 | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repo](https://github.com/VoidCyborg/meteor-obsidian-farm) | 07 Apr 2021 | VoidCyborg |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repo](https://github.com/vitrack/meteor-reply-addon) | 29 Apr 2021 | vitrack |
@@ -43,14 +42,13 @@ Last updated: `2021-11-13 06:07 (UTC)`.
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
+| karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Nov 2021 | Kiriyaga7615 |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 10 Nov 2021 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
-| karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 19 Oct 2021 | Kiriyaga7615 |
 | sortirleak | ывфыфв | [Repo](https://github.com/iacher/sortirleak) | 14 Oct 2021 | iacher |
 | meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 11 Oct 2021 | AntiCope |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
-| bedtrap-src | the end. | [Repo](https://github.com/EurekaEffect/bedtrap-src) | 12 Nov 2021 | EurekaEffect |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 16 Oct 2021 | nothub |
 | meteortest | None | [Repo](https://github.com/Dancam38/meteortest) | 04 Oct 2021 | Dancam38 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |

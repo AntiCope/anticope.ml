@@ -18,3 +18,4 @@
 - [Meteor Addons](pages/MeteorAddons.md) | A list of verified addons to be used alongside Meteor.
   -  [Unverified Addons](pages/addons/UnverifiedAddons.md) | List of **unverified** addons indexed by Github
 - [Meteor Additionals](pages/MeteorAdditionals.md) | A list of recommended mods to be used alongside meteor.
+- [Meteor Incompatibilities](pages/Incompatibilities.md) | A list of known meteor-incompatible mods.

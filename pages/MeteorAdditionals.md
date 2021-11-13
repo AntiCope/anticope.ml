@@ -65,16 +65,4 @@ Check out the addons list [here](/MeteorAddons.md).
 
 ## Incompatibilities
 
-Meteor is a fabric mod, and like any other fabric mod, it can have incompatibilities.
-Here are some of the mods known to be incompatible or cause issues with Meteor.
-
-**Clients**
-- [Inertia Client](https://inertiaclient.com/)
-- [Wurst Client](https://www.wurstclient.net/)
-- [Aristois Client](https://aristois.net/)
-
-
-**Others**
-- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated [above](#optifine-alternatives), Optifine is and never will be compatible with Meteor.
-- [Replay Mod](https://www.replaymod.com/) | Only crashes when opening the replay list. Recording should still be fine.
-- [Voxel Map](https://www.curseforge.com/minecraft/mc-mods/voxelmap) | Causes rendering issues such as custom font to not render correctly.
+If you are looking for the list of incompatible mods, check out the [Meteor Incompatibilities](/MeteorIncompatibilities.md) page.

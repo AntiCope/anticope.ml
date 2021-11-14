@@ -15,6 +15,8 @@
 </div>
 <p> </p>
 
+If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our [Github repository](https://github.com/AntiCope/anticope.ml/), or dm `SByte#7574` or `Cloudburst#7680` on discord.
+
 - [Meteor Addons](pages/MeteorAddons.md)<br>
 A list of verified addons to be used alongside Meteor.
 

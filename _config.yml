@@ -2,7 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 markdown: GFM
 logo: "https://anticope.ml/resources/icon.png"
-title: "Unofficial Meteor Client wiki"
+title: "AntiCope"
 url: "https://anticope.ml"
 
 gh_edit_link: true

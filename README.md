@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/88768753?s=200&v=4" alt="logo" width="20%"/>
+  <img src="https://anticope.ml/resources/icon.png" alt="logo" width="20%"/>
 </p>
 <p align="center">
   Welcome to the Unofficial Meteor Client wiki!

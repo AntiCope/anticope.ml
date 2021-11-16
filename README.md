@@ -2,11 +2,10 @@
   <img src="./resources/icon.png" alt="logo" width="20%"/>
 </p>
 <p align="center">
-  Welcome to the Unofficial Meteor Client wiki!
+  Welcome to the AntiCope Website!
 </p>
 <div align="center">
-  <img src="https://img.shields.io/badge/AntiCope-Edition-orange" alt="AntiCope Edition">
-  <img src="https://img.shields.io/badge/Better%20FAQ%20page-Yes-brightgreen" alt="Better FAQ: Yes">
+  <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">
   <img src="https://img.shields.io/badge/Verified%20Addons-10-blue" alt="Verified Addons Count">
   <img src="https://img.shields.io/badge/Total%20Addons-42-blueviolet" alt="Total Addons Count">
   <a href="https://github.com/AntiCope/anticope.ml/"><img src="https://img.shields.io/github/stars/AntiCope/anticope.ml?color=%23a17f1a&&label=Stars&logo=github" alt="Stars"></a>

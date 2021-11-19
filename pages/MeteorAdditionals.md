@@ -62,9 +62,16 @@ An ingame minimap interface
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)<br>
 Fullscreen map on a keybind
 
+**External Maps**
+
 - [Amidst](https://github.com/toolbox4minecraft/amidst/releases)<br>
 Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
 
+- [Minemap](https://github.com/hube12/Minemap/releases)<br>
+An efficient map viewer for Minecraft seed in a nice GUI with utilities without ever needing to install Minecraft.
+
+- [ChunkBase](https://www.chunkbase.com/apps/)<br>
+A collection of apps to help you find the best Minecraft seeds, and locate biomes and structures in your world on a browser interactive map.
 
 ## Misc
 

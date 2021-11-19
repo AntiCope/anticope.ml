@@ -65,7 +65,7 @@ Fullscreen map on a keybind
 **External Maps**
 
 - [Amidst](https://github.com/toolbox4minecraft/amidst/releases)<br>
-Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
+Advanced Minecraft Interface and Data/Structure Tracking.
 
 - [Minemap](https://github.com/hube12/Minemap/releases)<br>
 An efficient map viewer for Minecraft seed in a nice GUI with utilities without ever needing to install Minecraft.

@@ -62,6 +62,11 @@ An ingame minimap interface
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)<br>
 Fullscreen map on a keybind
 
+- [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
+A minimap and worldmap mod that makes a great effort to be accurate to the colors you see in the world (and your resource pack).<br>
+Display your surroundings, or view the entire (explored) world.<br>
+**Warning: [Incompatibility Issues](/Incompatibilities.md)**
+
 **External Maps**
 
 - [Amidst](https://github.com/toolbox4minecraft/amidst/releases)<br>
@@ -97,4 +102,4 @@ Check out the addons list [here](/MeteorAddons.md).
 
 ## Incompatibilities
 
-If you are looking for the list of incompatible mods, check out the [Meteor Incompatibilities](/MeteorIncompatibilities.md) page.
+If you are looking for the list of incompatible mods, check out the [Meteor Incompatibilities](/Incompatibilities.md) page.

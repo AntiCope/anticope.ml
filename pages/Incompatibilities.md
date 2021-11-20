@@ -36,3 +36,6 @@ Only crashes when opening the replay list. Recording should still be fine.
 
 - [Voxel Map](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
 Causes rendering issues such as custom font to not render correctly.
+
+- [Wi Zoom](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)<br>
+Meteor already has a zoom module anyways. 

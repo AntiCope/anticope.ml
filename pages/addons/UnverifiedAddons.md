@@ -22,13 +22,14 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-11-21 05:15 (UTC)`.
+Last updated: `2021-11-21 16:44 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
 | banana-plus-src | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-src) | 09 Sep 2021 | EurekaEffect |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
+| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 21 Nov 2021 | Lightswitch-Devs |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
@@ -40,7 +41,6 @@ Last updated: `2021-11-21 05:15 (UTC)`.
 | brewing-stand-dupe | None | [Repo](https://github.com/nbtm-sh/brewing-stand-dupe) | 15 Apr 2021 | nbtm-sh |
 | Kismet | Osshe Requested!! | [Repo](https://github.com/WoBo-wow/Kismet) | 28 Jul 2021 | WoBo-wow |
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repo](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | 16 Jun 2021 | HENRYMARTIN5 |
-| awesomemeteorplugin | None | [Repo](https://github.com/unfidelity/awesomemeteorplugin) | 31 Jul 2021 | unfidelity |
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
@@ -49,7 +49,7 @@ Last updated: `2021-11-21 05:15 (UTC)`.
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 15 Nov 2021 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | sortirleak | ывфыфв | [Repo](https://github.com/iacher/sortirleak) | 14 Oct 2021 | iacher |
-| meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 11 Oct 2021 | AntiCope |
+| meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 21 Nov 2021 | AntiCope |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 16 Oct 2021 | nothub |
 | meteortest | None | [Repo](https://github.com/Dancam38/meteortest) | 04 Oct 2021 | Dancam38 |

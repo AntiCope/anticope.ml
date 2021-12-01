@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-11-30 05:13 (UTC)`.
+Last updated: `2021-12-01 05:17 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@ Last updated: `2021-11-30 05:13 (UTC)`.
 | banana-plus-src | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-src) | 09 Sep 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 28 Nov 2021 | Lightswitch-Devs |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
+| rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 01 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
@@ -51,7 +52,7 @@ Last updated: `2021-11-30 05:13 (UTC)`.
 | sortirleak | ывфыфв | [Repo](https://github.com/iacher/sortirleak) | 14 Oct 2021 | iacher |
 | meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 21 Nov 2021 | AntiCope |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
-| meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 29 Nov 2021 | nothub |
+| meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 30 Nov 2021 | nothub |
 | meteortest | None | [Repo](https://github.com/Dancam38/meteortest) | 04 Oct 2021 | Dancam38 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |

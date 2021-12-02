@@ -22,13 +22,13 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-01 05:17 (UTC)`.
+Last updated: `2021-12-02 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
 | banana-plus-src | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-src) | 09 Sep 2021 | EurekaEffect |
-| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 28 Nov 2021 | Lightswitch-Devs |
+| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 01 Dec 2021 | Lightswitch-Devs |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 01 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |

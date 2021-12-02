@@ -14,6 +14,8 @@ If you are looking for other fabric mods to be used alongside Meteor, check [thi
 
 *If you looking to get your addon verified, open [a new issue](https://github.com/AntiCope/anticope.ml/issues/new/choose) or dm `SByte#7574` or `Cloudburst#7680` on discord*
 
+Note: Latest dev build recently got updated to 1.18, many addons have not updated to the latest changes yet.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <details>
@@ -42,7 +44,7 @@ These addons are made and maintained by the official [Meteor Development Team](h
 
 | Icon | Name | Description | Link | Status |
 | --- | ---- | ----------- | -------- | :---: |
-|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) | 💡✔️ |
+|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) | ✔️ |
 |<img src="https://github.com/MeteorDevelopment/meteor-book-dupe-addon/blob/main/src/main/resources/assets/bookdupe/icon.png?raw=true" width="32px">| Book Dupe Addon | Adds the book dupe | [Repository](https://github.com/MeteorDevelopment/meteor-book-dupe-addon) | 📦❌ |
 
 ## Community Addons
@@ -53,12 +55,12 @@ Each were manually checked for code quality and safety.
 #### Utilities
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
-|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | 💡✔️ |
-|<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat | 💡✔️ |
-|<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) | 💡✔️ |
-|<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | 💡✔️ |
-|<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Meteor Litematica Printer | An addon for building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | 💡✔️ |
-|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | 💡✔️ |
+|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | ✔️ |
+|<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat | ✔️ |
+|<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) | ✔️ |
+|<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | ✔️ |
+|<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Meteor Litematica Printer | An addon for building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | ✔️ |
+|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ |
 
 #### Duping
 | Icon | Name | Description | Link | Authors | Status |

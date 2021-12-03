@@ -55,7 +55,7 @@ Each were manually checked for code quality and safety.
 #### Utilities
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
-|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | ✔️ |
+|<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | ✔️💡 |
 |<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat | ✔️ |
 |<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) | ✔️ |
 |<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | ✔️ |

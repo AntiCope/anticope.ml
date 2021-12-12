@@ -22,11 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-11 05:16 (UTC)`.
+Last updated: `2021-12-12 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
+| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 11 Dec 2021 | cally72jhb |
 | banana-plus-decompiled | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-decompiled) | 09 Sep 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 02 Dec 2021 | Lightswitch-Devs |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |

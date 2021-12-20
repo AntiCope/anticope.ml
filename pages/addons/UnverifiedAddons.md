@@ -22,16 +22,16 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-19 05:17 (UTC)`.
+Last updated: `2021-12-20 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
-| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 14 Dec 2021 | cally72jhb |
+| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 19 Dec 2021 | cally72jhb |
 | banana-plus-decompiled | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-decompiled) | 09 Sep 2021 | EurekaEffect |
-| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 02 Dec 2021 | Lightswitch-Devs |
+| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 19 Dec 2021 | Lightswitch-Devs |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
-| rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 04 Dec 2021 | septemba |
+| rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |

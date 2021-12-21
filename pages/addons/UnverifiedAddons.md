@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-20 05:18 (UTC)`.
+Last updated: `2021-12-21 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -47,6 +47,7 @@ Last updated: `2021-12-20 05:18 (UTC)`.
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
+| crystal-cl-for-everyone | None | [Repo](https://github.com/purple20/crystal-cl-for-everyone) | 20 Dec 2021 | purple20 |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Nov 2021 | Kiriyaga7615 |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 15 Nov 2021 | l1tecorejz |

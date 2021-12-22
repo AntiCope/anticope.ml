@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-21 05:18 (UTC)`.
+Last updated: `2021-12-22 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -54,8 +54,8 @@ Last updated: `2021-12-21 05:18 (UTC)`.
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | sortirleak | ывфыфв | [Repo](https://github.com/iacher/sortirleak) | 14 Oct 2021 | iacher |
 | meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 21 Nov 2021 | AntiCope |
+| meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
-| meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 30 Nov 2021 | nothub |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |

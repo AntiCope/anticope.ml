@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-22 05:18 (UTC)`.
+Last updated: `2021-12-23 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@ Last updated: `2021-12-22 05:18 (UTC)`.
 | vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 19 Dec 2021 | cally72jhb |
 | banana-plus-decompiled | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-decompiled) | 09 Sep 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 19 Dec 2021 | Lightswitch-Devs |
+| highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |

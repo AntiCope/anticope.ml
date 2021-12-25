@@ -22,16 +22,18 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-24 05:17 (UTC)`.
+Last updated: `2021-12-25 05:17 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
+| crystal-cl-crack | None | [Repo](https://github.com/EurekaEffect/crystal-cl-crack) | 24 Dec 2021 | EurekaEffect |
 | vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 19 Dec 2021 | cally72jhb |
-| banana-plus-decompiled | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-decompiled) | 09 Sep 2021 | EurekaEffect |
+| LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
+| LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
+| banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 24 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 19 Dec 2021 | Lightswitch-Devs |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
-| Meteor-Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repo](https://github.com/Declipsonator/Meteor-Tweaks) | 24 Dec 2021 | Declipsonator |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
@@ -49,7 +51,6 @@ Last updated: `2021-12-24 05:17 (UTC)`.
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
-| crystal-cl-for-everyone | None | [Repo](https://github.com/purple20/crystal-cl-for-everyone) | 20 Dec 2021 | purple20 |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Nov 2021 | Kiriyaga7615 |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 15 Nov 2021 | l1tecorejz |

@@ -22,18 +22,20 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-25 05:17 (UTC)`.
+Last updated: `2021-12-26 05:17 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
-| crystal-cl-crack | None | [Repo](https://github.com/EurekaEffect/crystal-cl-crack) | 24 Dec 2021 | EurekaEffect |
+| crystal-cl-crack | None | [Repo](https://github.com/EurekaEffect/crystal-cl-crack) | 25 Dec 2021 | EurekaEffect |
 | vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 19 Dec 2021 | cally72jhb |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
-| banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 24 Dec 2021 | EurekaEffect |
+| banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 19 Dec 2021 | Lightswitch-Devs |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
+| LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
+| Meteor-Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repo](https://github.com/Declipsonator/Meteor-Tweaks) | 25 Dec 2021 | Declipsonator |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |

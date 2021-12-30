@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-29 05:18 (UTC)`.
+Last updated: `2021-12-30 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -32,10 +32,10 @@ Last updated: `2021-12-29 05:18 (UTC)`.
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |
-| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/Lightswitch-Devs/Lightswitch) | 19 Dec 2021 | Lightswitch-Devs |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
 | Meteor-Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repo](https://github.com/Declipsonator/Meteor-Tweaks) | 27 Dec 2021 | Declipsonator |
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
+| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 25 Nov 2021 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
@@ -47,6 +47,7 @@ Last updated: `2021-12-29 05:18 (UTC)`.
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repo](https://github.com/vitrack/meteor-reply-addon) | 29 Apr 2021 | vitrack |
 | BIGBIG | None | [Repo](https://github.com/oyzipfile/BIGBIG) | 30 Apr 2021 | oyzipfile |
 | brewing-stand-dupe | None | [Repo](https://github.com/nbtm-sh/brewing-stand-dupe) | 15 Apr 2021 | nbtm-sh |
+| Oriomn | my very bad Orion skid  | [Repo](https://github.com/Notme11/Oriomn) | 29 Dec 2021 | Notme11 |
 | Lightswitch | None | [Repo](https://github.com/Sssnipa/Lightswitch) | 21 Nov 2021 | Sssnipa |
 | Kismet | Osshe Requested!! | [Repo](https://github.com/WoBo-wow/Kismet) | 28 Jul 2021 | WoBo-wow |
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repo](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | 16 Jun 2021 | HENRYMARTIN5 |

@@ -32,6 +32,7 @@ del repo
 
 # escape all characters that could break markdown
 def escape_string(text):
+    text = str(text)
     for char in MARKDOWN_ESCAPES:
         text = text.replace(char, "\\"+char)
 

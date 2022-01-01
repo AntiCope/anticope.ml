@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2021-12-31 05:18 (UTC)`.
+Last updated: `2022-01-01 05:17 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@ Last updated: `2021-12-31 05:18 (UTC)`.
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
+| LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Nov 2021 | Kiriyaga7615 |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 15 Nov 2021 | l1tecorejz |
@@ -66,7 +67,7 @@ Last updated: `2021-12-31 05:18 (UTC)`.
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
-| meteor-notifications-addon | A addon for the MeteorClient that displays various notifications on the HUD | still WIP, code might be messy | [Repo](https://github.com/SIMULATAN/meteor-notifications-addon) | 30 Dec 2021 | SIMULATAN |
+| meteor-notifications-addon | An addon for the MeteorClient that displays various notifications on the HUD | still WIP, code might be messy | [Repo](https://github.com/SIMULATAN/meteor-notifications-addon) | 30 Dec 2021 | SIMULATAN |
 | Meteor-Chat-Encryption | Encrypts your Minecraft chat messages for all Players that doesnt use the Meteor Client. | [Repo](https://github.com/ed0cinU/Meteor-Chat-Encryption) | 27 Dec 2021 | ed0cinU |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

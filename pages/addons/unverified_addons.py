@@ -5,6 +5,7 @@ import re
 from datetime import datetime
 
 GH_TOKEN = getenv("GH_TOKEN")
+MARKDOWN_ESCAPES = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 repo_regex = re.compile(r"https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 
 # create list of verified addons
@@ -28,6 +29,11 @@ template_names.append(repo["name"])
 template_sizes.append(repo["size"])
 del repo
 
+
+# escape all characters that could break markdown
+def escape_string(text):
+    for char in MARKDOWN_ESCAPES:
+        text = text.replace(char, "\\"+char)
 
 # function that formats repos contents to exclute private and verified repos and repos which are just unmodified templates and add code size property
 def parse_repo(repo):
@@ -89,7 +95,7 @@ for repo in repos:
     last_pushed_timestamp = re.sub(
         r'([0-9]+)-([0-9]+)-([0-9]+)T[0-9:]+Z', parse_timestamp, repo['pushed_at'])  # Date only
     file.write(
-        f"\n| {repo['name']} | {repo['description']} | [Repo]({repo['html_url']}) | {last_pushed_timestamp} | {repo['owner']['login']} |")
+        f"\n| {escape_string(repo['name'])} | {escape_string(repo['description'])} | [Repo]({repo['html_url']}) | {last_pushed_timestamp} | {escape_string(repo['owner']['login'])} |")
 
 file.close()
 

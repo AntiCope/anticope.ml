@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">
-  <img src="https://img.shields.io/badge/Verified%20Addons-10-blue" alt="Verified Addons Count">
+  <img src="https://img.shields.io/badge/Verified%20Addons-12-blue" alt="Verified Addons Count">
   <img src="https://img.shields.io/badge/Total%20Addons-55-blueviolet" alt="Total Addons Count">
   <a href="https://github.com/AntiCope/anticope.ml/"><img src="https://img.shields.io/github/stars/AntiCope/anticope.ml?color=%23a17f1a&&label=Stars&logo=github" alt="Stars"></a>
   <a href="https://github.com/AntiCope/anticope.ml/"><img src="https://img.shields.io/github/last-commit/AntiCope/anticope.ml?label=Last%20Commit&logo=git" alt="Last commit"></a>

@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-01 13:44 (UTC)`.
+Last updated: `2022-01-01 13:46 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -33,7 +33,6 @@ Last updated: `2022-01-01 13:44 (UTC)`.
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
-| Meteor-Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repo](https://github.com/Declipsonator/Meteor-Tweaks) | 27 Dec 2021 | Declipsonator |
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 25 Nov 2021 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
@@ -67,7 +66,6 @@ Last updated: `2022-01-01 13:44 (UTC)`.
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
-| meteor-notifications-addon | An addon for the MeteorClient that displays various notifications on the HUD \| still WIP, code might be messy | [Repo](https://github.com/SIMULATAN/meteor-notifications-addon) | 30 Dec 2021 | SIMULATAN |
 | Meteor-Chat-Encryption | Encrypts your Minecraft chat messages for all Players that doesnt use the Meteor Client. | [Repo](https://github.com/ed0cinU/Meteor-Chat-Encryption) | 27 Dec 2021 | ed0cinU |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

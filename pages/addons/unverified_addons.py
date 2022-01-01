@@ -35,6 +35,7 @@ def escape_string(text):
     text = str(text)
     for char in MARKDOWN_ESCAPES:
         text = text.replace(char, "\\"+char)
+    return text
 
 # function that formats repos contents to exclute private and verified repos and repos which are just unmodified templates and add code size property
 def parse_repo(repo):

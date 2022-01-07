@@ -22,13 +22,13 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-06 05:19 (UTC)`.
+Last updated: `2022-01-07 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 05 Jan 2022 | EurekaEffect |
-| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 05 Jan 2022 | cally72jhb |
+| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 06 Jan 2022 | cally72jhb |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |

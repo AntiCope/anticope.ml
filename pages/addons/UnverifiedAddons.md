@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-11 05:18 (UTC)`.
+Last updated: `2022-01-12 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -58,8 +58,8 @@ Last updated: `2022-01-11 05:18 (UTC)`.
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
+| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repo](https://github.com/Declipsonator/Troll-Addon) | 11 Jan 2022 | Declipsonator |
 | lemon-addon | None | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
-| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repo](https://github.com/Declipsonator/Troll-Addon) | 10 Jan 2022 | Declipsonator |
 | meteor-container-dump | None | [Repo](https://github.com/AntiCope/meteor-container-dump) | 21 Nov 2021 | AntiCope |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
@@ -68,7 +68,7 @@ Last updated: `2022-01-11 05:18 (UTC)`.
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a `.tp` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
-| InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 10 Jan 2022 | Sersoid |
+| InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 11 Jan 2022 | Sersoid |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

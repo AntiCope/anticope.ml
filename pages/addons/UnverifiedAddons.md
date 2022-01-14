@@ -22,13 +22,13 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-13 05:18 (UTC)`.
+Last updated: `2022-01-14 05:18 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
-| meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 17 Oct 2021 | kkllffaa |
+| meteor-utils | None | [Repo](https://github.com/kkllffaa/meteor-utils) | 13 Jan 2022 | kkllffaa |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
-| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 09 Jan 2022 | cally72jhb |
+| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 13 Jan 2022 | cally72jhb |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |
@@ -40,6 +40,7 @@ Last updated: `2022-01-13 05:18 (UTC)`.
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
+| villagertrader | None | [Repo](https://github.com/codrum/villagertrader) | 16 Jul 2021 | codrum |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/SpwCode/meteor-autologin-addon) | 04 May 2021 | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repo](https://github.com/VoidCyborg/meteor-obsidian-farm) | 07 Apr 2021 | VoidCyborg |
 | ahhahah | None | [Repo](https://github.com/zozoeditz/ahhahah) | 19 Nov 2021 | zozoeditz |

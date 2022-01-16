@@ -63,6 +63,7 @@ Each were manually checked for code quality and safety.
 |<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | An addon for the MeteorClient that displays various notifications on the HUD \| still WIP, code might be messy | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | 💡 |
 |<img src='https://github.com/Declipsonator/Meteor-Tweaks/blob/main/src/main/resources/assets/meteortweaks/icon.png?raw=true' width="32px">| Meteor Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repository](https://github.com/Declipsonator/Meteor-Tweaks) | Declipsonator | 💡 |
 |<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | 💡 |
+|<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | 💡 |
 
 #### Duping
 | Icon | Name | Description | Link | Authors | Status |

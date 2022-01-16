@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 
 GH_TOKEN = getenv("GH_TOKEN")
-MARKDOWN_ESCAPES = "|"
+MARKDOWN_ESCAPES = "|`"
 repo_regex = re.compile(r"https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 
 # create list of verified addons

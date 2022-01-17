@@ -22,10 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-16 10:45 (UTC)`.
+Last updated: `2022-01-17 05:19 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
+| zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
+| vector-addon | A open-source addon for Meteor Client. | [Repo](https://github.com/cally72jhb/vector-addon) | 16 Jan 2022 | cally72jhb |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 25 Dec 2021 | EurekaEffect |
@@ -53,6 +55,7 @@ Last updated: `2022-01-16 10:45 (UTC)`.
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
 | LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Jan 2022 | Kiriyaga7615 |
+| Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 16 Jan 2022 | ZeonDevelopment |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |

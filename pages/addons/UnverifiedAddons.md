@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-17 05:19 (UTC)`.
+Last updated: `2022-01-18 05:19 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -41,6 +41,7 @@ Last updated: `2022-01-17 05:19 (UTC)`.
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
 | villagertrader | None | [Repo](https://github.com/codrum/villagertrader) | 16 Jul 2021 | codrum |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/SpwCode/meteor-autologin-addon) | 04 May 2021 | SpwCode |
+| meteor-villager-roller | Module for Meteor Client that continiously breaks and places work block of villager until it has desired trade | [Repo](https://github.com/maxsupermanhd/meteor-villager-roller) | 18 Jan 2022 | maxsupermanhd |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repo](https://github.com/VoidCyborg/meteor-obsidian-farm) | 07 Apr 2021 | VoidCyborg |
 | ahhahah | None | [Repo](https://github.com/zozoeditz/ahhahah) | 19 Nov 2021 | zozoeditz |
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repo](https://github.com/vitrack/meteor-reply-addon) | 29 Apr 2021 | vitrack |
@@ -55,7 +56,7 @@ Last updated: `2022-01-17 05:19 (UTC)`.
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
 | LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Jan 2022 | Kiriyaga7615 |
-| Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 16 Jan 2022 | ZeonDevelopment |
+| Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 17 Jan 2022 | ZeonDevelopment |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |

@@ -40,4 +40,4 @@ Causes rendering issues such as custom font to not render correctly.
 - [Better Mount HUD](https://www.curseforge.com/minecraft/mc-mods/better-mount-hud)<br>
 
 - [Logical Zoom](https://www.curseforge.com/minecraft/mc-mods/logical-zoom)<br>
-Same as WI Zoom, meteor already has a zoom module anyways. 
+Meteor already has a zoom module anyways. 

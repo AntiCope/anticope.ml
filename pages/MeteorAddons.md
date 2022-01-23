@@ -44,7 +44,7 @@ These addons are made and maintained by the official [Meteor Development Team](h
 
 | Icon | Name | Description | Link | Status |
 | --- | ---- | ----------- | -------- | :---: |
-|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) | ✔️ |
+|<img src="https://github.com/MeteorDevelopment/meteor-mbd-addon/blob/main/src/main/resources/assets/mbd/icon.png?raw=true" width="32px">| Auto Mount Bypass Dupe | Adds the AutoMountBypass Dupe | [Repository](https://github.com/MeteorDevelopment/meteor-mbd-addon) | ❌ |
 |<img src="https://github.com/MeteorDevelopment/meteor-book-dupe-addon/blob/main/src/main/resources/assets/bookdupe/icon.png?raw=true" width="32px">| Book Dupe Addon | Adds the book dupe | [Repository](https://github.com/MeteorDevelopment/meteor-book-dupe-addon) | ❌ 📦 |
 
 ## Community Addons

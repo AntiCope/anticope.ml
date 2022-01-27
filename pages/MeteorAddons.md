@@ -52,19 +52,24 @@ These addons are made and maintained by the official [Meteor Development Team](h
 These addons are made and maintained by developers from Meteor's community.
 Each were manually checked for code quality and safety.
 
-#### Utilities
+#### General utilities
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
 |<img src='https://github.com/AntiCope/meteor-rejects/blob/master/src/main/resources/assets/rejects/icon.png?raw=true' width="32px">| Meteor Rejects | Modules and commands that were too useless to be in meteor directly | [Repository](https://github.com/AntiCope/meteor-rejects) | Cloudburst & StormyBytes | ✔️ 💡 |
+|<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | Cloudburst & StormyBytes (Formerly GhostTypes) | ✔️ 💡 |
+|<img src='https://github.com/Declipsonator/Meteor-Tweaks/blob/main/src/main/resources/assets/meteortweaks/icon.png?raw=true' width="32px">| Meteor Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repository](https://github.com/Declipsonator/Meteor-Tweaks) | Declipsonator | ✔️ 💡 |
+|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ 💡 |
+|<img src='https://raw.githubusercontent.com/cally72jhb/cally72jhb/main/assets/icon.png' width="32px">| Vector Addon | A powerful open-source addon for Meteor Client. | [Repository](https://github.com/cally72jhb/vector-addon) | cally72jhb | ✔️ 💡 |
+|<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | ✔️ 💡 |
+
+#### Specialized utilities
+| Icon | Name | Description | Link | Authors | Status |
+| --- | ---- | ----------- | ---- | ------- | :---: |
 |<img src='https://github.com/Wide-Cat/meteor-crash-addon/blob/main/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Meteor Crash Addon | Adds various server crashing methods | [Repository](https://github.com/Wide-Cat/meteor-crash-addon) | Wide-Cat | ❌ |
-|<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon for Meteor Client | [Repository](https://github.com/AntiCope/orion) | StormyBytes (Formerly GhostTypes) | ✔️ 💡 |
 |<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Meteor Python Addon | An addon for creating meteor modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | ❌ |
 |<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Meteor Litematica Printer | An addon for building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | ✔️ 💡 |
 |<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | An addon for the MeteorClient that displays various notifications on the HUD \| still WIP, code might be messy | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | ✔️ 💡 |
 |<img src='https://github.com/maxsupermanhd/meteor-villager-roller/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Meteor Villager Roller | Module for Meteor Client that continiously breaks and places work block of villager until it has desired trade | [Repository](https://github.com/maxsupermanhd/meteor-villager-roller) | maxsupermanhd | ✔️ 💡 |
-|<img src='https://github.com/Declipsonator/Meteor-Tweaks/blob/main/src/main/resources/assets/meteortweaks/icon.png?raw=true' width="32px">| Meteor Tweaks | A Meteor Client Addon that adds tweaks to modules and settings. | [Repository](https://github.com/Declipsonator/Meteor-Tweaks) | Declipsonator | ✔️ 💡 |
-|<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons for meteor, partially based off of/inspired by [Wurst](https://github.com/Wurst-Imperium/Wurst7) | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ 💡 |
-|<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | ✔️ 💡 |
 
 #### Duping
 | Icon | Name | Description | Link | Authors | Status |

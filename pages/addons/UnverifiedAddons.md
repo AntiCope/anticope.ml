@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-26 05:15 (UTC)`.
+Last updated: `2022-01-27 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -47,7 +47,6 @@ Last updated: `2022-01-26 05:15 (UTC)`.
 | meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repo](https://github.com/vitrack/meteor-reply-addon) | 29 Apr 2021 | vitrack |
 | BIGBIG | None | [Repo](https://github.com/oyzipfile/BIGBIG) | 30 Apr 2021 | oyzipfile |
 | brewing-stand-dupe | None | [Repo](https://github.com/nbtm-sh/brewing-stand-dupe) | 15 Apr 2021 | nbtm-sh |
-| Oriomn | my very bad Orion skid  | [Repo](https://github.com/Notme11/Oriomn) | 29 Dec 2021 | Notme11 |
 | Lightswitch | None | [Repo](https://github.com/Sssnipa/Lightswitch) | 21 Nov 2021 | Sssnipa |
 | Kismet | Osshe Requested!! | [Repo](https://github.com/WoBo-wow/Kismet) | 28 Jul 2021 | WoBo-wow |
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repo](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | 16 Jun 2021 | HENRYMARTIN5 |

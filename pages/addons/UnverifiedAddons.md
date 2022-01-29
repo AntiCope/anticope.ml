@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-28 10:27 (UTC)`.
+Last updated: `2022-01-29 05:15 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ Last updated: `2022-01-28 10:27 (UTC)`.
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
-| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 25 Nov 2021 | JohanDevv2 |
+| Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 28 Jan 2022 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |

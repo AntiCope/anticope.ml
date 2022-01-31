@@ -21,6 +21,7 @@ Note: Latest dev build recently got updated to 1.18, many addons have not update
 <details>
 <summary>Table of Contents</summary>
 
+  - [Sidenote](#sidenote)
   - [Status](#status)
   - [Official Addons](#official-addons)
   - [Community Addons](#community-addons)

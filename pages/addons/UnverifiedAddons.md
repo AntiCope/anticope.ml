@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-01-31 05:15 (UTC)`.
+Last updated: `2022-01-31 20:36 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -59,6 +59,7 @@ Last updated: `2022-01-31 05:15 (UTC)`.
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | Troll-Addon | The wonderful troll addon to Meteor Client. | [Repo](https://github.com/Declipsonator/Troll-Addon) | 12 Jan 2022 | Declipsonator |
+| lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |

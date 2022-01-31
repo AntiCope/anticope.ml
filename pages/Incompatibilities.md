@@ -31,6 +31,9 @@ Here are some of the mods known to be incompatible or cause issues with Meteor.
 As stated in [additionals](./MeteorAdditionals.md), Optifine is and never will be compatible with Meteor.
 More reasons as to why [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
 
+- [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)<br>
+The game crashes on start due to a mixin conflict.
+
 - [Replay Mod](https://www.replaymod.com/)<br>
 Only crashes when opening the replay list. Recording should still be fine.
 

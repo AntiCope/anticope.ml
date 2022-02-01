@@ -36,7 +36,7 @@ Note: Latest dev build recently got updated to 1.18, many addons have not update
 
 ## Sidenote
 
-If a addon has multiple `.jar` files avaliable for download, do not use files ending with `-dev.jar` or `-sources.jar` as they won't work.
+If an addon has multiple `.jar` files avaliable for download, do not use files ending with `-dev.jar` or `-sources.jar` as they won't work.
 
 ## Status
 - 💡 Available for latest dev build

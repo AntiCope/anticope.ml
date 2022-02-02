@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-01 10:44 (UTC)`.
+Last updated: `2022-02-02 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -69,6 +69,7 @@ Last updated: `2022-02-01 10:44 (UTC)`.
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
 | InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
+| VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |

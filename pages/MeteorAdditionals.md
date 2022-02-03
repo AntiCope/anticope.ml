@@ -28,7 +28,7 @@ A list of recommended mods to be used alongside meteor.
 ## Optifine Alternatives
 
 Optifine is and never will be supported by Meteor.
-More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
+More alternatives and the reason why its not supported [here](https://lambdaurora.dev/optifine_alternatives).
 
 ### Performance
 

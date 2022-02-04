@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-03 05:15 (UTC)`.
+Last updated: `2022-02-04 05:13 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -54,7 +54,7 @@ Last updated: `2022-02-03 05:15 (UTC)`.
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
 | LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Jan 2022 | Kiriyaga7615 |
-| Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 17 Jan 2022 | ZeonDevelopment |
+| Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 03 Feb 2022 | ZeonDevelopment |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
@@ -71,6 +71,7 @@ Last updated: `2022-02-03 05:15 (UTC)`.
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
+| meteor-addon-resourcepackbypass | None | [Repo](https://github.com/bluepanee/meteor-addon-resourcepackbypass) | 03 Feb 2022 | bluepanee |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-05 05:13 (UTC)`.
+Last updated: `2022-02-06 05:14 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -71,7 +71,6 @@ Last updated: `2022-02-05 05:13 (UTC)`.
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
-| meteor-addon-resourcepackbypass | None | [Repo](https://github.com/bluepanee/meteor-addon-resourcepackbypass) | 03 Feb 2022 | bluepanee |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-06 05:14 (UTC)`.
+Last updated: `2022-02-07 05:15 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -35,10 +35,8 @@ Last updated: `2022-02-06 05:14 (UTC)`.
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 28 Jan 2022 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
 | rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
-| orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | mathax-addon-template | A template project to help people use the MatHax Client Addon API. | [Repo](https://github.com/pog5/mathax-addon-template) | 18 Jan 2022 | pog5 |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
-| banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
 | villagertrader | Minecraft mod that automatically trades with villagers | [Repo](https://github.com/codrum/villagertrader) | 16 Jul 2021 | codrum |
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/SpwCode/meteor-autologin-addon) | 04 May 2021 | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repo](https://github.com/VoidCyborg/meteor-obsidian-farm) | 07 Apr 2021 | VoidCyborg |
@@ -53,19 +51,18 @@ Last updated: `2022-02-06 05:14 (UTC)`.
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
 | LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
+| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repo](https://github.com/Declipsonator/Troll-Addon) | 06 Feb 2022 | Declipsonator |
 | karasic | karasic addon for meteor client | [Repo](https://github.com/Kiriyaga7615/karasic) | 13 Jan 2022 | Kiriyaga7615 |
 | Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 03 Feb 2022 | ZeonDevelopment |
 | MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
-| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repo](https://github.com/Declipsonator/Troll-Addon) | 12 Jan 2022 | Declipsonator |
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
-| meteor-tp-command-addon | Adds a \`.tp\` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
 | InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |

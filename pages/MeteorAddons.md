@@ -78,11 +78,17 @@ Each were manually checked for code quality and safety.
 |<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | Displaying notifications in the HUD | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | ✔️ 💡 |
 |<img src='https://github.com/maxsupermanhd/meteor-villager-roller/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Villager Roller | Module that continiously breaks and places work block of villager until it has desired trade | [Repository](https://github.com/maxsupermanhd/meteor-villager-roller) | maxsupermanhd | ✔️ 💡 |
 
+
 #### Duping
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :-------: |
 |<img src='https://github.com/timoreo22/auto-anvil-dupe/blob/main/src/main/resources/assets/autodupe/icon.png?raw=true' width="32px">| Auto Anvil Dupe | An addon for the anvil dupe | [Repository](https://github.com/timoreo22/auto-anvil-dupe) | timoreo22 | ❌ |
 |<img src='https://github.com/Wide-Cat/item-frame-dupe-addon/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Item Frame Dupe | An addon for the item frame dupe in OpenAnarchy.org | [Repository](https://github.com/Wide-Cat/item-frame-dupe-addon) | Wide-Cat | ❌ |
+
+#### Uncategorized
+| Icon | Name | Description | Link | Authors | Status |
+| --- | ---- | ----------- | ---- | ------- | :---: |
+|<img src='https://github.com/AntiCope/meteor-e621-integration/blob/master/src/main/resources/assets/e621/icon.jpg?raw=true' width="32px">| E621 | <img src="https://user-images.githubusercontent.com/18114966/153202568-ff9ff7a9-702a-4ad5-9dbc-91d47895cbbc.png" width="24px" alt=":troll:"> | [Repository](https://github.com/AntiCope/meteor-e621-integration) | AntiCope | ✔️ 💡 |
 
 ## Addon Templates
 

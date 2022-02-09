@@ -89,7 +89,8 @@ Each were manually checked for code quality and safety.
 #### Uncategorized
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
-|<img src='https://github.com/AntiCope/meteor-e621-integration/blob/master/src/main/resources/assets/e621/icon.jpg?raw=true' width="32px">| E621 | <img src="https://user-images.githubusercontent.com/18114966/153202568-ff9ff7a9-702a-4ad5-9dbc-91d47895cbbc.png" width="24px" alt=":troll:"> | [Repository](https://github.com/AntiCope/meteor-e621-integration) | AntiCope | ✔️ 💡 |
+|<img src='https://github.com/AntiCope/meteor-e621-integration/blob/master/src/main/resources/assets/e621/icon.jpg?raw=true' width="32px">| E621 | Admire great artworks from the comfort of Meteor Client <img src="https://user-images.githubusercontent.com/18114966/153202568-ff9ff7a9-702a-4ad5-9dbc-91d47895cbbc.png" width="24px" alt=":troll:"> | [Repository](https://github.com/AntiCope/meteor-e621-integration) | AntiCope | ✔️ 💡 |
+|<img src='https://github.com/Declipsonator/Troll-Addon/blob/main/src/main/resources/assets/BananaPlus.png?raw=true' width="32px">| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repository](https://github.com/Declipsonator/Troll-Addon) | Declipsonator |
 
 ## Addon Templates
 

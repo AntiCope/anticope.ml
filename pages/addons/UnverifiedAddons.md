@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-08 05:15 (UTC)`.
+Last updated: `2022-02-09 05:15 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@ Last updated: `2022-02-08 05:15 (UTC)`.
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
+| highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 28 Jan 2022 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
@@ -61,6 +62,7 @@ Last updated: `2022-02-08 05:15 (UTC)`.
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
+| AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a \`.tp\` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |

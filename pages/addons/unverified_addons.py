@@ -51,19 +51,24 @@ def parse_repo(repo):
         return None
     return repo
 
+repos = []
+existing = template_names.copy()
 
 # Request all code snippets in java extending MeteorAddon class
-r = requests.get(
-    "https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100",
-    headers={"Authorization": f"token {GH_TOKEN}"})
-repos = None
-try:
-    repos = r.json()['items']
-except KeyError:
-    if r.status_code != 200:
-        print(r.json())
-    raise KeyError
-repos = [repo['repository'] for repo in repos]
+incomplete = True
+page = 0
+while incomplete:
+    r = requests.get(
+        f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100&page={page}",
+        headers={"Authorization": f"token {GH_TOKEN}"})
+    r = r.json()
+    for file in r['items']:
+        repo = file['repository']
+        if repo['full_name'] not in existing:
+            repos.append(repo)
+            existing.append(repo['full_name'])
+    incomplete = r["incomplete_results"]
+    page += 1
 
 # Request all forks of templates because some people cant click generate
 r = requests.get("https://api.github.com/repos/MeteorDevelopment/meteor-addon-template/forks?per_page=100")

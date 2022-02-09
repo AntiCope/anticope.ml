@@ -67,7 +67,7 @@ Each were manually checked for code quality and safety.
 |<img src='https://github.com/AntiCope/tanuki/raw/master/src/main/resources/assets/tanuki/icon.png?raw=true' width="32px">| Tanuki | Port of tanuki client | [Repository](https://github.com/AntiCope/tanuki) | Cloudburst (Formerly Walaryne) | ✔️ 💡 |
 |<img src='https://github.com/Declipsonator/Meteor-Tweaks/blob/main/src/main/resources/assets/meteortweaks/icon.png?raw=true' width="32px">| Meteor Tweaks | Tweaks to modules and settings. | [Repository](https://github.com/Declipsonator/Meteor-Tweaks) | Declipsonator | ✔️ 💡 |
 |<img src='https://github.com/AntiCope/meteor-lists/raw/master/resources/unknown_icon.png?raw=true' width="32px">| Meteor Additions | Addons partially based off Wurst | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ 💡 |
-|<img src='https://raw.githubusercontent.com/cally72jhb/cally72jhb/main/assets/icon.png' width="32px">| Vector Addon | An open-source addon | [Repository](https://github.com/cally72jhb/vector-addon) | cally72jhb | ✔️ 💡 |
+|<img src='https://github.com/cally72jhb/vector-addon/blob/main/src/main/resources/assets/vector-addon/vector/icon32.png?raw=true' width="32px">| Vector Addon | An open-source addon | [Repository](https://github.com/cally72jhb/vector-addon) | cally72jhb | ✔️ 💡 |
 |<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | ✔️ 💡 |
 
 #### Specialized utilities

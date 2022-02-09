@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-09 07:53 (UTC)`.
+Last updated: `2022-02-09 07:55 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -47,6 +47,7 @@ Last updated: `2022-02-09 07:53 (UTC)`.
 | brewing-stand-dupe | None | [Repo](https://github.com/nbtm-sh/brewing-stand-dupe) | 15 Apr 2021 | nbtm-sh |
 | Lightswitch | None | [Repo](https://github.com/Sssnipa/Lightswitch) | 21 Nov 2021 | Sssnipa |
 | Kismet | Osshe Requested!! | [Repo](https://github.com/WoBo-wow/Kismet) | 28 Jul 2021 | WoBo-wow |
+| meteor-auto32k-addon | adds back auto32k where it should be | [Repo](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | 16 Jun 2021 | HENRYMARTIN5 |
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
 | packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
@@ -61,6 +62,7 @@ Last updated: `2022-02-09 07:53 (UTC)`.
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
+| chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a \`.tp\` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
@@ -69,4 +71,5 @@ Last updated: `2022-02-09 07:53 (UTC)`.
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
+| MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |
 | simple-book-bot | A simplifidy bookbot | [Repo](https://github.com/8-BIT-DEV/simple-book-bot) | 09 Nov 2021 | 8-BIT-DEV |

@@ -58,6 +58,7 @@ existing = template_names.copy()
 incomplete = True
 page = 0
 while incomplete:
+    print(f"Fetching page {page}")
     r = requests.get(
         f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file+fork:true&per_page=100&page={page}",
         headers={"Authorization": f"token {GH_TOKEN}"})

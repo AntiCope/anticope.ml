@@ -28,6 +28,7 @@ Note: Latest dev build recently got updated to 1.18, many addons have not update
       - [General utilities](#general-utilities)
       - [Specialized utilities](#specialized-utilities)
       - [Duping](#duping)
+      - [Uncategorized](#uncategorized)
   - [Addon Templates](#addon-templates)
 - [Untested Addons](#untested-addons)
 

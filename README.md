@@ -2,7 +2,8 @@
   <img src="./resources/icon.png" alt="logo" width="20%"/>
 </p>
 <p align="center">
-  Welcome to the AntiCope Website!
+  Welcome to the AntiCope Website! <br />
+  Here you can find list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> addons as well as other client-side Minecraft mods.
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">
@@ -17,13 +18,13 @@
 If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our [Github repository](https://github.com/AntiCope/anticope.ml/), or dm `SByte#7574` or `Cloudburst#7680` on discord.
 
 - [Meteor Addons](pages/MeteorAddons.md)<br>
-A list of verified addons to be used alongside Meteor.
+A list of verified addons to be used alongside Meteor Client.
 
   -  [Unverified Addons](pages/addons/UnverifiedAddons.md)<br>
 List of **unverified** addons indexed by Github
 
 - [Meteor Additionals](pages/MeteorAdditionals.md)<br>
-A list of recommended mods to be used alongside meteor.
+A list of recommended mods to be used alongside meteor client.
 
 - [Meteor Incompatibilities](pages/Incompatibilities.md)<br>
-A list of known meteor-incompatible mods.
+A list of known mods incompatible with meteor client.

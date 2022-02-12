@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   Welcome to the AntiCope Website! <br />
-  Here you can find list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods.
+  Here you can find a list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods.
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">

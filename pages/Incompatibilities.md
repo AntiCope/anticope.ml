@@ -7,7 +7,7 @@ nav_order: 3
 
 # Incompatibilities
 
-Meteor is a fabric mod, and like any other fabric mod, it can have incompatibilities.
+Meteor Client is a fabric mod, and like any other fabric mod, it can have incompatibilities.
 Here are some of the mods known to be incompatible or cause issues with Meteor.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -37,10 +37,4 @@ The game crashes on start due to a mixin conflict.
 - [Replay Mod](https://www.replaymod.com/)<br>
 Only crashes when opening the replay list. Recording should still be fine.
 
-- [Voxel Map](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
-Causes rendering issues such as custom font to not render correctly.
-
 - [Better Mount HUD](https://www.curseforge.com/minecraft/mc-mods/better-mount-hud)<br>
-
-- [Logical Zoom](https://www.curseforge.com/minecraft/mc-mods/logical-zoom)<br>
-Meteor already has a zoom module anyways. 

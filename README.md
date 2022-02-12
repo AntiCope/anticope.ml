@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   Welcome to the AntiCope Website! <br />
-  Here you can find list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> addons as well as other client-side Minecraft mods.
+  Here you can find list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> addons as well as other client-side Fabric Minecraft mods.
 </p>
 <div align="center">
   <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">
@@ -24,7 +24,7 @@ A list of verified addons to be used alongside Meteor Client.
 List of **unverified** addons indexed by Github
 
 - [Meteor Additionals](pages/MeteorAdditionals.md)<br>
-A list of recommended mods to be used alongside meteor client.
+A list of recommended fabric mods to be used alongside meteor client.
 
 - [Meteor Incompatibilities](pages/Incompatibilities.md)<br>
-A list of known mods incompatible with meteor client.
+A list of fabric mods known to be incompatible with meteor client.

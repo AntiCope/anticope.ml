@@ -65,7 +65,6 @@ Fullscreen map on a keybind
 - [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
 A minimap and worldmap mod that makes a great effort to be accurate to the colors you see in the world (and your resource pack).<br>
 Display your surroundings, or view the entire (explored) world.<br>
-**Warning: [Incompatibility Issues](/Incompatibilities.md)**
 
 **External Maps**
 

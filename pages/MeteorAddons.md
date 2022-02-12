@@ -7,14 +7,12 @@ nav_order: 1
 
 # Meteor Addons
 
-A list to help newcomers discover addons.
+A list to help newcomers discover free and open-source Meteor Client addons.
 This repo might not stay for long as an addon marketplace system is being planned.
 
-If you are looking for other fabric mods to be used alongside Meteor, check [this](/MeteorAdditionals.md) list out
+If you are looking for other fabric mods to be used alongside Meteor Client, check [this](/MeteorAdditionals.md) list out
 
 *If you looking to get your addon verified, open [a new issue](https://github.com/AntiCope/anticope.ml/issues/new/choose) or dm `SByte#7574` or `Cloudburst#7680` on discord*
-
-Note: Latest dev build recently got updated to 1.18, many addons have not updated to the latest changes yet.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

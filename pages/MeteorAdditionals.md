@@ -7,7 +7,7 @@ nav_order: 2
 
 # Meteor Additionals
 
-A list of recommended mods to be used alongside meteor.
+A list of Fabric mods recommended to be used alongside Meteor Client.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -27,7 +27,7 @@ A list of recommended mods to be used alongside meteor.
 
 ## Optifine Alternatives
 
-Optifine is and never will be supported by Meteor.
+Optifine is and never will be supported by Meteor Client.
 More alternatives and the reason why its not supported [here](https://lambdaurora.dev/optifine_alternatives).
 
 ### Performance
@@ -93,9 +93,9 @@ Duplicates few features from Meteor Client, but also contains useful features, l
 Adds useful tools that use world seed
 
 
-## Meteor Addons
+## Meteor Client Addons
 
-Meteor has a built-in addon system which allows creation of addons.
+Meteor Client has a built-in addon system which allows creation of addons.
 Addons can modify almost anything in meteor, modules, commands, gui, etc.
 
 Check out the addons list [here](/MeteorAddons.md).

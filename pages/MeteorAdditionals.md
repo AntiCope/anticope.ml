@@ -19,7 +19,7 @@ A list of Fabric mods recommended to be used alongside Meteor Client.
   - [Shaders](#shaders)
 - [Radar Map](#radar-map)
 - [Misc](#misc)
-- [Meteor Addons](#meteor-addons)
+- [Meteor Client Addons](#meteor-client-addons)
 - [Incompatibilities](#incompatibilities)
 
 </details>

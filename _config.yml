@@ -5,6 +5,9 @@ logo: "https://anticope.ml/resources/icon.png"
 title: "AntiCope"
 url: "https://anticope.ml"
 
+ga_tracking: G-TM4JVGMD2F
+ga_tracking_anonymize_ip: true
+
 gh_edit_link: true
 gh_edit_link_text: "View this page on GitHub."
 gh_edit_repository: "https://github.com/AntiCope/anticope.ml"

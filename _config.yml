@@ -14,6 +14,11 @@ gh_edit_repository: "https://github.com/AntiCope/anticope.ml"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 
+search_enabled: true
+search.heading_level: 3
+search.previews: 4
+
+
 aux_links:
   "Star on GitHub":
     - "https://github.com/AntiCope/anticope.ml/"

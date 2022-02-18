@@ -33,7 +33,7 @@ More alternatives and the reason why its not supported [here](https://lambdauror
 ### Performance
 
 - [Sodium](https://modrinth.com/mod/sodium)<br>
-Performance improvements (better than Optifine)
+Performance improvements (way better than Optifine)
 
 - [Lithium](https://modrinth.com/mod/lithium)<br>
 Server optimizations

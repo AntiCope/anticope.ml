@@ -22,11 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-21 05:16 (UTC)`.
+Last updated: `2022-02-21 12:59 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
+| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
@@ -60,6 +61,7 @@ Last updated: `2022-02-21 05:16 (UTC)`.
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
+| meteor-crash-addon | widecat's meteor crash addon since he deleted it | [Repo](https://github.com/playeur242/meteor-crash-addon) | 18 Feb 2022 | playeur242 |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 21 Dec 2021 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |

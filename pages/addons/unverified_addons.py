@@ -12,7 +12,7 @@ repo_regex = re.compile(r"https://github.com/[\w\.@\:\-~]+/[\w\.@\:\-~]+")
 verified = repo_regex.findall(open("pages/MeteorAddons.md", "r", encoding='utf-8').read())
 verified = set(verified)
 # count addons (minus some links)
-addon_count = len(verified) - 4
+addon_count = len(verified) - 2
 total_addon_count = addon_count
 print(f"Found verified addons: {addon_count}")
 

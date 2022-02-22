@@ -22,11 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-02-21 17:00 (UTC)`.
+Last updated: `2022-02-22 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
+| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 21 Feb 2022 | AntiCope |
 | meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
@@ -69,6 +70,7 @@ Last updated: `2022-02-21 17:00 (UTC)`.
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | meteor-tp-command-addon | Adds a \`.tp\` command to Meteor Client (useful for servers/proxies that do not do collision checking, such as Beta servers) | [Repo](https://github.com/CWKevo/meteor-tp-command-addon) | 10 Oct 2021 | CWKevo |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
+| uuid-auth-bypass | Simple meteor addon to bypass other addons that use a uuid-based authentication system | [Repo](https://github.com/GhostTypes/uuid-auth-bypass) | 20 Feb 2022 | GhostTypes |
 | InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |

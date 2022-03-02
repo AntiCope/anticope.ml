@@ -22,12 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-01 05:16 (UTC)`.
+Last updated: `2022-03-02 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
-| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 21 Feb 2022 | AntiCope |
+| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 01 Mar 2022 | AntiCope |
 | meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |

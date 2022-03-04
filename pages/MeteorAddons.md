@@ -64,17 +64,17 @@ Each were manually checked for code quality and safety.
 |<img src='https://github.com/AntiCope/orion/raw/master/src/main/resources/assets/orion/icon.png?raw=true' width="32px">| Orion | A combat based pvp addon | [Repository](https://github.com/AntiCope/orion) | Cloudburst & StormyBytes (Formerly GhostTypes) | ✔️ 💡 |
 |<img src='https://github.com/AntiCope/tanuki/raw/master/src/main/resources/assets/tanuki/icon.png?raw=true' width="32px">| Tanuki | Port of tanuki client | [Repository](https://github.com/AntiCope/tanuki) | Cloudburst (Formerly Walaryne) | ✔️ 💡 |
 |<img src='https://github.com/Declipsonator/Meteor-Tweaks/blob/main/src/main/resources/assets/meteortweaks/icon.png?raw=true' width="32px">| Meteor Tweaks | Tweaks to modules and settings. | [Repository](https://github.com/Declipsonator/Meteor-Tweaks) | Declipsonator | ✔️ 💡 |
-|<img src='/resources/unknown_icon.png' width="32px">| Meteor Additions | Addons partially based off Wurst | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ 💡 |
-|<img src='https://github.com/cally72jhb/vector-addon/blob/main/src/main/resources/assets/vector-addon/vector/icon32.png?raw=true' width="32px">| Vector Addon | An open-source addon | [Repository](https://github.com/cally72jhb/vector-addon) | cally72jhb | ✔️ 💡 |
-|<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | ✔️ 💡 |
+|<img src='/resources/unknown_icon.png' width="32px">| Meteor Additions | Addons partially based off Wurst | [Repository](https://github.com/JFronny/MeteorAdditions) | JFronny | ✔️ |
+|<img src='https://github.com/cally72jhb/vector-addon/blob/main/src/main/resources/assets/vector-addon/vector/icon32.png?raw=true' width="32px">| Vector Addon | An open-source addon | [Repository](https://github.com/cally72jhb/vector-addon) | cally72jhb | ✔️ |
+|<img src='https://github.com/kkllffaa/meteor-utils/blob/master/src/main/resources/assets/meteor-utils/icon.png?raw=true' width="32px">| Meteor Utils | Adds some modules & commands | [Repository](https://github.com/kkllffaa/meteor-utils) | kkllffaa | ✔️ |
 
 #### Specialized utilities
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
 |<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Python Addon | An addon for creating modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | ✔️ 💡  |
-|<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Litematica Printer | Building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | ✔️ 💡 |
-|<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | Displaying notifications in the HUD | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | ✔️ 💡 |
-|<img src='https://github.com/maxsupermanhd/meteor-villager-roller/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Villager Roller | Module that continiously breaks and places work block of villager until it has desired trade | [Repository](https://github.com/maxsupermanhd/meteor-villager-roller) | maxsupermanhd | ✔️ 💡 |
+|<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Litematica Printer | Building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | ✔️ |
+|<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | Displaying notifications in the HUD | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | ✔️ |
+|<img src='https://github.com/maxsupermanhd/meteor-villager-roller/blob/main/src/main/resources/assets/template/icon.png?raw=true' width="32px">| Villager Roller | Module that continiously breaks and places work block of villager until it has desired trade | [Repository](https://github.com/maxsupermanhd/meteor-villager-roller) | maxsupermanhd | ✔️ |
 
 
 #### Duping
@@ -87,7 +87,7 @@ Each were manually checked for code quality and safety.
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
 |<img src='https://github.com/AntiCope/meteor-e621-integration/blob/master/src/main/resources/assets/e621/icon.png?raw=true' width="32px">| E621 | Admire great artworks from the comfort of Meteor Client <img src="https://user-images.githubusercontent.com/18114966/153202568-ff9ff7a9-702a-4ad5-9dbc-91d47895cbbc.png" width="24px" alt=":troll:"> | [Repository](https://github.com/AntiCope/meteor-e621-integration) | AntiCope | ✔️ 💡 |
-|<img src='https://github.com/Declipsonator/Troll-Addon/blob/main/src/main/resources/assets/BananaPlus.png?raw=true' width="32px">| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repository](https://github.com/Declipsonator/Troll-Addon) | Declipsonator | ✔️ 💡 |
+|<img src='https://github.com/Declipsonator/Troll-Addon/blob/main/src/main/resources/assets/BananaPlus.png?raw=true' width="32px">| Troll-Addon | The wonderful troll addon to Meteor Client. | [Repository](https://github.com/Declipsonator/Troll-Addon) | Declipsonator | ✔️ |
 
 ## Addon Templates
 

@@ -22,12 +22,12 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-09 05:17 (UTC)`.
+Last updated: `2022-03-10 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
-| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 02 Mar 2022 | AntiCope |
+| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 09 Mar 2022 | AntiCope |
 | meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
@@ -39,6 +39,7 @@ Last updated: `2022-03-09 05:17 (UTC)`.
 | Numby-hack | Addon for meteor client  | [Repo](https://github.com/cqb13/Numby-hack) | 19 Feb 2022 | cqb13 |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | mathax-addon-template | A template project to help people use the MatHax Client Addon API. | [Repo](https://github.com/pog5/mathax-addon-template) | 18 Jan 2022 | pog5 |
+| Noxas-hack | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/motorDev/Noxas-hack) | 29 Jan 2022 | motorDev |
 | osshe-rpc | osshe rpc cause cool | [Repo](https://github.com/Dasyat1s/osshe-rpc) | 14 Nov 2021 | Dasyat1s |
 | banana-plus-0.0.44-hacked-client-leak | Banana Plus 0.0.44 Hacked Client Leak | [Repo](https://github.com/ItsNautilus/banana-plus-0.0.44-hacked-client-leak) | 09 Aug 2021 | ItsNautilus |
 | villagertrader | Minecraft mod that automatically trades with villagers | [Repo](https://github.com/codrum/villagertrader) | 16 Jul 2021 | codrum |

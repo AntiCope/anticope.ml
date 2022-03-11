@@ -22,12 +22,11 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-10 05:16 (UTC)`.
+Last updated: `2022-03-11 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
 | zeon-crack | None | [Repo](https://github.com/EurekaEffect/zeon-crack) | 07 Jan 2022 | EurekaEffect |
-| meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/AntiCope/meteor-crash-addon) | 09 Mar 2022 | AntiCope |
 | meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
@@ -47,7 +46,6 @@ Last updated: `2022-03-10 05:16 (UTC)`.
 | meteor-autologin-addon | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/SpwCode/meteor-autologin-addon) | 04 May 2021 | SpwCode |
 | meteor-obsidian-farm | A Addon that add obsidian farm to Meteor Client. | [Repo](https://github.com/VoidCyborg/meteor-obsidian-farm) | 07 Apr 2021 | VoidCyborg |
 | ahhahah | None | [Repo](https://github.com/zozoeditz/ahhahah) | 19 Nov 2021 | zozoeditz |
-| meteor-reply-addon | An addon for Meteor that automatically replies to chat messages. | [Repo](https://github.com/vitrack/meteor-reply-addon) | 29 Apr 2021 | vitrack |
 | BIGBIG | None | [Repo](https://github.com/oyzipfile/BIGBIG) | 30 Apr 2021 | oyzipfile |
 | brewing-stand-dupe | None | [Repo](https://github.com/nbtm-sh/brewing-stand-dupe) | 15 Apr 2021 | nbtm-sh |
 | Lightswitch | None | [Repo](https://github.com/Sssnipa/Lightswitch) | 21 Nov 2021 | Sssnipa |
@@ -55,22 +53,17 @@ Last updated: `2022-03-10 05:16 (UTC)`.
 | meteor-auto32k-addon | adds back auto32k where it should be | [Repo](https://github.com/HENRYMARTIN5/meteor-auto32k-addon) | 16 Jun 2021 | HENRYMARTIN5 |
 | MeteorLegit | None | [Repo](https://github.com/Drakesdrs/MeteorLegit) | 06 Jun 2021 | Drakesdrs |
 | just-totest- | None | [Repo](https://github.com/Dasyat1s/just-totest-) | 30 Aug 2021 | Dasyat1s |
-| packetfly-addon | An addon for Meteor Client that adds a Packet Fly module. | [Repo](https://github.com/hashalite/packetfly-addon) | 07 Nov 2021 | hashalite |
 | LmaoBox.Eu-Public | Happy New Year! | [Repo](https://github.com/Jackesparragos/LmaoBox.Eu-Public) | 31 Dec 2021 | Jackesparragos |
 | Zeon | An addon for Meteor Client | [Repo](https://github.com/ZeonDevelopment/Zeon) | 03 Feb 2022 | ZeonDevelopment |
-| MotorTunez | Music player for meteor. Requires rounded-ui | [Repo](https://github.com/JFronny/MotorTunez) | 31 Aug 2021 | JFronny |
 | Perfect-Auto-Totem | This auto totem has no fatal flaws. Change my mind | [Repo](https://github.com/l1tecorejz/Perfect-Auto-Totem) | 01 Jan 2022 | l1tecorejz |
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-crash-addon | widecat's meteor crash addon since he deleted it | [Repo](https://github.com/playeur242/meteor-crash-addon) | 18 Feb 2022 | playeur242 |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 02 Mar 2022 | nothub |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
-| AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
-| yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
 | uuid-auth-bypass | Simple meteor addon to bypass other addons that use a uuid-based authentication system | [Repo](https://github.com/GhostTypes/uuid-auth-bypass) | 20 Feb 2022 | GhostTypes |
-| InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |

@@ -18,6 +18,8 @@ search.previews: 4
 aux_links:
   "Star on GitHub":
     - "https://github.com/AntiCope/anticope.ml/"
+  "Join our Discord":
+    - "https://discord.gg/9mrRPGKYU3"
 
 plugins:
   - jekyll-sitemap

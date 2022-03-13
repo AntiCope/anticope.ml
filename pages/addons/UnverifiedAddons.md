@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-12 20:29 (UTC)`.
+Last updated: `2022-03-13 05:22 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -64,6 +64,7 @@ Last updated: `2022-03-12 20:29 (UTC)`.
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-crash-addon | widecat's meteor crash addon since he deleted it | [Repo](https://github.com/playeur242/meteor-crash-addon) | 18 Feb 2022 | playeur242 |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 02 Mar 2022 | nothub |
+| GriefUnionPublic | None | [Repo](https://github.com/ServerFilter/GriefUnionPublic) | 12 Mar 2022 | ServerFilter |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |

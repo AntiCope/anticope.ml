@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-13 05:22 (UTC)`.
+Last updated: `2022-03-14 05:36 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -35,7 +35,6 @@ Last updated: `2022-03-13 05:22 (UTC)`.
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 28 Jan 2022 | JohanDevv2 |
 | gqrlAddon | None | [Repo](https://github.com/kyv3-v2/gqrlAddon) | 02 Nov 2021 | kyv3-v2 |
-| rpc-addon | Motor clent addin | [Repo](https://github.com/septemba/rpc-addon) | 19 Dec 2021 | septemba |
 | Numby-hack | Addon for meteor client  | [Repo](https://github.com/cqb13/Numby-hack) | 19 Feb 2022 | cqb13 |
 | orion | A combat based pvp addon for Meteor Client | [Repo](https://github.com/Epik123/orion) | 18 Sep 2021 | Epik123 |
 | mathax-addon-template | A template project to help people use the MatHax Client Addon API. | [Repo](https://github.com/pog5/mathax-addon-template) | 18 Jan 2022 | pog5 |
@@ -63,19 +62,21 @@ Last updated: `2022-03-13 05:22 (UTC)`.
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-crash-addon | widecat's meteor crash addon since he deleted it | [Repo](https://github.com/playeur242/meteor-crash-addon) | 18 Feb 2022 | playeur242 |
+| GriefUnionPublic | None | [Repo](https://github.com/ServerFilter/GriefUnionPublic) | 13 Mar 2022 | ServerFilter |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 02 Mar 2022 | nothub |
-| GriefUnionPublic | None | [Repo](https://github.com/ServerFilter/GriefUnionPublic) | 12 Mar 2022 | ServerFilter |
+| baddon | None | [Repo](https://github.com/Puzzaa/baddon) | 14 Mar 2022 | Puzzaa |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
-| uuid-auth-bypass | Simple meteor addon to bypass other addons that use a uuid-based authentication system | [Repo](https://github.com/GhostTypes/uuid-auth-bypass) | 20 Feb 2022 | GhostTypes |
+| uuid-auth-bypass | Simple meteor addon to bypass other addons that use a uuid-based authentication system | [Repo](https://github.com/ReaperTechnology/uuid-auth-bypass) | 20 Feb 2022 | ReaperTechnology |
 | InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
 | addon-menu | In-game addon menu for meteor client. Addons fetched from anticope.ml | [Repo](https://github.com/AntiCope/addon-menu) | 07 Mar 2022 | AntiCope |
+| easd | None | [Repo](https://github.com/LePyro69/easd) | 13 Mar 2022 | LePyro69 |
 | void_metior_addons | None | [Repo](https://github.com/Sanceilaks/void_metior_addons) | 07 Mar 2022 | Sanceilaks |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | Meteor- | None | [Repo](https://github.com/GhostTypes/Meteor-) | 11 Mar 2022 | GhostTypes |

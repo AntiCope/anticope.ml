@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-14 05:36 (UTC)`.
+Last updated: `2022-03-15 05:17 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -62,9 +62,9 @@ Last updated: `2022-03-14 05:36 (UTC)`.
 | boatphase-addon | An addon for Meteor Client that adds a Boat Phase module. | [Repo](https://github.com/hashalite/boatphase-addon) | 07 Nov 2021 | hashalite |
 | lemon-addon | Fot Client on top ! | [Repo](https://github.com/Jeblanium/lemon-addon) | 04 Jan 2022 | Jeblanium |
 | meteor-crash-addon | widecat's meteor crash addon since he deleted it | [Repo](https://github.com/playeur242/meteor-crash-addon) | 18 Feb 2022 | playeur242 |
+| baddon | None | [Repo](https://github.com/Puzzaa/baddon) | 14 Mar 2022 | Puzzaa |
 | GriefUnionPublic | None | [Repo](https://github.com/ServerFilter/GriefUnionPublic) | 13 Mar 2022 | ServerFilter |
 | meteor-baritone-tweaks | Tweaks for Baritone in Meteor | [Repo](https://github.com/nothub/meteor-baritone-tweaks) | 02 Mar 2022 | nothub |
-| baddon | None | [Repo](https://github.com/Puzzaa/baddon) | 14 Mar 2022 | Puzzaa |
 | zimt-addon | meteor client addon | [Repo](https://github.com/PiPaPo4/zimt-addon) | 10 Oct 2021 | PiPaPo4 |
 | AzECode | None | [Repo](https://github.com/AzEdownload/AzECode) | 05 Sep 2021 | AzEdownload |
 | chatbot | testing how to make an addon that interacts with the chat | [Repo](https://github.com/0sleep/chatbot) | 11 Sep 2021 | 0sleep |

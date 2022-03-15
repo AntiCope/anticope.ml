@@ -19,9 +19,7 @@
 <hr />
 
 <div align="center">
-   
-  <img src="https://user-images.githubusercontent.com/18114966/156883971-ef020185-32ab-412a-9d1e-64e61668aa5e.png" width="24px"> Discord: [discord.gg/9mrRPGKYU3](https://discord.gg/9mrRPGKYU3)
-  
+  <a href="https://discord.gg/9mrRPGKYU3"><img src="https://invidget.switchblade.xyz/9mrRPGKYU3"></a>
 </div>
 
 If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our [Github repository](https://github.com/AntiCope/anticope.ml/), or send a message in [#addon-verification-requests](https://discord.gg/9mrRPGKYU3) channel on discord.

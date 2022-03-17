@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-16 05:17 (UTC)`.
+Last updated: `2022-03-17 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -71,12 +71,13 @@ Last updated: `2022-03-16 05:17 (UTC)`.
 | Addon | Meteor Client Addon | [Repo](https://github.com/memefinderr/Addon) | 05 Sep 2021 | memefinderr |
 | yes2 | yes2 | [Repo](https://github.com/Puzzaa/yes2) | 09 Jan 2022 | Puzzaa |
 | uuid-auth-bypass | Simple meteor addon to bypass other addons that use a uuid-based authentication system | [Repo](https://github.com/ReaperTechnology/uuid-auth-bypass) | 20 Feb 2022 | ReaperTechnology |
+| InstaKill-Meteor-Addon | InstaKill mod-addon created using the Meteor Client Addon API | [Repo](https://github.com/Sersoid/InstaKill-Meteor-Addon) | 25 Jan 2022 | Sersoid |
 | Kekxware | None | [Repo](https://github.com/ibexzDev/Kekxware) | 21 Jan 2022 | ibexzDev |
 | VillagerTradeFinderMeteor | None | [Repo](https://github.com/Hasenzahn1/VillagerTradeFinderMeteor) | 01 Feb 2022 | Hasenzahn1 |
 | MatHax-utility-addons | None | [Repo](https://github.com/Theboiboi8/MatHax-utility-addons) | 27 Jan 2022 | Theboiboi8 |
 | addon-menu | In-game addon menu for meteor client. Addons fetched from anticope.ml | [Repo](https://github.com/AntiCope/addon-menu) | 07 Mar 2022 | AntiCope |
-| easd | None | [Repo](https://github.com/LePyro69/easd) | 13 Mar 2022 | LePyro69 |
 | void_metior_addons | None | [Repo](https://github.com/Sanceilaks/void_metior_addons) | 07 Mar 2022 | Sanceilaks |
+| easd | None | [Repo](https://github.com/LePyro69/easd) | 13 Mar 2022 | LePyro69 |
 | fucking-fuck | None | [Repo](https://github.com/Puzzaa/fucking-fuck) | 03 Jan 2022 | Puzzaa |
 | Meteor- | None | [Repo](https://github.com/GhostTypes/Meteor-) | 11 Mar 2022 | GhostTypes |
 | MeteorPatch | None | [Repo](https://github.com/8MiYile/MeteorPatch) | 04 Nov 2021 | 8MiYile |

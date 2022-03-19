@@ -12,6 +12,7 @@ function Routing() {
     return <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/addons/" element={<AddonsPage />} />
+        <Route path="/pages/MeteorAddons.html" element={<Navigate to="/addons/" />} />
         <Route path="*" element={<Navigate to="/" />} />
     </Routes>
 }

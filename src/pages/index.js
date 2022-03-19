@@ -11,11 +11,21 @@ function IndexPage() {
             Welcome to the AntiCope Website!
             Here you can find a list of free and open-source Meteor Client (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods.
         </h3>
-        <Link to="/addons/">
-            <Button>
-                View Addons
-            </Button>
-        </Link>
+        <p>
+        If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our Github repository, or send a message in #addon-verification-requests channel on discord.
+        </p>
+        <div className="Line">
+            <Link to="/addons/">
+                <Button>
+                    View Addons
+                </Button>
+            </Link>
+            <a href="https://discord.gg/9mrRPGKYU3" target="_blank">
+                <Button>
+                    Visit Discord
+                </Button>
+            </a>
+        </div>
     </article>
 }
 

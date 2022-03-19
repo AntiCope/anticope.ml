@@ -4,6 +4,8 @@ import {compareTwoStrings} from 'string-similarity'
 
 import './addons.css';
 import Tooltiped from "../components/Tooltiped";
+import { FaCheck } from "react-icons/fa";
+
 
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
@@ -59,7 +61,9 @@ function AddonsPage() {
         <header className="Filter">
             <input onChange={(evt) => {setFilter({...filter, query:evt.target.value.toLowerCase()})}} className="Search" type="text" placeholder="search here..." value={filter.query}/>
             <Tooltiped tooltip="Show verified only">
-                <input onChange={(evt) => {setFilter({...filter, verified:evt.target.checked})}}  type="checkbox" className="CheckBox" checked={filter.verified} />
+                <div className={"CheckBox " + (filter.verified?" checked":"")} onClick={() => setFilter({...filter, verified:!filter.verified})}>
+                    <FaCheck />
+                </div>
             </Tooltiped>
         </header>
         <section className="addon-grid">

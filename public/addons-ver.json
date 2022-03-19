@@ -13,6 +13,9 @@
             "release": true,
             "archived": false
         },
+        "features": [
+            "AntiBot","AntiSpawnpoint","AntiVanish","Auto32K","AutoBedTrap","AutoCraft","AutoExtinguish","AutoPot","AutoTNT","AutoWither","BlockIn","BonemealAura","BoatGlitch", "BoatPhase","Boost","ChatBot","ChorusExploit","ColorSigns","Confuse","Coord Logger","Custom Packets","Ghost Mode","InteractionMenu","Lavacast","NewChunks","ObsidianFarm","Oresim","PacketFly","Painter","Prone","Rendering","SkeletonESP","SoundLocator","TreeAura"
+        ],
         "links": {
             "github": "https://github.com/AntiCope/meteor-rejects",
             "discord": "https://discord.gg/9mrRPGKYU3"

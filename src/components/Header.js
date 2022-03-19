@@ -12,10 +12,10 @@ function Header() {
             </Link>
         </div>
         <nav className="Nav">
-            <a href="https://github.com/AntiCope/anticope.ml/">
+            <a href="https://github.com/AntiCope/anticope.ml/" target="_blank">
                 <FaGithub />
             </a>
-            <a href="https://discord.gg/9mrRPGKYU3">
+            <a href="https://discord.gg/9mrRPGKYU3" target="_blank">
                 <FaDiscord />
             </a>
         </nav>

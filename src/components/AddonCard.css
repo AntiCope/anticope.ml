@@ -1,11 +1,10 @@
 .AddonCard {
     border-radius: 8px;
-    box-shadow: rgb(36 41 51 / 15%) 0px 5px 10px 0px;
-    margin: 0.2rem 0.2rem;
-    padding: 1em 4em;
+    box-shadow: rgb(15 17 21 / 25%) 0px 4px 6px, rgb(15 17 21 / 10%) 0px 5px 7px;
+    margin: 0.75rem 0.75rem;
+    padding: 1em 1em;
     background-color: var(--bg1-color);
     width: 25em;
-    max-width: 90%;
     height: 15em;
     position: relative;
 }
@@ -17,30 +16,17 @@
     padding: 0.5rem 0.5rem;
     color: var(--prim-color);
     position: absolute;
-    right: 2em;
+    right: 1em;
+    top: 1rem;
 }
 
 .AddonCard.active {
     transition: all 0.75s ease;
-    position: fixed;
-    top: 2em;
+    position: absolute;
+    top: -4rem;
     z-index: 5;
     width: 80%;
-    height: 85%;
-}
-
-
-.AddonCard .Line {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
-
-.AddonCard .Col {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    height: auto;
 }
 
 .AddonCard .IconLinks svg {

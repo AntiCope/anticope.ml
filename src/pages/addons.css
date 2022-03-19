@@ -33,23 +33,19 @@
 }
 
 .CheckBox {
-    margin-left: 1.25rem;
-    position: relative;
-    top: -0.25rem;
-    width: 2.5rem;
-}
-
-.CheckBox::after {
-    display: block;
-    position: relative;
-    content: ' ';
-    top: -50%;
+    display: flex;
     border-radius: 8px;
     background-color: var(--bg-color);
+    margin-left: 2rem;
     width: 2.5rem;
     height: 2.5rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
 }
 
-.CheckBox:checked:after {
+.CheckBox.checked {
     background-color: var(--prim-color);
+    color: var(--bg-color)
 }

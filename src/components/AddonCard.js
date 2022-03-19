@@ -2,13 +2,13 @@ import React, { useState, useRef, useEffect } from "react";
 import Button from './Button'
 import Tooltiped from './Tooltiped'
 
-import { 
-    FaWindowMinimize, 
-    FaCode, 
-    FaCheck, 
+import {
+    FaWindowMinimize,
+    FaCode,
+    FaCheck,
     FaArchive,
     FaBiohazard,
-    FaDiscord, 
+    FaDiscord,
     FaLink,
     FaGithub
 } from "react-icons/fa";
@@ -64,44 +64,92 @@ function AddonCard({ addon }) {
                     }
                 </div>
             </div>
-            <div className="Line">
-                {!addon.verified &&
-                    <div className="Status">
-                        <Tooltiped tooltip="Unverified addon. May contain malware. Proceed with caution!">
-                            <FaBiohazard color="#BF616A" />
-                        </Tooltiped>
-                    </div>
-                }
-                {addon.status.devbuild &&
-                    <div className="Status">
-                        <Tooltiped tooltip="Addon is avaliable for the latest devbuild of Meteor Client">
-                            <FaCode color="#A3BE8C" />
-                        </Tooltiped>
-                    </div>
-                }
-                {addon.status.release &&
-                    <div className="Status">
-                        <Tooltiped tooltip="Addon is avaliable for the latest release of Meteor Client">
-                            <FaCheck color="#A3BE8C" />
-                        </Tooltiped>
-                    </div>
-                }
-                {addon.status.archived &&
-                    <div className="Status">
-                        <Tooltiped tooltip="Addon is archived and read only">
-                            <FaArchive color="#BF616A" />
-                        </Tooltiped>
-                    </div>
-                }
-            </div>
+            {active &&
+                <div className="Col">
+                    {!addon.verified &&
+                        <div className="Status">
+                            <span>
+                                <FaBiohazard color="#BF616A" />
+                                {' '}Unverified addon. May contain malware. Proceed with caution!</span>
+                        </div>
+                    }
+                    {addon.status.devbuild &&
+                        <div className="Status">
+                            <span>
+                                <FaCode color="#A3BE8C" />
+                                {' '}Addon is avaliable for the latest devbuild of Meteor Client
+                            </span>
+                        </div>
+                    }
+                    {addon.status.release &&
+                        <div className="Status">
+                            <span>
+                                <FaCheck color="#A3BE8C" />
+                                {' '}Addon is avaliable for the latest release of Meteor Client
+                            </span>
+                        </div>
+                    }
+                    {addon.status.archived &&
+                        <div className="Status">
+                            <span>
+                                <FaArchive color="#BF616A" />
+                                {' '}Addon is archived and read only
+                            </span>
+                        </div>
+                    }
+                    <hr />
+                </div>
+            }
+            {!active &&
+                <div className="Line">
+                    {!addon.verified &&
+                        <div className="Status">
+                            <Tooltiped tooltip="Unverified addon. May contain malware. Proceed with caution!">
+                                <FaBiohazard color="#BF616A" />
+                            </Tooltiped>
+                        </div>
+                    }
+                    {addon.status.devbuild &&
+                        <div className="Status">
+                            <Tooltiped tooltip="Addon is avaliable for the latest devbuild of Meteor Client">
+                                <FaCode color="#A3BE8C" />
+                            </Tooltiped>
+                        </div>
+                    }
+                    {addon.status.release &&
+                        <div className="Status">
+                            <Tooltiped tooltip="Addon is avaliable for the latest release of Meteor Client">
+                                <FaCheck color="#A3BE8C" />
+                            </Tooltiped>
+                        </div>
+                    }
+                    {addon.status.archived &&
+                        <div className="Status">
+                            <Tooltiped tooltip="Addon is archived and read only">
+                                <FaArchive color="#BF616A" />
+                            </Tooltiped>
+                        </div>
+                    }
+                </div>
+            }
             <p>
                 {addon.summary || ""}
             </p>
+            {(active && addon.features != undefined && addon.features.length > 0 ) &&
+                <section className="Features">
+                <h4>Features</h4>
+                <ul>
+                    {(addon.features).map((feat) => {
+                        return <li key={feat}>{feat}</li>
+                    })}
+                </ul>
+                </section>
+            }
             {active &&
                 <div className="Line appear">
-                    <a href={addon.links.github}>
+                    <a href={addon.links.github} target="_blank">
                         <Button>
-                            <FaGithub style={{marginRight: '0.6rem'}}/>
+                            <FaGithub style={{ marginRight: '0.6rem' }} />
                             Repository
                         </Button>
                     </a>
@@ -110,7 +158,7 @@ function AddonCard({ addon }) {
                             if (key === "github") return <></>
                             else {
                                 return <Tooltiped key={key} tooltip={key}>
-                                    <a href={addon.links[key]}>{getIcon(key)}</a>
+                                    <a href={addon.links[key]} target="_blank">{getIcon(key)}</a>
                                 </Tooltiped>
                             }
                         })}

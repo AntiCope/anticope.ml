@@ -13,14 +13,23 @@ import IncompatibilitiesPage from "./incompatibilities";
 function Routing() {
     return <Routes>
         <Route path="/" element={<IndexPage />} />
+        
         <Route path="/addons/" element={<AddonsPage />} />
         <Route path="/additionals/" element={<AdditionalsPage />} />
         <Route path="/incompatibilities/" element={<IncompatibilitiesPage />} />
 
         <Route path="/pages/MeteorAddons.html" element={<Navigate to="/addons/" />} />
         <Route path="/meteor-lists/pages/MeteorAddons.html" element={<Navigate to="/addons/" />} />
+
+        <Route path="/pages/addons/UnverifiedAddons.html" element={<Navigate to="/addons/" />} />
+        <Route path="/meteor-lists/pages/addons/UnverifiedAddons.html" element={<Navigate to="/addons/" />} />
+
         <Route path="/pages/MeteorAdditionals.html" element={<Navigate to="/additionals/" />} />
         <Route path="/meteor-lists/pages/MeteorAdditionals.html" element={<Navigate to="/additionals/" />} />
+
+        <Route path="/pages/Incompatibilities.html" element={<Navigate to="/incompatibilities/" />} />
+        <Route path="/meteor-lists/pages/Incompatibilities.html" element={<Navigate to="/incompatibilities/" />} />
+
         <Route path="*" element={<Navigate to="/" />} />
     </Routes>
 }

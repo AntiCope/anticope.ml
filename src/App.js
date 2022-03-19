@@ -8,6 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <video playsInline autoPlay loop muted onLoadStart={(evt) => evt.target.play()} poster="/end.png" className="bg-video">
+        <source src="/end.mp4" type="video/mp4" />
+      </video>
       <main>
         <div className="Content">
           <Routing />

@@ -13,7 +13,8 @@
     min-height: 70vh;
     margin: 0 0.5rem;
     padding: 1em 2em;
-    background-color: var(--bg1-color);
+    background-color: transparent;
+    backdrop-filter: blur(15px) brightness(0.85) saturate(1.25);
     border-radius: 8px;
     box-shadow: rgb(15 17 21 / 25%) 0px 4px 6px, rgb(15 17 21 / 10%) 0px 5px 7px;
 }
@@ -22,4 +23,15 @@
     .App main .Content {
         padding: 5px 5px;
     }
+}
+
+.bg-video {
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.65;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }

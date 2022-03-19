@@ -3,7 +3,6 @@
     box-shadow: rgb(36 41 51 / 15%) 0px 5px 10px 0px;
     margin: 0.2rem 0.2rem;
     padding: 1em 4em;
-    border: 2px solid var(--prim-color);
     background-color: var(--bg1-color);
     width: 25em;
     max-width: 90%;

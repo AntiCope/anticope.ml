@@ -10,7 +10,7 @@ FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\(\)\))")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-]+)")
 
 # Fetch all repo names that extend MeteorAddon
-repos = set()
+repos = set(VERIFIED)
 incomplete = True
 page = 0
 while incomplete:

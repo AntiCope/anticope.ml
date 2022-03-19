@@ -26,7 +26,7 @@ function AddonsPage() {
     function fetchChunk(chunk) {
         if (loadedChunks.includes(chunk)) return;
         setLoadedChunks([...loadedChunks, chunk])
-        fetch(`/addons-${chunk}.json?v=${Math.random()}`)
+        fetch(`https://raw.githubusercontent.com/AntiCope/anticope.ml/data/addons-${chunk}.json?v=${Math.random()}`)
             .then(res => res.json())
             .then(newAddons => {
                 setAddons([...addons, ...newAddons])
@@ -34,26 +34,36 @@ function AddonsPage() {
     }
 
     function weight(addon) {
-        if (filter.query === "")
+        try {
+            if (filter.query === "")
             return addon.verified?1:0;
-        return (
-            compareTwoStrings(filter.query, addon.name.toLowerCase()) 
-            + compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.6
-            + compareTwoStrings(filter.query, addon.summary.toLowerCase())*0.4
-            + addon.verified?0.5:0) / 2.5;
+            return (
+                compareTwoStrings(filter.query, addon.name.toLowerCase()) 
+                + compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.6
+                + compareTwoStrings(filter.query, addon.summary.toLowerCase())*0.4
+                + addon.verified?0.5:0) / 2.5;
+        } catch {
+            return 0;
+        }
+
     }
 
     function shouldShow(addon) {
-        if (filter.verified && !addon.verified) return false
-        if (filter.query !== "") {
-            if (compareTwoStrings(filter.query, addon.name.toLowerCase()) < 0.3) {
-                if (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) < 0.4) {
-                    if (compareTwoStrings(filter.query, addon.summary.toLowerCase()) < 0.5) {
-                        return false
+        try {
+            if (filter.verified && !addon.verified) return false
+            if (filter.query !== "") {
+                if (compareTwoStrings(filter.query, addon.name.toLowerCase()) < 0.3) {
+                    if (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) < 0.4) {
+                        if (compareTwoStrings(filter.query, addon.summary.toLowerCase()) < 0.5) {
+                            return false
+                        }
                     }
                 }
             }
+        } catch {
+            return false;
         }
+
 
         return true;
     }
@@ -72,7 +82,7 @@ function AddonsPage() {
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {addons.filter(shouldShow).sort((a,b) => weight(b) - weight(a)).map((addon) => {
+            {addons.filter(shouldShow).sort((a,b) => weight(b) - weight(a)).slice(0, 50).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>

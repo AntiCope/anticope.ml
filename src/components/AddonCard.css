@@ -22,9 +22,9 @@
 
 .AddonCard.active {
     transition: all 0.75s ease;
-    position: absolute;
-    top: -4rem;
+    position: fixed;
     z-index: 5;
+    top: 0;
     width: 80%;
     height: auto;
 }

@@ -16,7 +16,7 @@ function IndexPage() {
         <p>
         If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our Github repository, or send a message in #addon-verification-requests channel on discord.
         </p>
-        <div className="Line">
+        <div className="Line centered">
             <Link to="/addons/">
                 <Button>
                     View Addons

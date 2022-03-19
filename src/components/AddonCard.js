@@ -34,6 +34,11 @@ function AddonCard({ addon }) {
     const [active, setActive] = useState(false);
     const ref = useRef(null);
 
+    function onActive() {
+        setActive(true);
+        window.scrollTo(0, 0);
+    }
+
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (ref.current && !ref.current.contains(event.target)) {
@@ -146,7 +151,7 @@ function AddonCard({ addon }) {
                 </section>
             }
             {active &&
-                <div className="Line appear">
+                <div className="Line appear centered">
                     <a href={addon.links.github} target="_blank">
                         <Button>
                             <FaGithub style={{ marginRight: '0.6rem' }} />
@@ -167,7 +172,7 @@ function AddonCard({ addon }) {
             }
             {!active &&
                 <div className="bottom">
-                    <Button onClick={() => { setActive(true) }}>More</Button>
+                    <Button onClick={onActive}>More</Button>
                 </div>
             }
         </div>

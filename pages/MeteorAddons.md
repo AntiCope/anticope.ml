@@ -71,6 +71,7 @@ Each were manually checked for code quality and safety.
 #### Specialized utilities
 | Icon | Name | Description | Link | Authors | Status |
 | --- | ---- | ----------- | ---- | ------- | :---: |
+|<img src='https://github.com/AntiCope/meteor-crash-addon/blob/master/src/main/resources/assets/meteorcrashaddon/icon.png?raw=true' width="32px">| Crash Addon | Add-on that includes various server crashing methods | [Repository](https://github.com/AntiCope/meteor-crash-addon) | Wide Cat | ✔️ 💡  |
 |<img src='https://github.com/AntiCope/meteor-python-addon/blob/master/src/main/resources/assets/pythonaddon/icon.png?raw=true' width="32px">| Python Addon | An addon for creating modules and commands in python | [Repository](https://github.com/AntiCope/meteor-python-addon) | Cloudburst | ✔️ 💡  |
 |<img src='https://github.com/kkllffaa/meteor-litematica-printer/blob/main/src/main/resources/assets/meteor_litematica_printer/icon.png?raw=true' width="32px">| Litematica Printer | Building litematica schematics | [Repository](https://github.com/kkllffaa/meteor-litematica-printer) | kkllffaa | ✔️ |
 |<img src='https://github.com/SIMULATAN/meteor-notifications-addon/blob/main/src/main/resources/assets/notifications/icon.png?raw=true' width="32px">| Notifications Addon | Displaying notifications in the HUD | [Repository](https://github.com/SIMULATAN/meteor-notifications-addon) | SIMULATAN | ✔️ |

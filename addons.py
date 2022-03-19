@@ -7,7 +7,7 @@ VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
 GH_TOKEN = getenv("GH_TOKEN")
 HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
-FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\(\)\))")
+FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
 
 # Fetch all repo names that extend MeteorAddon

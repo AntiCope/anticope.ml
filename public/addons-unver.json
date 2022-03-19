@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Cum Addon",
+        "id": "AntiCope/cum-addon",
+        "authors": [
+            "Text"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/cum-addon"
+        }
+    },
+    {
+        "name": "Bruh Addon",
+        "id": "AntiCope/bruh-addon",
+        "authors": [
+            "1",
+            "2"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/bruh-addon",
+            "website": "https://github.com/AntiCope/bruh-addon"
+        }
+    },
+    {
+        "name": "Asdf Addon",
+        "id": "AntiCope/asfd-addon",
+        "authors": [
+            "Text"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/asfd-addon"
+        }
+    },
+    {
+        "name": "sadadffsd Addon",
+        "id": "AntiCope/sadadffsd-addon",
+        "authors": [
+            "Text"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/sadadffsd-addon"
+        }
+    },
+    {
+        "name": "fdsfdsfdsfdsf Addon",
+        "id": "AntiCope/fdsfdsfdsfdsf-addon",
+        "authors": [
+            "Text"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/fdsfdsfdsfdsf-addon"
+        }
+    },
+    {
+        "name": "4324324234 Addon",
+        "id": "AntiCope/4324324234-addon",
+        "authors": [
+            "Text"
+        ],
+        "summary": "Lorem Ipsum",
+        "icon": "",
+        "verified": false,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/4324324234-addon"
+        }
+    }
+]

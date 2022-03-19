@@ -16,7 +16,6 @@ function IndexPage() {
                 View Addons
             </Button>
         </Link>
-
     </article>
 }
 

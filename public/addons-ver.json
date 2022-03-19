@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Meteor Rejects",
+        "id": "AntiCope/meteor-rejects",
+        "authors": [
+            "AntiCope"
+        ],
+        "summary": "An addon to Meteor Client that features that won't be added to Meteor. Because they were either rejected or are ports from other clients.",
+        "icon": "https://raw.githubusercontent.com/AntiCope/meteor-rejects/master/src/main/resources/assets/rejects/icon.png",
+        "verified": true,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/meteor-rejects",
+            "discord": "https://discord.gg/9mrRPGKYU3"
+        }
+    },
+    {
+        "name": "Orion",
+        "id": "AntiCope/orion",
+        "authors": [
+            "AntiCope"
+        ],
+        "summary": "Continuation of GhostTypes' Orion.",
+        "icon": "https://raw.githubusercontent.com/AntiCope/orion/main/src/main/resources/assets/orion/logo.png",
+        "verified": true,
+        "status": {
+            "devbuild": true,
+            "release": true,
+            "archived": false
+        },
+        "links": {
+            "github": "https://github.com/AntiCope/orion",
+            "discord": "https://discord.gg/9mrRPGKYU3"
+        }
+    }
+]

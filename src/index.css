@@ -19,6 +19,15 @@ code {
     monospace;
 }
 
+.appear {
+  animation: appear 0.25s ease-in;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 a {
   text-decoration: inherit;
 }

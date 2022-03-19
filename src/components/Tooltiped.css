@@ -1,0 +1,29 @@
+.Tooltiped {
+    position: relative;
+    display: inline-block;
+}
+
+.Tooltiped .TooltipText {
+    opacity: 0;
+    visibility: hidden;
+    min-width: 120px;
+    width: auto;
+    background-color: var(--bg-color);
+    color: var(-fg-color);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 8px;
+    margin-bottom: 5px;
+
+    position: absolute;
+    z-index: 1;
+
+    transition: opacity 0.5s ease;
+    bottom: 100%;
+    left: 0%;
+}
+
+.Tooltiped:hover .TooltipText {
+    visibility: visible;
+    opacity: 1;
+}

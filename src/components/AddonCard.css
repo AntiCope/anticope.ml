@@ -2,10 +2,9 @@
     border-radius: 8px;
     box-shadow: rgb(36 41 51 / 15%) 0px 5px 10px 0px;
     margin: 0.2rem 0.2rem;
-    padding: 2em 4em;
+    padding: 1em 4em;
     border: 2px solid var(--prim-color);
     background-color: var(--bg1-color);
-    transition: none;
     width: 25em;
     max-width: 90%;
     height: 15em;
@@ -34,8 +33,33 @@
 
 .AddonCard .Line {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+}
+
+.AddonCard .Col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.AddonCard .IconLinks svg {
+    color: var(--prim-color);
+    width: 2.125em;
+    height: 2.125em;
+    margin: 0 0.5rem;
+}
+
+.AddonCard h3 {
+    margin: 0;
+}
+
+.AddonCard p {
+    margin: 0 0;
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+    text-align: justify;
 }
 
 .AddonCard .Icon {
@@ -47,6 +71,12 @@
     border-radius: 8px;
 }
 
+.AddonCard .Status {
+    margin: 0.5em 0.25em;
+    display: flex;
+    flex-direction: row;
+}
+
 @media only screen and (max-width: 600px) {
     .AddonCard {
         padding: 1em 2em;
@@ -56,5 +86,5 @@
 
 .AddonCard .bottom {
     position: absolute;
-    bottom: 2em;
+    bottom: 1em;
 }

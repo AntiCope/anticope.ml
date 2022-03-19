@@ -1,0 +1,60 @@
+.AddonCard {
+    border-radius: 8px;
+    box-shadow: rgb(36 41 51 / 15%) 0px 5px 10px 0px;
+    margin: 0.2rem 0.2rem;
+    padding: 2em 4em;
+    border: 2px solid var(--prim-color);
+    background-color: var(--bg1-color);
+    transition: none;
+    width: 25em;
+    max-width: 90%;
+    height: 15em;
+    position: relative;
+}
+
+.AddonCard .Close {
+    background: none;
+    border: none;
+    font-size: x-large;
+    padding: 0.5rem 0.5rem;
+    color: var(--prim-color);
+    position: absolute;
+    right: 2em;
+}
+
+.AddonCard.active {
+    transition: all 0.75s ease;
+    position: fixed;
+    top: 2em;
+    z-index: 5;
+    width: 80%;
+    height: 85%;
+}
+
+
+.AddonCard .Line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AddonCard .Icon {
+    width: 3em;
+    height: 3rem;
+    margin-right: 1rem;
+    background-color: var(--bg-color);
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .AddonCard {
+        padding: 1em 2em;
+        margin: 5px 1px;
+    }
+}
+
+.AddonCard .bottom {
+    position: absolute;
+    bottom: 2em;
+}

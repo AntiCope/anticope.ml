@@ -1,0 +1,15 @@
+#addons-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addon-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}

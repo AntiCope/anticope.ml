@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Meteor Rejects",
+        "id": "AntiCope/meteor-rejects",
+        "summary": "An addon to Meteor Client that features that won't be added to Meteor. Because they were either rejected or are ports from other clients.",
+        "icon": "https://raw.githubusercontent.com/AntiCope/meteor-rejects/master/src/main/resources/assets/rejects/icon.png",
+        "links": {
+            "github": "https://github.com/AntiCope/meteor-rejects",
+            "discord": "https://discord.gg/9mrRPGKYU3"
+        }
+    },
+    {
+        "name": "Orion",
+        "id": "AntiCope/orion",
+        "summary": "Continuation of GhostTypes' Orion.",
+        "icon": "https://raw.githubusercontent.com/AntiCope/orion/main/src/main/resources/assets/orion/logo.png",
+        "links": {
+            "github": "https://github.com/AntiCope/orion",
+            "discord": "https://discord.gg/9mrRPGKYU3"
+        }
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown1",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown2",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown3",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown4",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown5",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown6",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown7",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown8",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown9",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    },
+    {
+        "name": "Unknown",
+        "id": "AntiCope/Unknown10",
+        "summary": "Lorem ipsum",
+        "icon": "",
+        "links": {}
+    }
+]

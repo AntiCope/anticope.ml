@@ -5,6 +5,7 @@ import {compareTwoStrings} from 'string-similarity'
 import './addons.css';
 import Tooltiped from "../components/Tooltiped";
 import { FaCheck } from "react-icons/fa";
+import Head from "../components/Head";
 
 
 function AddonsPage() {
@@ -58,6 +59,10 @@ function AddonsPage() {
     }
 
     return <article id="addons-page">
+        <Head title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
+        <h3>
+            Browse free and open-source Addons that can be used alongside Meteor Client.
+        </h3>
         <header className="Filter">
             <input onChange={(evt) => {setFilter({...filter, query:evt.target.value.toLowerCase()})}} className="Search" type="text" placeholder="search here..." value={filter.query}/>
             <Tooltiped tooltip="Show verified only">

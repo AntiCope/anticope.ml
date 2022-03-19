@@ -1,4 +1,4 @@
-name: Fetch all addons
+name: generate addons.json
 
 concurrency:
   group: "main"

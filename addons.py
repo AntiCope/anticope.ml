@@ -78,7 +78,12 @@ def parse_repo(name):
             if requests.head(invites[0]).status_code%100 != 4:
                 links["discord"] = invites[0]
     except Exception:
-        0/0
+        print("error. ignoring...")
+    try:
+        site = repo['homepage']
+        if not INVITE_RE.match(site) and site: # skip discord invites
+            links["homepage"] = site
+    except Exception:
         print("error. ignoring...")
     features = []
     try:
@@ -86,7 +91,7 @@ def parse_repo(name):
         features.extend([str(x) for x in FEATURE_RE.findall(entrypoint)])
         if len(features) > 50:
             count = len(features) - 50
-            features = features[:70]
+            features = features[:50]
             features.append(f"...and {count} more")
     except Exception:
         print("error. ignoring...")
@@ -98,7 +103,7 @@ def parse_repo(name):
         "links": links,
         "name": fabric['name'],
         "stars": repo['stargazers_count'],
-        "last-update": repo['updated_at'],
+        "last_update": repo['pushed_at'],
         "status": {
             "archived": repo['archived'],
             "devbuild": False,

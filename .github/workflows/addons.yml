@@ -9,6 +9,7 @@ on:
     paths:
       - 'addons.py'
       - 'verified.json'
+      - 'inject.json'
       - '.github/workflows/addons.yml'
   schedule:
     - cron: "0 5 * * *"

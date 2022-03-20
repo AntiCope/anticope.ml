@@ -10,7 +10,9 @@ import {
     FaBiohazard,
     FaDiscord,
     FaLink,
-    FaGithub
+    FaGithub,
+    FaStar,
+    FaCalendarAlt
 } from "react-icons/fa";
 import './AddonModal.css';
 
@@ -76,6 +78,20 @@ function AddonModal({ addon, onHide }) {
                     </span>
                 </div>
             }
+            {(addon.stars>0) &&
+                <div className="Status">
+                    <span>
+                        <FaStar color="#EBCB8B" />
+                        {' '} {addon.stars}{' '}Github stars
+                    </span>
+                </div>
+            }
+            <div className="Status">
+                <span>
+                    <FaCalendarAlt />
+                    {' '}Last update:{' '}{new Date(addon['last-update']).toLocaleString()}
+                </span>
+            </div>
             <hr />
         </div>
         <p>

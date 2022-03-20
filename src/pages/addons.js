@@ -7,7 +7,6 @@ import Tooltiped from "../components/Tooltiped";
 import { FaCheck } from "react-icons/fa";
 import Head from "../components/Head";
 
-
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
     const [loadedChunks, setLoadedChunks] = useState([])
@@ -36,18 +35,15 @@ function AddonsPage() {
     }
 
     function weight(addon) {
-        try {
-            if (filter.query === "")
-            return addon.verified?1:0;
+            if (filter.query == "") {
+                return (addon.verified?1:0) + (addon.boost*2||0) + (addon.stars/150);
+            }
             return (
-                compareTwoStrings(filter.query, addon.name.toLowerCase()) 
-                + compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.6
-                + compareTwoStrings(filter.query, addon.summary.toLowerCase())*0.4
-                + (addon.boost||0)
+                (compareTwoStrings(filter.query, addon.name.toLowerCase()) * 2)
+                + (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.2)
+                + (compareTwoStrings(addon.summary.toLowerCase(), filter.query)*0.1)
+                + (addon.boost*2||0)
                 + addon.verified?0.5:0) / 2.5;
-        } catch {
-            return 0;
-        }
 
     }
 
@@ -85,7 +81,9 @@ function AddonsPage() {
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {addons.filter(shouldShow).sort((a,b) => weight(b) - weight(a)).slice(0, 70).map((addon) => {
+            {addons.filter(shouldShow).sort((a,b) => {
+                return weight(b) - weight(a);
+            }).slice(0, 70).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>

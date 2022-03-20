@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import AddonCard from "../components/AddonCard";
-import {compareTwoStrings} from 'string-similarity'
+import { compareTwoStrings } from 'string-similarity'
 
 import './addons.css';
 import Tooltiped from "../components/Tooltiped";
@@ -10,7 +10,7 @@ import Head from "../components/Head";
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
     const [loadedChunks, setLoadedChunks] = useState([])
-    const [filter, setFilter] = useState({query:"", verified:true});
+    const [filter, setFilter] = useState({ query: "", verified: true });
 
     useEffect(() => {
         fetchChunk('ver')
@@ -37,14 +37,14 @@ function AddonsPage() {
     function weight(addon) {
         try {
             if (filter.query == "") {
-                return (addon.verified?1:0) + (addon.boost*2||0) + (addon.stars/150);
+                return (addon.verified ? 1 : 0) + (addon.boost * 2 || 0) + (addon.stars / 150);
             }
             return (
                 (compareTwoStrings(filter.query, addon.name.toLowerCase()) * 2)
-                + (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.2)
-                + (compareTwoStrings((addon.summary||"").toLowerCase(), filter.query)*0.1)
-                + (addon.boost*2||0)
-                + addon.verified?0.5:0) / 2.5;
+                    + (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) * 0.2)
+                    + (compareTwoStrings((addon.summary || "").toLowerCase(), filter.query) * 0.1)
+                    + (addon.boost * 2 || 0)
+                    + addon.verified ? 0.5 : 0) / 2.5;
         } catch {
             return 0;
         }
@@ -57,7 +57,7 @@ function AddonsPage() {
             if (filter.query !== "") {
                 if (compareTwoStrings(filter.query, addon.name.toLowerCase()) < 0.3) {
                     if (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) < 0.4) {
-                        if (compareTwoStrings(filter.query, (addon.summary||"").toLowerCase()) < 0.5) {
+                        if (compareTwoStrings(filter.query, (addon.summary || "").toLowerCase()) < 0.5) {
                             return false
                         }
                     }
@@ -73,19 +73,29 @@ function AddonsPage() {
 
     return <article id="addons-page">
         <Head title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
-        <h3>
-            Browse free and open-source Addons that can be used alongside Meteor Client.
-        </h3>
+        <h3>Browse free and open-source Addons that can be used alongside Meteor Client.</h3>
+        <section>
+            <p>
+                A list to help newcomers discover free and open-source Meteor Client addons. This repo might not stay for long as an addon marketplace system is being planned.
+                <br />If you are looking for other fabric mods to be used alongside Meteor Client, check this list out
+                <br />If you looking to get your addon verified, open a new issue or pull request on our <a href="https://github.com/AntiCope/anticope.ml/" target="_blank">Github repository</a>, or send a message in <a href="https://discord.gg/9mrRPGKYU3" target="_blank">#addon-verification-requests</a> channel on discord.
+            </p>
+            <h3>Sidenote</h3>
+            <p>
+                If an addon has multiple .jar files avaliable for download, do not use files ending with <code>-dev.jar</code> or <code>-sources.jar</code> as they won't work.
+            </p>
+        </section>
+        <hr />
         <header className="Filter">
-            <input onChange={(evt) => {setFilter({...filter, query:evt.target.value.toLowerCase()})}} className="Search" type="text" placeholder="search here..." value={filter.query}/>
+            <input onChange={(evt) => { setFilter({ ...filter, query: evt.target.value.toLowerCase() }) }} className="Search" type="text" placeholder="search here..." value={filter.query} />
             <Tooltiped tooltip="Show verified only">
-                <div className={"CheckBox " + (filter.verified?" checked":"")} onClick={() => setFilter({...filter, verified:!filter.verified})}>
+                <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={() => setFilter({ ...filter, verified: !filter.verified })}>
                     <FaCheck />
                 </div>
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {addons.filter(shouldShow).sort((a,b) => {
+            {addons.filter(shouldShow).sort((a, b) => {
                 return weight(b) - weight(a);
             }).slice(0, 70).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />

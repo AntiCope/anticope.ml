@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 600px) {
     .App main .Content {
-        padding: 5px 5px;
+        width: 95%;
     }
 }
 
@@ -56,7 +56,7 @@
 
 @supports ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
     .bg-video {
-        filter: none;
+        filter: blur(3px);
     }
 }
 

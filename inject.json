@@ -1,12 +1,15 @@
 {
     "AntiCope/meteor-rejects": {
-        "status": { "archived": false, "devbuild": true, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true },
+        "boost": 0.1
     },
     "AntiCope/orion": {
-        "status": { "archived": false, "devbuild": true, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true },
+        "boost": 0.05
     },
     "AntiCope/tanuki": {
-        "status": { "archived": false, "devbuild": true, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true },
+        "boost": 0.02
     },
     "AntiCope/meteor-e621-integration": {
         "status": { "archived": false, "devbuild": true, "release": true }

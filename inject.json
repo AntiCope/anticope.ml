@@ -14,7 +14,7 @@
     "AntiCope/meteor-crash-addon": {
         "status": { "archived": false, "devbuild": true, "release": true }
     },
-    "AntiCope/meteor-python-addonn": {
+    "AntiCope/meteor-python-addon": {
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "maxsupermanhd/meteor-villager-roller": {
@@ -30,9 +30,12 @@
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "SIMULATAN/meteor-notifications-addon": {
-        "status": { "archived": false, "devbuild": false, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true }
     },
     "cally72jhb/vector-addon": {
+        "status": { "archived": false, "devbuild": false, "release": true }
+    },
+    "kkllffaa/meteor-litematica-printer": {
         "status": { "archived": false, "devbuild": false, "release": true }
     }
 }

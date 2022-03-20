@@ -84,6 +84,10 @@ def parse_repo(name):
     try:
         entrypoint = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/java/{fabric['entrypoints']['meteor'][0].replace('.', '/')}.java").text
         features.extend([str(x) for x in FEATURE_RE.findall(entrypoint)])
+        if len(features) > 50:
+            count = len(features) - 50
+            features = features[:70]
+            features.append(f"...and {count} more")
     except Exception:
         print("error. ignoring...")
     result = {

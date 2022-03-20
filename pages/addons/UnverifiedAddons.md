@@ -22,7 +22,7 @@ nav_order: 1
 
 Sorted by code size.
 
-Last updated: `2022-03-19 05:24 (UTC)`.
+Last updated: `2022-03-20 05:16 (UTC)`.
 
 | Name | Description | Link | Last Updated | Authors |
 | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@ Last updated: `2022-03-19 05:24 (UTC)`.
 | meteor-crash-addon | Add-on that includes various server crashing methods | [Repo](https://github.com/supakeks/meteor-crash-addon) | 25 Jun 2021 | supakeks |
 | LmaoBox-leak | None | [Repo](https://github.com/Vimer5410/LmaoBox-leak) | 24 Dec 2021 | Vimer5410 |
 | banana-plus-crack | 8$ meteor reject paste | [Repo](https://github.com/EurekaEffect/banana-plus-crack) | 27 Jan 2022 | EurekaEffect |
+| Silivia.fun | new meteor addon -__- | [Repo](https://github.com/Jackesparragos/Silivia.fun) | 19 Mar 2022 | Jackesparragos |
 | highway-helper | A highway-helper meteor addon by timoreo | [Repo](https://github.com/Ozynt/highway-helper) | 22 Dec 2021 | Ozynt |
 | LmaoBox-crack | None | [Repo](https://github.com/EurekaEffect/LmaoBox-crack) | 25 Dec 2021 | EurekaEffect |
 | Lightswitch | A template project to help people use the Meteor Client Addon API. | [Repo](https://github.com/JohanDevv2/Lightswitch) | 28 Jan 2022 | JohanDevv2 |

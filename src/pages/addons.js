@@ -15,12 +15,14 @@ function AddonsPage() {
 
     useEffect(() => {
         fetchChunk('ver')
+        // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
         if (!filter.verified) {
             fetchChunk('unver')
         }
+        // eslint-disable-next-line
     }, [filter])
 
     function fetchChunk(chunk) {
@@ -41,6 +43,7 @@ function AddonsPage() {
                 compareTwoStrings(filter.query, addon.name.toLowerCase()) 
                 + compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase())*0.6
                 + compareTwoStrings(filter.query, addon.summary.toLowerCase())*0.4
+                + (addon.boost||0)
                 + addon.verified?0.5:0) / 2.5;
         } catch {
             return 0;

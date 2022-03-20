@@ -6,6 +6,9 @@
     background-color: var(--bg1-color);
     width: auto;
     height: auto;
+    width: 80%;
+    height: 100%;
+    position: relative;
 }
 
 .AddonModal .Close {
@@ -59,8 +62,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(0 0 0 / 30%);
-    backdrop-filter: blur(15px) saturate(1.25);
+    background-color: rgb(0 0 0 / 70%);
+    backdrop-filter: blur(7px) brightness(1.7);
 }
 
 @media only screen and (max-width: 600px) {

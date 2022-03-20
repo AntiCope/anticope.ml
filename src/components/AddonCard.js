@@ -1,16 +1,12 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import Button from './Button'
 import Tooltiped from './Tooltiped'
 
 import {
-    FaWindowMinimize,
     FaCode,
     FaCheck,
     FaArchive,
     FaBiohazard,
-    FaDiscord,
-    FaLink,
-    FaGithub
 } from "react-icons/fa";
 import './AddonCard.css';
 import { Modal } from "react-overlays";
@@ -35,21 +31,9 @@ function AddonCard({ addon }) {
 
     function onActive() {
         setActive(true);
-        window.scrollTo(0, 0);
     }
 
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (ref.current && !ref.current.contains(event.target)) {
-                setActive(false)
-            }
-        };
-        document.addEventListener('click', handleClickOutside, true);
-        return () => {
-            document.removeEventListener('click', handleClickOutside, true);
-        };
-    }, [setActive]);
-
+    // eslint-disable-next-line
     if (!addon || addon == undefined || typeof addon !== "object" || addon.id == undefined) return <></>
 
     try {

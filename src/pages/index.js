@@ -8,7 +8,7 @@ import './index.css';
 function IndexPage() {
 
     return <article id="index-page">
-        <Head title={"Home"}/>
+        <Head title={"Home"} summary="Here you can find a list of free and open-source Meteor Client (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods." />
         <h3>
             Welcome to the AntiCope Website!
             Here you can find a list of free and open-source Meteor Client (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods.

@@ -15,6 +15,7 @@ import {
     FaCalendarAlt
 } from "react-icons/fa";
 import './AddonModal.css';
+import moment from "moment";
 
 const UNKNOWN_ICON = "/unknown_icon.png"
 
@@ -86,12 +87,14 @@ function AddonModal({ addon, onHide }) {
                     </span>
                 </div>
             }
-            <div className="Status">
-                <span>
-                    <FaCalendarAlt />
-                    {' '}Last update:{' '}{new Date(addon['last-update']).toLocaleString()}
-                </span>
-            </div>
+            {addon.last_update &&
+                <div className="Status">
+                    <span>
+                        <FaCalendarAlt />
+                        {' '}Last update:{' '}{moment.utc(addon.last_update).local().startOf('seconds').fromNow()}
+                    </span>
+                </div>
+            }
             <hr />
         </div>
         <p>

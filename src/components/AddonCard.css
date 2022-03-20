@@ -41,6 +41,8 @@
     .AddonCard {
         padding: 1em 2em;
         margin: 5px 1px;
+        height: auto;
+        padding-bottom: 3.5rem;
     }
 }
 

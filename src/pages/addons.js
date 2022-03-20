@@ -82,7 +82,7 @@ function AddonsPage() {
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {addons.filter(shouldShow).sort((a,b) => weight(b) - weight(a)).slice(0, 50).map((addon) => {
+            {addons.filter(shouldShow).sort((a,b) => weight(b) - weight(a)).slice(0, 70).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>

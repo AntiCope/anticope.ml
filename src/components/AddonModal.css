@@ -1,0 +1,71 @@
+.AddonModal {
+    border-radius: 8px;
+    box-shadow: rgb(15 17 21 / 25%) 0px 4px 6px, rgb(15 17 21 / 10%) 0px 5px 7px;
+    margin: 0.75rem 0.75rem;
+    padding: 1em 1em;
+    background-color: var(--bg1-color);
+    width: auto;
+    height: auto;
+}
+
+.AddonModal .Close {
+    background: none;
+    border: none;
+    font-size: x-large;
+    padding: 0.5rem 0.5rem;
+    color: var(--prim-color);
+    position: absolute;
+    right: 1em;
+    top: 1rem;
+}
+
+.AddonModal .IconLinks svg {
+    color: var(--prim-color);
+    width: 2.125em;
+    height: 2.125em;
+    margin: 0 0.5rem;
+}
+
+.AddonModal h3 {
+    margin: 0;
+}
+
+.AddonModal p {
+    margin: 0 0;
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+    text-align: justify;
+}
+
+.AddonModal .Icon {
+    width: 3em;
+    height: 3rem;
+    margin-right: 1rem;
+    background-color: var(--bg-color);
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+.AddonModal .Status {
+    margin: 0.5em 0.25em;
+    display: flex;
+    flex-direction: row;
+}
+
+.BackDrop {
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 30%);
+    backdrop-filter: blur(15px) saturate(1.25);
+}
+
+@media only screen and (max-width: 600px) {
+    .AddonModal {
+        padding: 1em 2em;
+        margin: 5px 1px;
+    }
+}

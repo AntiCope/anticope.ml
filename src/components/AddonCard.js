@@ -13,21 +13,20 @@ import {
     FaGithub
 } from "react-icons/fa";
 import './AddonCard.css';
+import { Modal } from "react-overlays";
+import AddonModal from "./AddonModal";
 
-const UNKNOWN_ICON = "https://anticope.ml/resources/unknown_icon.png"
+const UNKNOWN_ICON = "/unknown_icon.png"
+
+function BackDrop(props) {
+    return <div className="BackDrop" {...props}></div>
+}
 
 function formatStrings(strings) {
     if (strings.length === 0) return "";
     else if (strings.length === 1) return strings[0]
     else if (strings.length === 2) return `${strings[0]} and ${strings[1]}`
     else return `${strings.slice(0, -1).join(', ')} and ${strings[strings.length - 1]}`
-}
-
-function getIcon(type) {
-    switch (type) {
-        case "discord": return <FaDiscord />
-        default: return <FaLink />
-    }
 }
 
 function AddonCard({ addon }) {
@@ -55,11 +54,15 @@ function AddonCard({ addon }) {
 
     try {
         return <div className={"AddonCard appear" + (active ? " active" : " inactive")} ref={ref}>
-            {active &&
-                <button className="Close" onClick={() => { setActive(false) }}>
-                    <FaWindowMinimize />
-                </button>
-            }
+            <Modal
+                show={active}
+                onHide={() => {setActive(false)}}
+                renderBackdrop={BackDrop}
+                aria-labelledby="modal-label"
+            >
+                <AddonModal addon={addon} onHide={() => {setActive(false)}} />
+            </Modal>
+
             <div className="Line">
                 <img src={addon.icon || UNKNOWN_ICON} alt="icon" className="Icon" />
                 <div className="Col">
@@ -69,42 +72,6 @@ function AddonCard({ addon }) {
                     }
                 </div>
             </div>
-            {active &&
-                <div className="Col">
-                    {!addon.verified &&
-                        <div className="Status">
-                            <span>
-                                <FaBiohazard color="#BF616A" />
-                                {' '}Unverified addon. May contain malware. Proceed with caution!</span>
-                        </div>
-                    }
-                    {addon.status.devbuild &&
-                        <div className="Status">
-                            <span>
-                                <FaCode color="#A3BE8C" />
-                                {' '}Addon is avaliable for the latest devbuild of Meteor Client
-                            </span>
-                        </div>
-                    }
-                    {addon.status.release &&
-                        <div className="Status">
-                            <span>
-                                <FaCheck color="#A3BE8C" />
-                                {' '}Addon is avaliable for the latest release of Meteor Client
-                            </span>
-                        </div>
-                    }
-                    {addon.status.archived &&
-                        <div className="Status">
-                            <span>
-                                <FaArchive color="#BF616A" />
-                                {' '}Addon is archived and read only
-                            </span>
-                        </div>
-                    }
-                    <hr />
-                </div>
-            }
             {!active &&
                 <div className="Line">
                     {!addon.verified &&
@@ -140,36 +107,6 @@ function AddonCard({ addon }) {
             <p>
                 {addon.summary || ""}
             </p>
-            {(active && addon.features != undefined && addon.features.length > 0 ) &&
-                <section className="Features">
-                <h4>Features</h4>
-                <ul>
-                    {(addon.features).map((feat) => {
-                        return <li key={feat}>{feat}</li>
-                    })}
-                </ul>
-                </section>
-            }
-            {active &&
-                <div className="Line appear centered">
-                    <a href={addon.links.github} target="_blank">
-                        <Button>
-                            <FaGithub style={{ marginRight: '0.6rem' }} />
-                            Repository
-                        </Button>
-                    </a>
-                    <div className="IconLinks">
-                        {Object.keys(addon.links).map((key) => {
-                            if (key === "github") return <></>
-                            else {
-                                return <Tooltiped key={key} tooltip={key}>
-                                    <a href={addon.links[key]} target="_blank">{getIcon(key)}</a>
-                                </Tooltiped>
-                            }
-                        })}
-                    </div>
-                </div>
-            }
             {!active &&
                 <div className="bottom">
                     <Button onClick={onActive}>More</Button>

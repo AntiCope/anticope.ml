@@ -6,35 +6,10 @@
     background-color: var(--bg1-color);
     width: 25em;
     height: 15em;
+    max-width: 100%;
     position: relative;
 }
 
-.AddonCard .Close {
-    background: none;
-    border: none;
-    font-size: x-large;
-    padding: 0.5rem 0.5rem;
-    color: var(--prim-color);
-    position: absolute;
-    right: 1em;
-    top: 1rem;
-}
-
-.AddonCard.active {
-    transition: all 0.75s ease;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    width: 80%;
-    height: auto;
-}
-
-.AddonCard .IconLinks svg {
-    color: var(--prim-color);
-    width: 2.125em;
-    height: 2.125em;
-    margin: 0 0.5rem;
-}
 
 .AddonCard h3 {
     margin: 0;

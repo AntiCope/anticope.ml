@@ -6,6 +6,7 @@
 
 .addon-grid {
     width: 100%;
+    max-width: 90vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,6 +20,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    max-width: 80vw;
     margin-bottom: 0.5rem;
 }
 
@@ -37,8 +39,8 @@
     border-radius: 8px;
     background-color: var(--bg-color);
     margin-left: 2rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
     align-content: center;
     justify-content: center;
     align-items: center;

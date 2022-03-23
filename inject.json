@@ -29,7 +29,7 @@
     },
     "Declipsonator/Troll-Addon": {
         "status": { "archived": false, "devbuild": true, "release": true },
-        "name": "Troll Addon"
+        "summary": "No rat is present in this build."
     },
     "JFronny/MeteorAdditions": {
         "status": { "archived": false, "devbuild": true, "release": true }

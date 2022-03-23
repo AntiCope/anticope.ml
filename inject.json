@@ -15,7 +15,8 @@
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "AntiCope/meteor-crash-addon": {
-        "status": { "archived": false, "devbuild": true, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true },
+        "boost": 0.12
     },
     "AntiCope/meteor-python-addon": {
         "status": { "archived": false, "devbuild": true, "release": true }
@@ -40,5 +41,8 @@
     },
     "kkllffaa/meteor-litematica-printer": {
         "status": { "archived": false, "devbuild": false, "release": true }
+    },
+    "BedTrap-Inc/lean-addon": {
+        "status": { "archived": false, "devbuild": true, "release": false }
     }
 }

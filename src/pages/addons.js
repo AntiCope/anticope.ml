@@ -6,11 +6,15 @@ import './addons.css';
 import Tooltiped from "../components/Tooltiped";
 import { FaCheck } from "react-icons/fa";
 import Head from "../components/Head";
+import Paginator from "../components/Paginator";
+
+const PER_PAGE = 48
 
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
-    const [loadedChunks, setLoadedChunks] = useState([])
+    const [loadedChunks, setLoadedChunks] = useState([]);
     const [filter, setFilter] = useState({ query: "", verified: true });
+    const [page, setPage] = useState(1);
 
     useEffect(() => {
         fetchChunk('ver')
@@ -71,6 +75,10 @@ function AddonsPage() {
         return true;
     }
 
+    let filteredAddons = addons.filter(shouldShow).sort((a, b) => {
+        return weight(b) - weight(a);
+    });
+
     return <article id="addons-page">
         <Head title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
         <h3>Browse free and open-source Addons that can be used alongside Meteor Client.</h3>
@@ -95,12 +103,11 @@ function AddonsPage() {
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {addons.filter(shouldShow).sort((a, b) => {
-                return weight(b) - weight(a);
-            }).slice(0, 70).map((addon) => {
+            {filteredAddons.slice((page-1)*PER_PAGE, page*PER_PAGE).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>
+        <Paginator page={page} lastPage={Math.ceil(filteredAddons.length/PER_PAGE)} onChange={(i) => setPage(i)}/>
     </article>
 }
 

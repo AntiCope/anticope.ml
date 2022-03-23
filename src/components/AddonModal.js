@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa";
 import './AddonModal.css';
 import moment from "moment";
+import { Img } from "react-image";
 
 const UNKNOWN_ICON = "/unknown_icon.png"
 
@@ -39,7 +40,7 @@ function AddonModal({ addon, onHide }) {
             <FaWindowMinimize />
         </button>
         <div className="Line">
-            <img src={addon.icon || UNKNOWN_ICON} alt="icon" className="Icon" />
+            <Img src={[addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" />
             <div className="Col">
                 <h3 id="modal-label">{addon.name}</h3>
                 {(addon.authors && addon.authors.length > 0) &&

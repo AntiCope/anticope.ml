@@ -8,7 +8,7 @@ function Header() {
     return <header className="Header">
         <div className="Logo">
             <Link to="/">
-                <img src="/logo.png" alt="logo"/>
+                <img src="/logo.webp" alt="logo"/>
             </Link>
         </div>
         <nav className="Nav">

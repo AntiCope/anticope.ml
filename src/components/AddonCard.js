@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import Button from './Button'
 import Tooltiped from './Tooltiped'
+import {Img} from 'react-image'
 
 import {
     FaCode,
@@ -11,6 +12,7 @@ import {
 import './AddonCard.css';
 import { Modal } from "react-overlays";
 import AddonModal from "./AddonModal";
+import { getImageProxyUrl } from "../utils";
 
 const UNKNOWN_ICON = "/unknown_icon.png"
 
@@ -48,7 +50,7 @@ function AddonCard({ addon }) {
             </Modal>
 
             <div className="Line">
-                <img src={addon.icon || UNKNOWN_ICON} alt="icon" className="Icon" />
+                <Img src={[getImageProxyUrl(addon.icon), UNKNOWN_ICON]} alt="icon" className="Icon" crossorigin="anonymous" decode={false} />
                 <div className="Col">
                     <h3>{addon.name}</h3>
                     {(addon.authors && addon.authors.length > 0) &&

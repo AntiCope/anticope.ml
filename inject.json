@@ -28,7 +28,8 @@
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "Declipsonator/Troll-Addon": {
-        "status": { "archived": false, "devbuild": true, "release": true }
+        "status": { "archived": false, "devbuild": true, "release": true },
+        "name": "Troll Addon"
     },
     "JFronny/MeteorAdditions": {
         "status": { "archived": false, "devbuild": true, "release": true }

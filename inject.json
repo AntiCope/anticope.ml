@@ -46,10 +46,11 @@
     },
     "BedTrap-Inc/lean-addon": {
         "status": { "archived": false, "devbuild": true, "release": false },
-        "boost": -0.2
+        "boost": -0.01
     },
     "Zgoly/Meteorist": {
-        "status": { "archived": false, "devbuild": true, "release": false }
+        "status": { "archived": false, "devbuild": true, "release": false },
+        "boost": -0.2
     },
     "ReaperTechnology/uuid-auth-bypass": {
         "status": { "archived": false, "devbuild": false, "release": true }

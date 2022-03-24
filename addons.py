@@ -56,6 +56,9 @@ def parse_repo(name):
     links = {"github": repo['html_url']}
     icon = None
     summary = ""
+    if "meteor" not in fabric["entrypoints"].keys():
+        print("Missing meteor entrypoint")
+        raise Exception("Missing meteor entrypoint")
     try:
         summary = repo['description']
         if not summary:

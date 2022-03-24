@@ -38,12 +38,20 @@
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "cally72jhb/vector-addon": {
-        "status": { "archived": false, "devbuild": false, "release": true }
+        "status": { "archived": false, "devbuild": false, "release": true },
+        "icon": "https://user-images.githubusercontent.com/18114966/159967693-d42e1b63-2fb2-4261-9913-9c1b95c43f69.png"
     },
     "kkllffaa/meteor-litematica-printer": {
         "status": { "archived": false, "devbuild": false, "release": true }
     },
     "BedTrap-Inc/lean-addon": {
+        "status": { "archived": false, "devbuild": true, "release": false },
+        "boost": -0.2
+    },
+    "Zgoly/Meteorist": {
         "status": { "archived": false, "devbuild": true, "release": false }
+    },
+    "ReaperTechnology/uuid-auth-bypass": {
+        "status": { "archived": false, "devbuild": false, "release": true }
     }
 }

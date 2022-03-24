@@ -27,7 +27,7 @@ while incomplete:
             continue
         incomplete = r["incomplete_results"]
     except Exception:
-        print("error. ignoring...")
+        print("[search fetch] error. ignoring...")
     page += 1
     if page > 500: # fallback
         break
@@ -38,7 +38,7 @@ for fork in r:
     try:
         repos.add(fork['full_name'])
     except Exception:
-        print("error. ignoring...")
+        print("[fork fetch] error. ignoring...")
         
 # filter templates
 repos = list(filter(lambda x: "-addon-template" not in x.lower(), repos))
@@ -64,43 +64,48 @@ def parse_repo(name):
         if not summary:
             summary = fabric['description']
     except Exception:
-        print("error. ignoring...")
+        print("[summary] error. ignoring...")
     try:
         icon = f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/{fabric['icon']}"
         if requests.head(icon).status_code%100 == 4:
             print("missing icon")
             icon = None
     except Exception:
-        print("error. ignoring...")
+        print("[icon] error. ignoring...")
     try:
         readme = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/README.md").text
         invites = INVITE_RE.findall(readme)
         if len(invites) == 0:
             invites = INVITE_RE.findall(str(fabric))
+        if len(invites) == 0:
+            invites = INVITE_RE.findall(str(repo))
         if len(invites) > 0:
             if requests.head(invites[0]).status_code%100 != 4:
                 links["discord"] = invites[0]
     except Exception:
-        print("error. ignoring...")
+        print("[discord invite] error. ignoring...")
     try:
         site = repo['homepage']
         if not INVITE_RE.match(site) and site: # skip discord invites
             links["homepage"] = site
     except Exception:
-        print("error. ignoring...")
+        print("[homepage] error. ignoring...")
     features = []
+    feature_count = 0
     try:
         entrypoint = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/java/{fabric['entrypoints']['meteor'][0].replace('.', '/')}.java").text
         features.extend([str(x) for x in FEATURE_RE.findall(entrypoint)])
+        feature_count = len(features)
         if len(features) > 50:
             count = len(features) - 50
             features = features[:50]
             features.append(f"...and {count} more")
     except Exception:
-        print("error. ignoring...")
+        print("[features] error. ignoring...")
     result = {
         "authors": authors,
         "features": features,
+        "feature_count": feature_count,
         "icon": icon,
         "id": repo['full_name'],
         "links": links,

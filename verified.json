@@ -13,5 +13,7 @@
     "maxsupermanhd/meteor-villager-roller",
     "AntiCope/meteor-e621-integration",
     "Declipsonator/Troll-Addon",
-    "BedTrap-Inc/lean-addon"
+    "BedTrap-Inc/lean-addon",
+    "Zgoly/Meteorist",
+    "ReaperTechnology/uuid-auth-bypass"
 ]

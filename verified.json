@@ -14,5 +14,6 @@
     "AntiCope/meteor-e621-integration",
     "Declipsonator/Troll-Addon",
     "BedTrap-Inc/lean-addon",
-    "ReaperTechnology/uuid-auth-bypass"
+    "ReaperTechnology/uuid-auth-bypass",
+    "ReaperTechnology/reaper-addon"
 ]

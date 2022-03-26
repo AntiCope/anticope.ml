@@ -3,14 +3,13 @@ import Routing from "./pages/routes";
 
 import './App.css';
 import Header from "./components/Header";
+import End from "./components/End";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <video playsInline autoPlay loop muted onLoadStart={(evt) => evt.target.play()} poster="/end.webp" className="bg-video">
-        <source src="/end.mp4" type="video/mp4" />
-      </video>
+      <End />
       <main>
         <div className="Content">
           <Routing />

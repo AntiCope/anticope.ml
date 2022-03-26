@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import useWindowSize from '../hooks/useWindowSize'
+
 import AddonCard from "../components/AddonCard";
 import { compareTwoStrings } from 'string-similarity'
 
@@ -8,13 +10,13 @@ import { FaCheck } from "react-icons/fa";
 import Head from "../components/Head";
 import Paginator from "../components/Paginator";
 
-const PER_PAGE = 48
-
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
     const [loadedChunks, setLoadedChunks] = useState([]);
     const [filter, setFilter] = useState({ query: "", verified: true });
     const [page, setPage] = useState(1);
+    const size = useWindowSize();
+    const per_page = (size.width>1000)?12:5;
 
     useEffect(() => {
         fetchChunk('ver')
@@ -27,6 +29,10 @@ function AddonsPage() {
         }
         // eslint-disable-next-line
     }, [filter])
+
+    useEffect(() => {
+        setPage(1)
+    }, [per_page])
 
     function fetchChunk(chunk) {
         if (loadedChunks.includes(chunk)) return;
@@ -75,6 +81,11 @@ function AddonsPage() {
         return true;
     }
 
+    function toggleVerified() {
+        setFilter({ ...filter, verified: !filter.verified })
+        setPage(1)
+    }
+
     let filteredAddons = addons.filter(shouldShow).sort((a, b) => {
         return weight(b) - weight(a);
     });
@@ -97,17 +108,17 @@ function AddonsPage() {
         <header className="Filter">
             <input onChange={(evt) => { setFilter({ ...filter, query: evt.target.value.toLowerCase() }) }} className="Search" type="text" placeholder="search here..." value={filter.query} />
             <Tooltiped tooltip="Show verified only">
-                <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={() => setFilter({ ...filter, verified: !filter.verified })}>
+                <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={toggleVerified}>
                     <FaCheck />
                 </div>
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {filteredAddons.slice((page-1)*PER_PAGE, page*PER_PAGE).map((addon) => {
+            {filteredAddons.slice((page-1)*per_page, page*per_page).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>
-        <Paginator page={page} lastPage={Math.ceil(filteredAddons.length/PER_PAGE)} onChange={(i) => setPage(i)}/>
+        <Paginator page={page} lastPage={Math.ceil(filteredAddons.length/per_page)} onChange={(i) => setPage(i)}/>
     </article>
 }
 

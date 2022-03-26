@@ -54,7 +54,7 @@
         "status": { "archived": false, "devbuild": false, "release": true }
     },
     "ReaperTechnology/reaper-addon": {
-        "status": { "archived": false, "devbuild": true, "release": true },
+        "status": { "archived": false, "devbuild": true, "release": false },
         "icon": "https://raw.githubusercontent.com/ReaperTechnology/reaper-addon/main/src/main/resources/assets/reaper/icon.png"
     }
 }

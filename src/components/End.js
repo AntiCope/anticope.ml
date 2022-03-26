@@ -4,7 +4,7 @@ import './End.css';
 
 import ShadertoyReact from 'shadertoy-react';
 
-const shader = GLSL`
+const shader = `
 #define NOISE_CUTOFF 0.73
 #define SPEED 10.0
 

@@ -6,6 +6,7 @@ import AddonCard from "../components/AddonCard";
 import Tooltiped from "../components/Tooltiped";
 import Head from "../components/Head";
 import Paginator from "../components/Paginator";
+import LastUpdate from "../components/LastUpdate";
 
 import './addons.css';
 import { FaCheck } from "react-icons/fa";
@@ -116,6 +117,9 @@ function AddonsPage() {
             <p>
                 If an addon has multiple .jar files avaliable for download, do not use files ending with <code>-dev.jar</code> or <code>-sources.jar</code> as they won't work.
             </p>
+            <h4>Last Update: {' '}
+                <LastUpdate />
+            </h4>
         </section>
         <hr />
         <header className="Filter">

@@ -1,14 +1,48 @@
 import React, { useEffect, useState } from "react";
 import useWindowSize from '../hooks/useWindowSize'
+import Fuse from "fuse.js";
 
 import AddonCard from "../components/AddonCard";
-import { compareTwoStrings } from 'string-similarity'
-
-import './addons.css';
 import Tooltiped from "../components/Tooltiped";
-import { FaCheck } from "react-icons/fa";
 import Head from "../components/Head";
 import Paginator from "../components/Paginator";
+
+import './addons.css';
+import { FaCheck } from "react-icons/fa";
+
+const fuse = new Fuse([],{
+    useExtendedSearch: true,
+    includeScore: true,
+    shouldSort: false,
+    distance: 50,
+    keys: [
+        {
+            name: "name",
+            weight: 2.5
+        },
+        {
+            name: "summary",
+            weight: 1.25
+        },
+        "authors",
+        {
+            name: "id",
+            weight: 0.7
+        },
+        {
+            name: "features",
+            weight: 0.3
+        }
+    ]
+})
+
+function getWeight(addon) {
+    return (
+        (addon.verified?0.75:0)
+    +   ((addon.boost||0)*2)
+    +   (addon.stars*0.04)
+    ) || 0
+}
 
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
@@ -32,7 +66,7 @@ function AddonsPage() {
 
     useEffect(() => {
         setPage(1)
-    }, [per_page])
+    }, [per_page, filter])
 
     function fetchChunk(chunk) {
         if (loadedChunks.includes(chunk)) return;
@@ -44,51 +78,30 @@ function AddonsPage() {
             })
     }
 
-    function weight(addon) {
-        try {
-            if (filter.query == "") {
-                return (addon.verified ? 1 : 0) + (addon.boost * 2 || 0) + (addon.stars / 150);
-            }
-            return (
-                (compareTwoStrings(filter.query, addon.name.toLowerCase()) * 2)
-                    + (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) * 0.2)
-                    + (compareTwoStrings((addon.summary || "").toLowerCase(), filter.query) * 0.1)
-                    + (addon.boost * 2 || 0)
-                    + addon.verified ? 0.5 : 0) / 2.5;
-        } catch {
-            return 0;
-        }
-
-    }
-
-    function shouldShow(addon) {
-        try {
-            if (filter.verified && !addon.verified) return false
-            if (filter.query !== "") {
-                if (compareTwoStrings(filter.query, addon.name.toLowerCase()) < 0.3) {
-                    if (compareTwoStrings(filter.query, addon.authors.join(" ").toLowerCase()) < 0.4) {
-                        if (compareTwoStrings(filter.query, (addon.summary || "").toLowerCase()) < 0.5) {
-                            return false
-                        }
-                    }
-                }
-            }
-        } catch {
-            return false;
-        }
-
-
-        return true;
-    }
 
     function toggleVerified() {
         setFilter({ ...filter, verified: !filter.verified })
         setPage(1)
     }
 
-    let filteredAddons = addons.filter(shouldShow).sort((a, b) => {
-        return weight(b) - weight(a);
-    });
+    let filteredAddons = null
+    if (filter.query) {
+        fuse.setCollection(addons.filter((addon) => {
+            if (!filter.verified) return true;
+            return addon.verified
+        }))
+        filteredAddons = fuse.search(filter.query).sort((a, b) => {
+            return (a.score - getWeight(a)) - (b.score - getWeight(b))
+        }).map((a) => a.item)
+    } else {
+        filteredAddons = addons.filter((addon) => {
+            if (!filter.verified) return true;
+            return addon.verified
+        }).sort((a, b) => {
+            return getWeight(b) - getWeight(a)
+        })
+    }
+
 
     return <article id="addons-page">
         <Head title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
@@ -114,7 +127,7 @@ function AddonsPage() {
             </Tooltiped>
         </header>
         <section className="addon-grid">
-            {filteredAddons.slice((page-1)*per_page, page*per_page).map((addon) => {
+            {filteredAddons && filteredAddons.slice((page-1)*per_page, page*per_page).map((addon) => {
                 return <AddonCard key={addon.id} addon={addon} />
             })}
         </section>

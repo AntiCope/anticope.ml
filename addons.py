@@ -6,19 +6,22 @@ import re
 
 VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
+RETRY_COUNT = 25
 GH_TOKEN = getenv("GH_TOKEN")
 HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json", "User-Agent": "AntiCope/anticope.ml"}
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
 
-def sleep_if_rate_limited():
-    try:
-        for _ in range(0, 25):
-            if requests.get("https://api.github.com/rate_limit", headers=HEADERS).json()['search']['remaining'] == 0:
-                print("rate limited. sleeping...")
-                sleep(60)
-    except Exception:
-        print("[rate limit] error. ignoring...")
+def sleep_if_rate_limited(type="search"):
+    for _ in range(RETRY_COUNT):
+        try:
+            r = requests.get("https://api.github.com/rate_limit", headers=HEADERS)
+            if r.status_code != 304 and r.json()['resources'][type]['remaining'] > 0:
+                return
+            print("rate limited. sleeping...")
+        except Exception:
+            print("[rate limit] error. ignoring...")
+        sleep(5)
 
 
 # Fetch all repo names that contain meteor entrypoint in fabric.mod.json
@@ -28,18 +31,24 @@ page = 0
 print("Fetching based on fabric.mod.json")
 while incomplete:
     print(f"Fetching page {page}")
-    try:
-        r = requests.get(
-            f"https://api.github.com/search/code?q=entrypoints+meteor+extension:json+filename:fabric.mod.json+fork:true+in:file&per_page=100&page={page}", headers=HEADERS).json()
-        for file in r['items']:
-            repo = file['repository']
-            if repo['private']:
+    for _ in range(RETRY_COUNT):
+        try:
+            sleep_if_rate_limited()
+            r = requests.get(
+                f"https://api.github.com/search/code?q=entrypoints+meteor+extension:json+filename:fabric.mod.json+fork:true+in:file&per_page=100&page={page}", headers=HEADERS).json()
+            if 'message' in r.keys() and "rate limit" in r['message']:
+                print("[search fetch] rate limited. sleeping...")
+                sleep(60)
                 continue
-            repos.add(repo['full_name'])
-        incomplete = r["incomplete_results"]
-        sleep_if_rate_limited()
-    except Exception:
-        print("[search fetch] error. ignoring...")
+            for file in r['items']:
+                repo = file['repository']
+                if repo['private']:
+                    continue
+                repos.add(repo['full_name'])
+            incomplete = r["incomplete_results"]
+            break
+        except Exception:
+            print("[search fetch] error. ignoring...")
     page += 1
     if page > 500: # fallback
         break
@@ -50,18 +59,24 @@ page = 0
 print("Fetching based on extends MeteorAddon")
 while incomplete:
     print(f"Fetching page {page}")
-    try:
-        r = requests.get(
-            f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&per_page=100&page={page}", headers=HEADERS).json()
-        for file in r['items']:
-            repo = file['repository']
-            if repo['private']:
+    for _ in range(RETRY_COUNT):
+        try:
+            sleep_if_rate_limited()
+            r = requests.get(
+                f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&per_page=100&page={page}", headers=HEADERS).json()
+            if 'message' in r.keys() and "rate limit" in r['message']:
+                print("[search fetch] rate limited. sleeping...")
+                sleep(60)
                 continue
-            repos.add(repo['full_name'])
-        incomplete = r["incomplete_results"]
-        sleep_if_rate_limited()
-    except Exception:
-        print("[search fetch] error. ignoring...")
+            for file in r['items']:
+                repo = file['repository']
+                if repo['private']:
+                    continue
+                repos.add(repo['full_name'])
+            incomplete = r["incomplete_results"]
+            break
+        except Exception:
+            print("[search fetch] error. ignoring...")
     page += 1
     if page > 500: # fallback
         break
@@ -78,7 +93,7 @@ for fork in r:
 repos = list(filter(lambda x: "-addon-template" not in x.lower(), repos))
 
 def parse_repo(name):
-    sleep_if_rate_limited()
+    sleep_if_rate_limited(type="core")
     print(f"parsing: {name}")
     repo = requests.get(f"https://api.github.com/repos/{name}", headers=HEADERS).json()
     fabric = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/fabric.mod.json").json()

@@ -1,14 +1,25 @@
 import requests
 import json
 from os import getenv
+from time import sleep
 import re
 
 VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
 GH_TOKEN = getenv("GH_TOKEN")
-HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json", "User-Agent": "AntiCope/anticope.ml"}
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
+
+def sleep_if_rate_limited():
+    try:
+        for _ in range(0, 25):
+            if requests.get("https://api.github.com/rate_limit", headers=HEADERS).json()['search']['remaining'] == 0:
+                print("rate limited. sleeping...")
+                sleep(60)
+    except Exception:
+        print("[rate limit] error. ignoring...")
+
 
 # Fetch all repo names that contain meteor entrypoint in fabric.mod.json
 repos = set(VERIFIED)
@@ -26,6 +37,7 @@ while incomplete:
                 continue
             repos.add(repo['full_name'])
         incomplete = r["incomplete_results"]
+        sleep_if_rate_limited()
     except Exception:
         print("[search fetch] error. ignoring...")
     page += 1
@@ -47,6 +59,7 @@ while incomplete:
                 continue
             repos.add(repo['full_name'])
         incomplete = r["incomplete_results"]
+        sleep_if_rate_limited()
     except Exception:
         print("[search fetch] error. ignoring...")
     page += 1
@@ -65,6 +78,7 @@ for fork in r:
 repos = list(filter(lambda x: "-addon-template" not in x.lower(), repos))
 
 def parse_repo(name):
+    sleep_if_rate_limited()
     print(f"parsing: {name}")
     repo = requests.get(f"https://api.github.com/repos/{name}", headers=HEADERS).json()
     fabric = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/fabric.mod.json").json()

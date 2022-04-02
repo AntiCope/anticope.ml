@@ -10,21 +10,42 @@ HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.gith
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
 
-# Fetch all repo names that extend MeteorAddon
+# Fetch all repo names that contain meteor entrypoint in fabric.mod.json
 repos = set(VERIFIED)
 incomplete = True
 page = 0
+print("Fetching based on fabric.mod.json")
 while incomplete:
     print(f"Fetching page {page}")
     try:
         r = requests.get(
-            f"https://api.github.com/search/code?q=entrypoints+meteor+extension%3Ajson+path%3Asrc%2Fmain%2Fresources+filename%3Afabric.mod.json+fork%3Atrue+in%3Afile&per_page=100&page={page}", headers=HEADERS).json()
+            f"https://api.github.com/search/code?q=entrypoints+meteor+extension:json+filename:fabric.mod.json+fork:true+in:file&per_page=100&page={page}", headers=HEADERS).json()
         for file in r['items']:
             repo = file['repository']
             if repo['private']:
                 continue
             repos.add(repo['full_name'])
-            continue
+        incomplete = r["incomplete_results"]
+    except Exception:
+        print("[search fetch] error. ignoring...")
+    page += 1
+    if page > 500: # fallback
+        break
+    
+# Fetch all repo names that extend MeteorAddon
+incomplete = True
+page = 0
+print("Fetching based on extends MeteorAddon")
+while incomplete:
+    print(f"Fetching page {page}")
+    try:
+        r = requests.get(
+            f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&per_page=100&page={page}", headers=HEADERS).json()
+        for file in r['items']:
+            repo = file['repository']
+            if repo['private']:
+                continue
+            repos.add(repo['full_name'])
         incomplete = r["incomplete_results"]
     except Exception:
         print("[search fetch] error. ignoring...")

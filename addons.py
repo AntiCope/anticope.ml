@@ -21,7 +21,7 @@ def sleep_if_rate_limited(type="search"):
             print("rate limited. sleeping...")
         except Exception:
             print("[rate limit] error. ignoring...")
-        sleep(60)
+        sleep(25)
 
 
 # Fetch all repo names that contain meteor entrypoint in fabric.mod.json
@@ -50,7 +50,7 @@ while incomplete:
         except Exception:
             print("[search fetch] error. ignoring...")
     page += 1
-    if page > 500: # fallback
+    if page > 10: # fallback
         break
     
 # Fetch all repo names that extend MeteorAddon
@@ -78,7 +78,7 @@ while incomplete:
         except Exception:
             print("[search fetch] error. ignoring...")
     page += 1
-    if page > 500: # fallback
+    if page > 10: # fallback
         break
 
 # Request all forks of templates because some people cant click generate

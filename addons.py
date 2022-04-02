@@ -69,9 +69,8 @@ while incomplete:
                 continue
             for file in r['items']:
                 repo = file['repository']
-                if repo['private']:
-                    continue
-                repos.add(repo['full_name'])
+                if not repo['private']:
+                    repos.add(repo['full_name'])
             incomplete = r["incomplete_results"]
             break
         except Exception:

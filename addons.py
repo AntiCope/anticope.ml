@@ -18,7 +18,7 @@ while incomplete:
     print(f"Fetching page {page}")
     try:
         r = requests.get(
-            f"https://api.github.com/search/code?q=extends+MeteorAddon+language:java+in:file&per_page=100&page={page}", headers=HEADERS).json()
+            f"https://api.github.com/search/code?q=entrypoints+meteor+extension%3Ajson+path%3Asrc%2Fmain%2Fresources+filename%3Afabric.mod.json+fork%3Atrue+in%3Afile&per_page=100&page={page}", headers=HEADERS).json()
         for file in r['items']:
             repo = file['repository']
             if repo['private']:

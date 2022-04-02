@@ -21,7 +21,7 @@ def sleep_if_rate_limited(type="search"):
             print("rate limited. sleeping...")
         except Exception:
             print("[rate limit] error. ignoring...")
-        sleep(5)
+        sleep(60)
 
 
 # Fetch all repo names that contain meteor entrypoint in fabric.mod.json

@@ -45,14 +45,20 @@ a {
 div[role="dialog"] {
   display: flex;
   justify-content: center;
-  z-index: 1040;
+  max-height: 100%;
+  left: calc(25vw / 2);
+  width: 75vw;
+  overflow-x: hidden;
+  overflow-y: visible;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-  max-height: 100%;
-  overflow-y: visible;
-  overflow-x: hidden;
+  z-index: 1040;
+}
+@media only screen and (max-width: 600px) {
+  div[role="dialog"] {
+    left: 5px;
+    width: calc(100% - 10px);
+  }
 }
 
 * {

@@ -8,6 +8,7 @@ VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
 RETRY_COUNT = 25
 GH_TOKEN = getenv("GH_TOKEN")
+VT_TOKEN = getenv("VT_TOKEN")
 HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json", "User-Agent": "AntiCope/anticope.ml"}
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
@@ -113,6 +114,28 @@ def parse_repo(name):
             summary = fabric['description']
     except Exception:
         print("[summary] error. ignoring...")
+    try:
+        releases = requests.get(f"https://api.github.com/repos/{name}/releases", headers=HEADERS).json()
+        url = None
+        for release in releases:
+            for asset in release['assets']:
+                name: str = asset['name'].lower()
+                if name.endswith("-dev.jar") or name.endswith("-sources.jar"):
+                    continue
+                if name.endswith(".jar"):
+                    url = asset['browser_download_url']
+                    break
+            if requests.head(url).status_code%100 != 4:
+                break
+        if requests.head(url).status_code%100 == 4:
+            print("missing release")
+        else:
+            links["download"] = url
+            vt_scan = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN}).json()
+            if "permalink" in vt_scan.keys():
+                links["virustotal"] = vt_scan["permalink"]
+    except Exception:
+        print("[dl] error. ignoring...")
     try:
         icon = f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/{fabric['icon']}"
         if requests.head(icon).status_code%100 == 4:

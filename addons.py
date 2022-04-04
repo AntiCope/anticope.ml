@@ -125,9 +125,9 @@ def parse_repo(name):
                 if name.endswith(".jar"):
                     url = asset['browser_download_url']
                     break
-            if requests.head(url).status_code%100 != 4:
+            if requests.head(url).status_code != 404:
                 break
-        if requests.head(url).status_code%100 == 4:
+        if requests.head(url).status_code == 404:
             print("missing release")
         else:
             links["download"] = url
@@ -145,7 +145,7 @@ def parse_repo(name):
         print("[dl] error. ignoring...")
     try:
         icon = f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/{fabric['icon']}"
-        if requests.head(icon).status_code%100 == 4:
+        if requests.head(icon).status_code == 404:
             print("missing icon")
             icon = None
     except Exception:
@@ -158,7 +158,7 @@ def parse_repo(name):
         if len(invites) == 0:
             invites = INVITE_RE.findall(str(repo))
         if len(invites) > 0:
-            if requests.head(invites[0]).status_code%100 != 4:
+            if requests.head(invites[0]).status_code != 404:
                 links["discord"] = invites[0]
     except Exception:
         print("[discord invite] error. ignoring...")

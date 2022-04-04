@@ -119,10 +119,10 @@ def parse_repo(name):
         url = None
         for release in releases:
             for asset in release['assets']:
-                name: str = asset['name'].lower()
-                if name.endswith("-dev.jar") or name.endswith("-sources.jar"):
+                asset_name: str = asset['name'].lower()
+                if asset_name.endswith("-dev.jar") or asset_name.endswith("-sources.jar"):
                     continue
-                if name.endswith(".jar"):
+                if asset_name.endswith(".jar"):
                     url = asset['browser_download_url']
                     break
             if requests.head(url).status_code != 404:

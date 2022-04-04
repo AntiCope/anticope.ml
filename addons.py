@@ -94,26 +94,32 @@ repos = list(filter(lambda x: "-addon-template" not in x.lower(), repos))
 def parse_repo(name):
     sleep_if_rate_limited(type="core")
     print(f"parsing: {name}")
+
     repo = requests.get(f"https://api.github.com/repos/{name}", headers=HEADERS).json()
     fabric = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/fabric.mod.json").json()
+
+    # find authors from mod metadata or from github username
     authors = []
     for author in fabric['authors']:
         if type(author) == str:
             authors.append(author)
     if len(authors) == 0:
         authors.append(repo['owner']['login'])
+    
     links = {"github": repo['html_url']}
-    icon = None
-    summary = ""
+
     if "meteor" not in fabric["entrypoints"].keys():
         print("Missing meteor entrypoint")
         raise Exception("Missing meteor entrypoint")
+    
+    summary = ""
     try:
-        summary = repo['description']
-        if not summary:
-            summary = fabric['description']
+        summary = repo['description'] or fabric['description']
     except Exception:
         print("[summary] error. ignoring...")
+    
+    # direct download from releases
+    downloads = 0
     try:
         releases = requests.get(f"https://api.github.com/repos/{name}/releases", headers=HEADERS).json()
         url = None
@@ -124,25 +130,31 @@ def parse_repo(name):
                     continue
                 if asset_name.endswith(".jar"):
                     url = asset['browser_download_url']
+                    downloads = asset['download_count']
                     break
             if requests.head(url).status_code != 404:
                 break
         if requests.head(url).status_code == 404:
             print("missing release")
+            downloads = 0
         else:
             links["download"] = url
             r = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN})
-            if r and r.status_code == 200:
+            if r.text and r.status_code == 200:
                 vt_scan = r.json()
                 if "permalink" in vt_scan.keys():
                     links["virustotal"] = vt_scan["permalink"]
-            r = requests.post("https://www.virustotal.com/vtapi/v2/url/report", data={"url": url, "apikey": VT_TOKEN}).json()
-            if r and r.status_code == 200:
+            r = requests.get("https://www.virustotal.com/vtapi/v2/url/report", params={"url": url, "apikey": VT_TOKEN})
+            if r.text and r.status_code == 200:
                 scan_result = r.json()
+                links.setdefault("virustotal", scan_result['permalink'])
                 if scan_result and "positives" in scan_result.keys() and scan_result["positives"] > 1:
                     links.pop("download", None)
     except Exception:
         print("[dl] error. ignoring...")
+    
+    # icon from mod metadata
+    icon = None
     try:
         icon = f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/src/main/resources/{fabric['icon']}"
         if requests.head(icon).status_code == 404:
@@ -150,24 +162,26 @@ def parse_repo(name):
             icon = None
     except Exception:
         print("[icon] error. ignoring...")
+
+    # find discord server by looking at readme mod and repository metadata
     try:
         readme = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/README.md").text
-        invites = INVITE_RE.findall(readme)
-        if len(invites) == 0:
-            invites = INVITE_RE.findall(str(fabric))
-        if len(invites) == 0:
-            invites = INVITE_RE.findall(str(repo))
-        if len(invites) > 0:
-            if requests.head(invites[0]).status_code != 404:
-                links["discord"] = invites[0]
+        invites = INVITE_RE.findall(readme) + INVITE_RE.findall(str(fabric)) + INVITE_RE.findall(str(repo))
+        for invite in invites:
+            if requests.head(invite).status_code != 404:
+                links["discord"] = invite
+                break
     except Exception:
         print("[discord invite] error. ignoring...")
+
     try:
         site = repo['homepage']
         if not INVITE_RE.match(site) and site: # skip discord invites
             links["homepage"] = site
     except Exception:
         print("[homepage] error. ignoring...")
+
+    # find features by parsing the entrypoint
     features = []
     feature_count = 0
     try:
@@ -180,6 +194,7 @@ def parse_repo(name):
             features.append(f"...and {count} more")
     except Exception:
         print("[features] error. ignoring...")
+    
     result = {
         "authors": authors,
         "features": features,
@@ -190,6 +205,7 @@ def parse_repo(name):
         "name": fabric['name'],
         "stars": repo['stargazers_count'],
         "last_update": repo['pushed_at'],
+        "downloads": downloads,
         "status": {
             "archived": repo['archived'],
             "devbuild": False,
@@ -198,6 +214,7 @@ def parse_repo(name):
         "verified": (repo['full_name'] in VERIFIED),
         "summary": summary
     }
+
     result.update(INJECT.get(repo['full_name'], {}))
     return result
     

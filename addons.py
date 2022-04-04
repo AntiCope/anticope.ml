@@ -131,9 +131,16 @@ def parse_repo(name):
             print("missing release")
         else:
             links["download"] = url
-            vt_scan = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN}).json()
-            if "permalink" in vt_scan.keys():
-                links["virustotal"] = vt_scan["permalink"]
+            r = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN})
+            if r and r.status_code == 200:
+                vt_scan = r.json()
+                if "permalink" in vt_scan.keys():
+                    links["virustotal"] = vt_scan["permalink"]
+            r = requests.post("https://www.virustotal.com/vtapi/v2/url/report", data={"url": url, "apikey": VT_TOKEN}).json()
+            if r and r.status_code == 200:
+                scan_result = r.json()
+                if scan_result and "positives" in scan_result.keys() and scan_result["positives"] > 1:
+                    links.pop("download", None)
     except Exception:
         print("[dl] error. ignoring...")
     try:

@@ -132,20 +132,19 @@ def parse_repo(name):
                     url = asset['browser_download_url']
                     downloads = asset['download_count']
                     break
-            if requests.head(url).status_code != 404:
+            if url != None:
                 break
-        if requests.head(url).status_code == 404:
+        if url == None:
             print("missing release")
-            downloads = 0
         else:
             links["download"] = url
             r = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN})
-            if r.text and r.status_code == 200:
+            if r.status_code == 200:
                 vt_scan = r.json()
                 if "permalink" in vt_scan.keys():
                     links["virustotal"] = vt_scan["permalink"]
             r = requests.get("https://www.virustotal.com/vtapi/v2/url/report", params={"url": url, "apikey": VT_TOKEN})
-            if r.text and r.status_code == 200:
+            if r.status_code == 200:
                 scan_result = r.json()
                 links.setdefault("virustotal", scan_result['permalink'])
                 if scan_result and "positives" in scan_result.keys() and scan_result["positives"] > 1:

@@ -11,6 +11,8 @@ import {
     FaDiscord,
     FaLink,
     FaGithub,
+    FaDownload,
+    FaVirus,
     FaStar,
     FaCalendarAlt
 } from "react-icons/fa";
@@ -30,6 +32,8 @@ function formatStrings(strings) {
 function getIcon(type) {
     switch (type) {
         case "discord": return <FaDiscord />
+        case "github": return <FaGithub />
+        case "virustotal": return <FaVirus />
         default: return <FaLink />
     }
 }
@@ -112,15 +116,25 @@ function AddonModal({ addon, onHide }) {
             </section>
         }
         <div className="Line appear centered">
-            <a href={addon.links.github} target="_blank">
-                <Button>
-                    <FaGithub style={{ marginRight: '0.6rem' }} />
-                    Repository
-                </Button>
-            </a>
+            { addon.links.download == undefined &&
+                <a href={addon.links.github} target="_blank">
+                    <Button>
+                        <FaGithub style={{ marginRight: '0.6rem' }} />
+                        Repository
+                    </Button>
+                </a>
+            }
+            { addon.links.download &&
+                <a href={addon.links.download} target="_blank">
+                    <Button>
+                        <FaDownload style={{ marginRight: '0.6rem' }} />
+                        Download
+                    </Button>
+                </a>
+            }
             <div className="IconLinks">
                 {Object.keys(addon.links).map((key) => {
-                    if (key === "github") return <></>
+                    if ((key === "github" && addon.links.download == null) || key === "download") return <></>
                     else {
                         return <Tooltiped key={key} tooltip={key}>
                             <a href={addon.links[key]} target="_blank">{getIcon(key)}</a>

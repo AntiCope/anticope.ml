@@ -72,7 +72,7 @@ function AddonsPage() {
     function fetchChunk(chunk) {
         if (loadedChunks.includes(chunk)) return;
         setLoadedChunks([...loadedChunks, chunk])
-        fetch(`https://raw.githubusercontent.com/AntiCope/anticope.ml/data/addons-${chunk}.json?v=${Math.random()}`)
+        fetch(`https://raw.githubusercontent.com/AntiCope/anticope.ml/data/addons-${chunk}.json?v=${(new Date()).getTime()}`)
             .then(res => res.json())
             .then(newAddons => {
                 setAddons([...addons, ...newAddons])

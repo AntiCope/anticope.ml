@@ -8,7 +8,6 @@ VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
 RETRY_COUNT = 25
 GH_TOKEN = getenv("GH_TOKEN")
-VT_TOKEN = getenv("VT_TOKEN")
 HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json", "User-Agent": "AntiCope/anticope.ml"}
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
@@ -24,9 +23,9 @@ def sleep_if_rate_limited(type="search"):
             print("[rate limit] error. ignoring...")
         sleep(25)
 
+repos = set(VERIFIED)
 
 # Fetch all repo names that contain meteor entrypoint in fabric.mod.json
-repos = set(VERIFIED)
 incomplete = True
 page = 0
 print("Fetching based on fabric.mod.json")
@@ -138,17 +137,6 @@ def parse_repo(name):
             print("missing release")
         else:
             links["download"] = url
-            r = requests.post("https://www.virustotal.com/vtapi/v2/url/scan", data={"url": url, "apikey": VT_TOKEN})
-            if r.status_code == 200:
-                vt_scan = r.json()
-                if "permalink" in vt_scan.keys():
-                    links["virustotal"] = vt_scan["permalink"]
-            r = requests.get("https://www.virustotal.com/vtapi/v2/url/report", params={"url": url, "apikey": VT_TOKEN})
-            if r.status_code == 200:
-                scan_result = r.json()
-                links.setdefault("virustotal", scan_result['permalink'])
-                if scan_result and "positives" in scan_result.keys() and scan_result["positives"] > 1:
-                    links.pop("download", None)
     except Exception:
         print("[dl] error. ignoring...")
     

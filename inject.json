@@ -40,18 +40,14 @@
         "status": { "archived": false, "devbuild": true, "release": true }
     },
     "cally72jhb/vector-addon": {
-        "status": { "archived": false, "devbuild": false, "release": true },
+        "status": { "archived": false, "devbuild": true, "release": true },
         "icon": "https://user-images.githubusercontent.com/18114966/159967693-d42e1b63-2fb2-4261-9913-9c1b95c43f69.png"
     },
     "kkllffaa/meteor-litematica-printer": {
-        "status": { "archived": false, "devbuild": false, "release": true }
-    },
-    "BedTrap-Inc/lean-addon": {
-        "status": { "archived": false, "devbuild": true, "release": false },
-        "boost": -0.02
+        "status": { "archived": false, "devbuild": true, "release": true }
     },
     "AntiCope/reaper-addon": {
-        "status": { "archived": false, "devbuild": true, "release": false },
+        "status": { "archived": false, "devbuild": true, "release": true },
         "icon": "https://raw.githubusercontent.com/AntiCope/reaper-addon/main/src/main/resources/assets/reaper/icon.png"
     }
 }

@@ -5,10 +5,10 @@ function LastUpdate() {
     const [lastUpdate, setLastUpdate] = useState("A long time ago")
 
     useEffect(() => {
-        fetch(`https://api.github.com/repos/AntiCope/anticope.ml/actions/runs?per_page=1&status=success&branch=data&v=${(new Date()).getTime()}`)
+        fetch(`https://api.github.com/repos/AntiCope/anticope.ml/events?per_page=1&v=${(new Date()).getTime()}`)
             .then((r) => r.json())
             .then((r) => {
-                setLastUpdate(moment.utc(r.workflow_runs[0].updated_at).local().startOf('seconds').fromNow())
+                setLastUpdate(moment.utc(r[0].created_at).local().startOf('seconds').fromNow())
             })
     }, [])
 

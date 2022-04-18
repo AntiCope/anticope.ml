@@ -6,7 +6,8 @@ import './incompatibilities.css';
 const CLIENTS = [
     ["Inertia Client", "https://inertiaclient.com/"],
     ["Wurst Client", "https://www.wurstclient.net/"],
-    ["Aristois Client", "https://aristois.net/"]
+    ["Aristois Client", "https://aristois.net/"],
+    ["Feather Client", "https://feathermc.com/"]
 ]
 
 function IncompatibilitiesPage() {

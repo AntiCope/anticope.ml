@@ -25,6 +25,7 @@ function AdditionalsPage() {
                 <ul>
                     <li><a href="https://modrinth.com/mod/sodium" target="_blank">Sodium</a> - Performance improvements (way better than Optifine)</li>
                     <li><a href="https://modrinth.com/mod/lithium" target="_blank">Lithium</a> - Server optimizations</li>
+                    <li><a href="https://modrinth.com/mod/starlight" target="_blank">Starlight</a> - Lighting engine rewrite (better compared to Phosphor)</li>
                     <li><a href="https://modrinth.com/mod/phosphor" target="_blank">Phosphor</a> - Lighting engine improvements</li>
                 </ul>
                 <h3>Shaders</h3>

@@ -52,5 +52,8 @@
     },
     "Jackesparragos/Silivia": {
         "status": { "archived": false, "devbuild": true, "release": true }
+    },
+    "TheSainEyereg/MeteorPlus": {
+        "status": { "archived": false, "devbuild": true, "release": true }
     }
 }

@@ -9,12 +9,11 @@
 }
 
 .EndContainer {
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0.65;
     position: fixed;
-    top: 50%;
-    transform: translate(-50%, -50%);
     z-index: -1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }

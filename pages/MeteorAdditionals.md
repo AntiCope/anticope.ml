@@ -2,12 +2,12 @@
 layout: default
 title: Meteor Additionals
 has_children: false
-nav_order: 3
+nav_order: 2
 ---
 
 # Meteor Additionals
 
-A list of recommended mods to be used alongside meteor.
+A list of Fabric mods recommended to be used alongside Meteor Client.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -17,9 +17,9 @@ A list of recommended mods to be used alongside meteor.
 - [Optifine Alternatives](#optifine-alternatives)
   - [Performance](#performance)
   - [Shaders](#shaders)
-- [Radar | Map](#radar--map)
+- [Radar Map](#radar-map)
 - [Misc](#misc)
-- [Meteor Addons](#meteor-addons)
+- [Meteor Client Addons](#meteor-client-addons)
 - [Incompatibilities](#incompatibilities)
 
 </details>
@@ -27,53 +27,78 @@ A list of recommended mods to be used alongside meteor.
 
 ## Optifine Alternatives
 
-Optifine is and never will be supported by Meteor.
-More alternatives and the reason why its not supported [here](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
+Optifine is and never will be supported by Meteor Client.
+More alternatives and the reason why its not supported [here](https://lambdaurora.dev/optifine_alternatives).
 
 ### Performance
 
-- [Sodium](https://modrinth.com/mod/sodium) | Performance improvements (better than Optifine)
-- [Lithium](https://modrinth.com/mod/lithium) | Server optimizations
-- [Phosphor](https://modrinth.com/mod/phosphor) | Lighting engine improvements
-- [Starlight](https://github.com/Spottedleaf/Starlight) | Lighting engine improvements (incompatible with Phosphor)
+- [Sodium](https://modrinth.com/mod/sodium)<br>
+Performance improvements (way better than Optifine)
+
+- [Lithium](https://modrinth.com/mod/lithium)<br>
+Server optimizations
+
+- [Phosphor](https://modrinth.com/mod/phosphor)<br>
+Lighting engine improvements
+
+- [Starlight](https://github.com/Spottedleaf/Starlight)<br>
+Lighting engine improvements (incompatible with Phosphor)
+
 
 ### Shaders
 
-- [Canvas Renderer](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer) | A new rendering engine. Incompatible with Sodium
-- [Iris](https://modrinth.com/mod/iris) | Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with a custom modified version of Sodium.
+- [Canvas Renderer](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer)<br>
+A new rendering engine. Incompatible with Sodium
+
+- [Iris](https://modrinth.com/mod/iris)<br>
+Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with a custom modified version of Sodium.
 
 
-## Radar | Map
+## Radar Map
 
-- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | An ingame minimap interface
-- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) | Fullscreen map on a keybind
-- [Amidst](https://github.com/toolbox4minecraft/amidst/releases) | Advanced Minecraft Interface and Data/Structure Tracking. **Not a Minecraft mod!**
+- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)<br>
+An ingame minimap interface
+
+- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)<br>
+Fullscreen map on a keybind
+
+- [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap)<br>
+A minimap and worldmap mod that makes a great effort to be accurate to the colors you see in the world (and your resource pack).<br>
+Display your surroundings, or view the entire (explored) world.<br>
+
+**External Maps**
+
+- [Amidst](https://github.com/toolbox4minecraft/amidst/releases)<br>
+Advanced Minecraft Interface and Data/Structure Tracking.
+
+- [Minemap](https://github.com/hube12/Minemap/releases)<br>
+An efficient map viewer for Minecraft seed in a nice GUI with utilities without ever needing to install Minecraft.
+
+- [ChunkBase](https://www.chunkbase.com/apps/)<br>
+A collection of apps to help you find the best Minecraft seeds, and locate biomes and structures in your world on a browser interactive map.
 
 ## Misc
 
-- [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect) | Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.
-- [KaptainWutax's SeedCracker](https://github.com/KaptainWutax/SeedCracker) | Fast, Automatic In-Game Seed Cracker for Minecraft.
-- [ClientCommands](https://github.com/Earthcomputer/clientcommands) | Duplicates few features from Meteor Client, but also contains useful features, like cracking [rng](https://github.com/Earthcomputer/clientcommands/wiki/rng) seed or printing entity data
-- [SeedMapper](https://github.com/xpple/SeedMapper) | Adds useful tools that use world seed
+- [Multiconnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect)<br>
+Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.
 
-## Meteor Addons
+- [KaptainWutax's SeedCracker](https://github.com/KaptainWutax/SeedCracker)<br>
+Fast, Automatic In-Game Seed Cracker for Minecraft.
 
-Meteor has a built-in addon system which allows creation of addons.
+- [ClientCommands](https://github.com/Earthcomputer/clientcommands)<br>
+Duplicates few features from Meteor Client, but also contains useful features, like cracking [rng](https://github.com/Earthcomputer/clientcommands/wiki/rng) seed or printing entity data
+
+- [SeedMapper](https://github.com/xpple/SeedMapper)<br>
+Adds useful tools that use world seed
+
+
+## Meteor Client Addons
+
+Meteor Client has a built-in addon system which allows creation of addons.
 Addons can modify almost anything in meteor, modules, commands, gui, etc.
 
 Check out the addons list [here](/MeteorAddons.md).
 
 ## Incompatibilities
 
-Meteor is a fabric mod, and like any other fabric mod, it can have incompatibilities.
-Here are some of the mods known to be incompatible or cause issues with Meteor.
-
-**Clients**
-- [Inertia Client](https://inertiaclient.com/)
-- [Wurst Client](https://www.wurstclient.net/)
-- [Aristois Client](https://aristois.net/)
-
-
-**Others**
-- [Optifine](https://optifine.net/home) or [Optifabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) | As stated [above](#optifine-alternatives), Optifine is and never will be compatible with Meteor.
-- [Replay Mod](https://www.replaymod.com/) | Only crashes when opening the replay list. Recording should still be fine.
+If you are looking for the list of incompatible mods, check out the [Meteor Incompatibilities](/Incompatibilities.md) page.

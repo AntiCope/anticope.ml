@@ -22,3 +22,15 @@ td {
 .search-input {
     color: $body-text-color;
 }
+
+.shimmer {
+    display: inline-block;
+    -webkit-mask: linear-gradient(-60deg, #000 40%, #0005, #000 60%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 15s infinite;
+    animation-delay: 7s;
+}
+@keyframes shimmer {
+    10% { -webkit-mask-position: left; }
+    30% { -webkit-mask-position: right; }
+}

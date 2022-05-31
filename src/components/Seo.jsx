@@ -22,7 +22,7 @@ const Seo = ({ summary, title, children }) => {
 
   return (
     <Helmet title={title} titleTemplate={`%s | ${site.siteMetadata.title}`}>
-      <html lang="en" amp />
+      <html lang="en" />
       <meta name="description" content={summary} />
       <meta name="og:title" content={title} />
       <meta name="og:site_name" content={title} />
@@ -34,18 +34,22 @@ const Seo = ({ summary, title, children }) => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={summary} />
       <meta name="og:image" content={logo} />
-      <meta name="og:image:width" content="705" />
-      <meta name="og:image:height" content="537" />
+      <meta name="og:image:width" content="200" />
+      <meta name="og:image:height" content="200" />
       <meta property="og:image:alt" content="icon" />
       <meta name="keywords" content={keywords.join(", ")} />
       {/*<meta name="article:tag" content={keywords.join(", ")} />*/}
       <script type="application/ld+json">
         {`{
           "@context": "http://schema.org",
-          "@type": "WebSite",
+          "@type": "WebPage",
           "name": "${site.siteMetadata.title}",
+          "image": "${logo}",
+          "abstract": "${summary}",
+          "mainContentOfPage": "${summary}",
+          "keywords": "${keywords.join(", ")}",
           "author": {
-            "@type": "Organization"
+            "@type": "Organization",
             "name": "${site.siteMetadata.author}"
           },
           "url": "${site.siteMetadata.siteUrl}"

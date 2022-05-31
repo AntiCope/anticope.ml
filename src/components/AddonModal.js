@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Button from './Button'
 import Tooltiped from './Tooltiped'
 
@@ -16,11 +16,12 @@ import {
     FaStar,
     FaCalendarAlt
 } from "react-icons/fa";
-import './AddonModal.css';
 import moment from "moment";
 import { Img } from "react-image";
 
-const UNKNOWN_ICON = "/unknown_icon.png"
+import './AddonModal.sass';
+
+import UNKNOWN_ICON from "../images/unknown_icon.png"
 
 function formatStrings(strings) {
     if (strings.length === 0) return "";
@@ -105,7 +106,7 @@ function AddonModal({ addon, onHide }) {
         <p>
             {addon.summary || ""}
         </p>
-        {(addon.features != undefined && addon.features.length > 0) &&
+        {(typeof addon.features !== "undefined" && addon.features.length > 0) &&
             <section className="Features">
                 <h4>Features</h4>
                 <ul>
@@ -116,8 +117,8 @@ function AddonModal({ addon, onHide }) {
             </section>
         }
         <div className="Line appear centered">
-            { addon.links.download == undefined &&
-                <a href={addon.links.github} target="_blank">
+            { typeof addon.links.download === "undefined" &&
+                <a href={addon.links.github}>
                     <Button>
                         <FaGithub style={{ marginRight: '0.6rem' }} />
                         Repository
@@ -125,7 +126,7 @@ function AddonModal({ addon, onHide }) {
                 </a>
             }
             { addon.links.download &&
-                <a href={addon.links.download} target="_blank">
+                <a href={addon.links.download}>
                     <Button>
                         <FaDownload style={{ marginRight: '0.6rem' }} />
                         Download
@@ -134,10 +135,10 @@ function AddonModal({ addon, onHide }) {
             }
             <div className="IconLinks">
                 {Object.keys(addon.links).map((key) => {
-                    if ((key === "github" && addon.links.download == null) || key === "download") return <></>
+                    if ((key === "github" && typeof addon.links.download === "undefined") || key === "download") return <></>
                     else {
                         return <Tooltiped key={key} tooltip={key}>
-                            <a href={addon.links[key]} target="_blank">{getIcon(key)}</a>
+                            <a href={addon.links[key]}>{getIcon(key)}</a>
                         </Tooltiped>
                     }
                 })}

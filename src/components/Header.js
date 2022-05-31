@@ -1,21 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import { Link } from "gatsby";
 
 import { FaDiscord, FaGithub } from "react-icons/fa";
-import "./Header.css";
+import "./Header.sass";
+
+import logo from "../images/icon.svg"
 
 function Header() {
     return <header className="Header">
-        <div className="Logo">
-            <Link to="/">
-                <img src="/logo.webp" alt="logo"/>
-            </Link>
-        </div>
+        <Link to="/" className="Logo">
+            <img src={logo} alt="logo"/>
+        </Link>
         <nav className="Nav">
-            <a href="https://github.com/AntiCope/anticope.ml/" target="_blank" aria-label="Github">
+            <a href="https://github.com/AntiCope/anticope.ml/" aria-label="Github">
                 <FaGithub />
             </a>
-            <a href="https://discord.gg/9mrRPGKYU3" target="_blank" aria-label="Discord">
+            <a href="https://discord.gg/9mrRPGKYU3" aria-label="Discord">
                 <FaDiscord />
             </a>
         </nav>

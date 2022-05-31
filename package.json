@@ -1,47 +1,38 @@
 {
   "name": "anticope",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "anticope",
+  "author": "C10udburst",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop --host=0.0.0.0",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "fuse.js": "^6.5.3",
-    "moment": "^2.29.1",
-    "no-darkreader": "^1.0.2",
+    "fuse.js": "^6.6.2",
+    "gatsby": "^4.15.1",
+    "gatsby-plugin-canonical-urls": "^4.15.0",
+    "gatsby-plugin-manifest": "^4.15.0",
+    "gatsby-plugin-nprogress": "^4.15.0",
+    "gatsby-plugin-offline": "^5.15.0",
+    "gatsby-plugin-preact": "^6.15.0",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-robots-txt": "^1.7.1",
+    "gatsby-plugin-sass": "^5.15.0",
+    "gatsby-plugin-sitemap": "^5.15.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-icon": "^1.0.0",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.4.0",
     "react-image": "^4.0.3",
-    "react-overlays": "^5.1.1",
-    "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-overlays": "^5.1.2",
+    "sass": "^1.52.1",
+    "timeago-react": "^3.0.5"
   }
 }

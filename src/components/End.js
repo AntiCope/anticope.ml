@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect } from "react";
 
-import "./End.css"
+import "./End.sass"
 
 const size = .5;
 const overflow = .7;
@@ -105,6 +105,8 @@ function End() {
     const canvasRef = useRef(null)
 
     useEffect(() => {
+        if (typeof window === "undefined") return;
+
         window.context = 1; window.width = 1; window.height = 1; window.scale = 1;
         window.particles = [];
         window.pointerX = null; window.pointerY = null;

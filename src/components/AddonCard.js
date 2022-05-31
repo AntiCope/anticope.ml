@@ -9,12 +9,13 @@ import {
     FaArchive,
     FaBiohazard,
 } from "react-icons/fa";
-import './AddonCard.css';
 import { Modal } from "react-overlays";
 import AddonModal from "./AddonModal";
 import { getImageProxyUrl } from "../utils";
 
-const UNKNOWN_ICON = "/unknown_icon.png"
+import './AddonCard.sass';
+
+import UNKNOWN_ICON from "../images/unknown_icon.png"
 
 function BackDrop(props) {
     return <div className="BackDrop" {...props}></div>

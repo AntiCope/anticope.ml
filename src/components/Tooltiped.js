@@ -1,6 +1,6 @@
 import React from "react";
 
-import './Tooltiped.css';
+import './Tooltiped.sass';
 
 function Tooltiped({children, tooltip}) {
     return <div className="Tooltiped" aria-label={tooltip}>

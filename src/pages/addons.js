@@ -4,14 +4,16 @@ import Fuse from "fuse.js";
 
 import AddonCard from "../components/AddonCard";
 import Tooltiped from "../components/Tooltiped";
-import Head from "../components/Head";
+import Seo from "../components/Seo";
 import Paginator from "../components/Paginator";
 import LastUpdate from "../components/LastUpdate";
 
 import './addons.css';
 import { FaCheck } from "react-icons/fa";
+import Layout from "../components/Layout";
+import { Link } from "gatsby";
 
-const fuse = new Fuse([],{
+const fuse = new Fuse([], {
     useExtendedSearch: true,
     includeScore: true,
     shouldSort: false,
@@ -39,9 +41,9 @@ const fuse = new Fuse([],{
 
 function getWeight(addon) {
     return (
-        (addon.verified?0.75:0)
-    +   ((addon.boost||0)*2)
-    +   (addon.stars*0.04)
+        (addon.verified ? 0.75 : 0)
+        + ((addon.boost || 0) * 2)
+        + (addon.stars * 0.04)
     ) || 0
 }
 
@@ -51,7 +53,7 @@ function AddonsPage() {
     const [filter, setFilter] = useState({ query: "", verified: true });
     const [page, setPage] = useState(1);
     const size = useWindowSize();
-    const per_page = (size.width>1000)?12:5;
+    const per_page = (size.width > 1000) ? 12 : 5;
 
     useEffect(() => {
         fetchChunk('ver')
@@ -104,39 +106,47 @@ function AddonsPage() {
     }
 
 
-    return <article id="addons-page">
-        <Head title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
-        <h3>Browse free and open-source Addons that can be used alongside Meteor Client.</h3>
-        <section>
-            <p>
-                A list to help newcomers discover free and open-source Meteor Client addons. This repo might not stay for long as an addon marketplace system is being planned.
-                <br />If you are looking for other fabric mods to be used alongside Meteor Client, check this list out
-                <br />If you looking to get your addon verified, open a new issue or pull request on our <a href="https://github.com/AntiCope/anticope.ml/" target="_blank">Github repository</a>, or send a message in <a href="https://discord.gg/9mrRPGKYU3" target="_blank">#addon-verification-requests</a> channel on discord.
-            </p>
-            <h3>Sidenote</h3>
-            <p>
-                If an addon has multiple .jar files avaliable for download, do not use files ending with <code>-dev.jar</code> or <code>-sources.jar</code> as they won't work.
-            </p>
-            <h4>Last Update: {' '}
-                <LastUpdate />
-            </h4>
-        </section>
-        <hr />
-        <header className="Filter">
-            <input onChange={(evt) => { setFilter({ ...filter, query: evt.target.value.toLowerCase() }) }} className="Search" type="text" placeholder="search here..." value={filter.query} />
-            <Tooltiped tooltip="Show verified only">
-                <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={toggleVerified}>
-                    <FaCheck />
-                </div>
-            </Tooltiped>
-        </header>
-        <section className="addon-grid">
-            {filteredAddons && filteredAddons.slice((page-1)*per_page, page*per_page).map((addon) => {
-                return <AddonCard key={addon.id} addon={addon} />
-            })}
-        </section>
-        <Paginator page={page} lastPage={Math.ceil(filteredAddons.length/per_page)} onChange={(i) => setPage(i)}/>
-    </article>
+    return <Layout>
+        <Seo title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />
+        <article id="addons-page">
+            <h3>Browse free and open-source Addons that can be used alongside Meteor Client.</h3>
+            <section>
+                <p>
+                    Meteor has a built-in addon system which allows creation of addons. Addons can modify almost anything in meteor, modules, commands, gui, etc.
+                    <br />
+                    <br />
+                    A list to help newcomers discover free and open-source Meteor Client addons. This repo might not stay for long as an addon marketplace system is being planned.
+                    <br />
+                    If you are looking for other fabric mods to be used alongside Meteor Client, check <Link to="/additionals/">this list out</Link>.
+                    <br />
+                    <br />
+                    If you looking to get your addon verified, open a new issue or pull request on our <a href="https://github.com/AntiCope/anticope.ml/">Github repository</a>, or send a message in <a href="https://discord.gg/9mrRPGKYU3">#addon-verification-requests</a> channel on discord.
+                </p>
+                <h3>Sidenote</h3>
+                <p>
+                    If an addon has multiple .jar files avaliable for download, do not use files ending with <code>-dev.jar</code> or <code>-sources.jar</code> as they won't work.
+                </p>
+                <h4>Last Update: {' '}
+                    <LastUpdate />
+                </h4>
+            </section>
+            <hr />
+            <header className="Filter">
+                <input onChange={(evt) => { setFilter({ ...filter, query: evt.target.value.toLowerCase() }) }} className="Search" type="text" placeholder="search here..." value={filter.query} />
+                <Tooltiped tooltip="Show verified only">
+                    <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={toggleVerified}>
+                        <FaCheck />
+                    </div>
+                </Tooltiped>
+            </header>
+            <section className="addon-grid">
+                {filteredAddons && filteredAddons.slice((page - 1) * per_page, page * per_page).map((addon) => {
+                    return <AddonCard key={addon.id} addon={addon} />
+                })}
+            </section>
+            <Paginator page={page} lastPage={Math.ceil(filteredAddons.length / per_page)} onChange={(i) => setPage(i)} />
+        </article>
+    </Layout>
 }
 
 export default AddonsPage

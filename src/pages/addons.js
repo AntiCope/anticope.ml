@@ -12,6 +12,7 @@ import './addons.css';
 import { FaCheck } from "react-icons/fa";
 import Layout from "../components/Layout";
 import { Link } from "gatsby";
+import { useQueryString } from "../hooks/useQueryString";
 
 const fuse = new Fuse([], {
     useExtendedSearch: true,
@@ -50,8 +51,9 @@ function getWeight(addon) {
 function AddonsPage() {
     const [addons, setAddons] = useState([]);
     const [loadedChunks, setLoadedChunks] = useState([]);
-    const [filter, setFilter] = useState({ query: "", verified: true });
-    const [page, setPage] = useState(1);
+    const [searchQuery, setSearchQuery] = useQueryString("q", null);
+    const [verified, setVerified] = useState(true);
+    const [page, setPage] = useQueryString("page", 1);
     const size = useWindowSize();
     const per_page = (size.width > 1000) ? 12 : 5;
 
@@ -61,15 +63,17 @@ function AddonsPage() {
     }, [])
 
     useEffect(() => {
-        if (!filter.verified) {
+        if (!verified) {
             fetchChunk('unver')
         }
         // eslint-disable-next-line
-    }, [filter])
+    }, [verified])
 
     useEffect(() => {
-        setPage(1)
-    }, [per_page, filter])
+        if (addons.length < 1) return;
+        if (page == null) setPage(1)
+        setPage(Math.min(page, Math.ceil(addons.length/per_page)))
+    }, [per_page, verified, addons])
 
     function fetchChunk(chunk) {
         if (loadedChunks.includes(chunk)) return;
@@ -83,22 +87,22 @@ function AddonsPage() {
 
 
     function toggleVerified() {
-        setFilter({ ...filter, verified: !filter.verified })
+        setVerified(!verified)
         setPage(1)
     }
 
     let filteredAddons = null
-    if (filter.query) {
+    if (searchQuery) {
         fuse.setCollection(addons.filter((addon) => {
-            if (!filter.verified) return true;
+            if (!verified) return true;
             return addon.verified
         }))
-        filteredAddons = fuse.search(filter.query).sort((a, b) => {
+        filteredAddons = fuse.search(searchQuery).sort((a, b) => {
             return (a.score - getWeight(a)) - (b.score - getWeight(b))
         }).map((a) => a.item)
     } else {
         filteredAddons = addons.filter((addon) => {
-            if (!filter.verified) return true;
+            if (!verified) return true;
             return addon.verified
         }).sort((a, b) => {
             return getWeight(b) - getWeight(a)
@@ -132,9 +136,9 @@ function AddonsPage() {
             </section>
             <hr />
             <header className="Filter">
-                <input onChange={(evt) => { setFilter({ ...filter, query: evt.target.value.toLowerCase() }) }} className="Search" type="text" placeholder="search here..." value={filter.query} />
+                <input onChange={(evt) => { setSearchQuery(evt.target.value.toLowerCase()) }} className="Search" type="text" placeholder="search here..." value={searchQuery} />
                 <Tooltiped tooltip="Show verified only">
-                    <div className={"CheckBox " + (filter.verified ? " checked" : "")} onClick={toggleVerified}>
+                    <div className={"CheckBox " + (verified ? " checked" : "")} onClick={toggleVerified}>
                         <FaCheck />
                     </div>
                 </Tooltiped>

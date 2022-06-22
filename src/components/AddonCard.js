@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
+import { useQueryString } from "../hooks/useQueryString";
 import Button from './Button'
 import Tooltiped from './Tooltiped'
 import {Img} from 'react-image'
@@ -29,11 +30,12 @@ function formatStrings(strings) {
 }
 
 function AddonCard({ addon }) {
-    const [active, setActive] = useState(false);
+    const [activeAddon, setActiveAddon] = useQueryString("addon", null);
+    const active = activeAddon === addon.id
     const ref = useRef(null);
 
     function onActive() {
-        setActive(true);
+        setActiveAddon(addon.id)
     }
 
     // eslint-disable-next-line
@@ -43,11 +45,11 @@ function AddonCard({ addon }) {
         return <div className={"AddonCard appear" + (active ? " active" : " inactive")} ref={ref}>
             <Modal
                 show={active}
-                onHide={() => {setActive(false)}}
+                onHide={() => {setActiveAddon(null)}}
                 renderBackdrop={BackDrop}
                 aria-labelledby="modal-label"
             >
-                <AddonModal addon={addon} onHide={() => {setActive(false)}} />
+                <AddonModal addon={addon} onHide={() => {setActiveAddon(null)}} />
             </Modal>
 
             <div className="Line">

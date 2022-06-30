@@ -2,6 +2,8 @@ import { useState, useCallback } from 'react';
 import qs from "query-string";
 
 const setQueryStringWithoutPageReload = qsValue => { 
+    if (typeof window === "undefined") return;
+
     const newurl = window.location.protocol + "//" +
                    window.location.host + 
                    window.location.pathname + 
@@ -12,7 +14,7 @@ const setQueryStringWithoutPageReload = qsValue => {
 
 export const getQueryStringValue = ( 
     key, 
-    queryString = window.location.search
+    queryString = (typeof window === "undefined")?"":window.location.search
 ) => { 
     const values = qs.parse(queryString); 
     return values[key];
@@ -21,7 +23,7 @@ export const getQueryStringValue = (
 const setQueryStringValue = ( 
     key, 
     value, 
-    queryString = window.location.search
+    queryString = (typeof window === "undefined")?"":window.location.search
  ) => { 
      const values = qs.parse(queryString); 
      let newQsValue = { ...values, [key]: value }

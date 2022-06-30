@@ -3,14 +3,21 @@ import json
 from os import getenv
 from time import sleep
 import re
+from configparser import ConfigParser
+
 
 VERIFIED = json.load(open('verified.json', "r+", encoding='utf-8'))
 INJECT = json.load(open('inject.json', "r+", encoding='utf-8'))
+
 RETRY_COUNT = 25
+
 GH_TOKEN = getenv("GH_TOKEN")
 HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json", "User-Agent": "AntiCope/anticope.ml"}
+
+# regex
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
 INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
+MCVER_RE = re.compile("(?:['\"]com\.mojang:minecraft:)([0-9a-z.]+)(?:[\"'])")
 
 def sleep_if_rate_limited(type="search"):
     for _ in range(RETRY_COUNT):
@@ -181,6 +188,24 @@ def parse_repo(name):
             features.append(f"...and {count} more")
     except Exception:
         print("[features] error. ignoring...")
+        
+    # parse build.gradle
+    mc_version = None
+    try:
+        build_gradle = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/build.gradle").text
+        try:
+            props = requests.get(f"https://raw.githubusercontent.com/{name}/{repo['default_branch']}/gradle.properties").text
+            props = "[conf]\n"+props # convert to ini format
+            gradle_props = ConfigParser()
+            gradle_props.read_string(props)
+            for key, val in dict(gradle_props['conf']).items():
+                build_gradle = build_gradle.replace("${project."+key+"}", val)
+                build_gradle = build_gradle.replace(f"project.{key}", val)
+        except Exception as ex:
+            print(f"[build.gradle] failed to read gradle.properties.")  
+        mc_version = MCVER_RE.findall(build_gradle)[0]
+    except Exception:
+        print("[build.gradle] error. ignoring...")  
     
     result = {
         "authors": authors,
@@ -193,10 +218,9 @@ def parse_repo(name):
         "stars": repo['stargazers_count'],
         "last_update": repo['pushed_at'],
         "downloads": downloads,
+        "mc_version": mc_version,
         "status": {
-            "archived": repo['archived'],
-            "devbuild": False,
-            "release": False
+            "archived": repo['archived']
         },
         "verified": (repo['full_name'] in VERIFIED),
         "summary": summary

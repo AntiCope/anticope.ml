@@ -200,6 +200,7 @@ def parse_repo(name):
             gradle_props.read_string(props)
             for key, val in dict(gradle_props['conf']).items():
                 build_gradle = build_gradle.replace("${project."+key+"}", val)
+                build_gradle = build_gradle.replace(f"$project.{key}", val)
                 build_gradle = build_gradle.replace(f"project.{key}", val)
         except Exception as ex:
             print(f"[build.gradle] failed to read gradle.properties.")  

@@ -19,8 +19,8 @@
         text-align: justify
 
     .Icon
-        width: 3em
-        height: 3rem
+        width: 4em
+        height: 4rem
         margin-right: 1rem
         background-color: var(--bg-color)
         padding: 0.3rem
@@ -35,6 +35,17 @@
     .bottom
         position: absolute
         bottom: 1em
+
+    .Line
+        margin-bottom: 0.5em
+        .AddonName
+            max-width: calc(100% - 7rem)
+
+            span
+                white-space: nowrap
+                text-overflow: ellipsis
+                width: 100%
+                overflow: hidden
 
     @media only screen and (max-width: 600px)
         padding: 1em 2em

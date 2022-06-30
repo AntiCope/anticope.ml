@@ -31,8 +31,6 @@ const setQueryStringValue = (
 
 
 export function useQueryString(key, initialValue) {
-    if (typeof window === "undefined") return [initialValue, () => {}]
-
     const [value, setValue] = useState(getQueryStringValue(key) || initialValue);
 
     const onSetValue = useCallback(
@@ -40,8 +38,10 @@ export function useQueryString(key, initialValue) {
             setValue(newValue);
             setQueryStringValue(key, newValue!==initialValue && newValue);
         },
-        [key]
+        [key, initialValue]
     );
+
+    if (typeof window === "undefined") return [initialValue, () => {}]
 
     return [value, onSetValue];
 }

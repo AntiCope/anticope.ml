@@ -4,8 +4,6 @@ import Tooltiped from './Tooltiped'
 
 import {
     FaWindowMinimize,
-    FaCode,
-    FaCheck,
     FaArchive,
     FaBiohazard,
     FaDiscord,
@@ -17,6 +15,9 @@ import {
     FaCalendarAlt
 } from "react-icons/fa";
 import moment from "moment";
+import {
+    GoVersions
+} from "react-icons/go"
 import { Img } from "react-image";
 
 import './AddonModal.sass';
@@ -54,27 +55,19 @@ function AddonModal({ addon, onHide }) {
             </div>
         </div>
         <div className="Col">
+            {addon.mc_version &&
+                <div className="Status">
+                    <span>
+                        <GoVersions style={{top: '2px', position: 'relative'}}/>
+                        {' '}Addon avaliable for Minecraft {addon.mc_version} and possibly older
+                    </span>
+                </div>
+            }
             {!addon.verified &&
                 <div className="Status">
                     <span>
                         <FaBiohazard color="#BF616A" />
                         {' '}Unverified addon. May contain malware. Proceed with caution!</span>
-                </div>
-            }
-            {addon.status.devbuild &&
-                <div className="Status">
-                    <span>
-                        <FaCode color="#A3BE8C" />
-                        {' '}Addon is avaliable for the latest devbuild of Meteor Client
-                    </span>
-                </div>
-            }
-            {addon.status.release &&
-                <div className="Status">
-                    <span>
-                        <FaCheck color="#A3BE8C" />
-                        {' '}Addon is avaliable for the latest release of Meteor Client
-                    </span>
                 </div>
             }
             {addon.status.archived &&

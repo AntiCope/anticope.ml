@@ -5,8 +5,6 @@ import Tooltiped from './Tooltiped'
 import {Img} from 'react-image'
 
 import {
-    FaCode,
-    FaCheck,
     FaArchive,
     FaBiohazard,
 } from "react-icons/fa";
@@ -54,10 +52,15 @@ function AddonCard({ addon }) {
 
             <div className="Line">
                 <Img src={[getImageProxyUrl(addon.icon), addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" crossorigin="anonymous" decode={false} />
-                <div className="Col">
-                    <h3>{addon.name}</h3>
+                <div className="Col AddonName">
+                    <h3>
+                        {addon.name}
+                    </h3>
                     {(addon.authors && addon.authors.length > 0) &&
                         <span> by {formatStrings(addon.authors)}</span>
+                    }
+                    {addon.mc_version &&
+                        <span className="McVersion"> for {addon.mc_version}</span>
                     }
                 </div>
             </div>
@@ -67,20 +70,6 @@ function AddonCard({ addon }) {
                         <div className="Status">
                             <Tooltiped tooltip="Unverified addon. May contain malware. Proceed with caution!">
                                 <FaBiohazard color="#BF616A" />
-                            </Tooltiped>
-                        </div>
-                    }
-                    {addon.status.devbuild &&
-                        <div className="Status">
-                            <Tooltiped tooltip="Addon is avaliable for the latest devbuild of Meteor Client">
-                                <FaCode color="#A3BE8C" />
-                            </Tooltiped>
-                        </div>
-                    }
-                    {addon.status.release &&
-                        <div className="Status">
-                            <Tooltiped tooltip="Addon is avaliable for the latest release of Meteor Client">
-                                <FaCheck color="#A3BE8C" />
                             </Tooltiped>
                         </div>
                     }

@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "gatsby";
 
-import { FaDiscord, FaGithub } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaHeart } from "react-icons/fa";
 import "./Header.sass";
 
 import logo from "../images/icon.svg"
@@ -13,6 +13,9 @@ function Header() {
             <img src={logo} alt="logo"/>
         </Link>
         <nav className="Nav">
+            <a href="https://ko-fi.com/cl0udburst" aria-label="ko-fi">
+                <FaHeart />
+            </a>
             <a href="https://github.com/AntiCope/anticope.ml/" aria-label="Github">
                 <FaGithub />
             </a>

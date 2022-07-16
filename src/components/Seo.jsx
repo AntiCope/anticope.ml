@@ -55,6 +55,9 @@ const Seo = ({ summary, title, children }) => {
           "url": "${site.siteMetadata.siteUrl}"
         }`}
       </script>
+      <script async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8127542042569916"
+        crossorigin="anonymous" />
       {children}
     </Helmet>
   )

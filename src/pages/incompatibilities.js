@@ -35,6 +35,7 @@ function IncompatibilitiesPage() {
                     <li><a href="https://www.curseforge.com/minecraft/mc-mods/origins">Origins</a><br /> The game crashes on start due to a mixin conflict. </li>
                     <li><a href="https://www.replaymod.com/">Replay Mod</a><br />Only crashes when opening the replay list. Recording should still be fine.</li>
                     <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-mount-hud">Better Mount HUD</a></li>
+                    <li><a href="https://www.curseforge.com/minecraft/mc-mods/armor-chroma-for-fabric">Armor Chroma</a></li>
                 </ul>
             </section>
         </article>

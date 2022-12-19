@@ -131,7 +131,7 @@ function AddonModal({ addon, onHide }) {
                     if ((key === "github" && typeof addon.links.download === "undefined") || key === "download") return <></>
                     else {
                         return <Tooltiped key={key} tooltip={key}>
-                            <a href={addon.links[key]}>{getIcon(key)}</a>
+                            <a href={addon.links[key]} target="_blank">{getIcon(key)}</a>
                         </Tooltiped>
                     }
                 })}

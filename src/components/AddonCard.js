@@ -51,7 +51,7 @@ function AddonCard({ addon }) {
             </Modal>
 
             <div className="Line">
-                <Img src={[getImageProxyUrl(addon.icon), addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" crossorigin="anonymous" decode={false} />
+                <Img src={[addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" crossorigin="anonymous" decode={false} />
                 <div className="Col AddonName">
                     <h3>
                         {addon.name}

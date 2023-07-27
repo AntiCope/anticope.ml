@@ -38,7 +38,7 @@ function AdditionalsPage() {
             <section>
                 <h2>Misc</h2>
                 <ul>
-                    <li><a href="https://www.curseforge.com/minecraft/mc-mods/multiconnect">Multiconnect</a> - Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.</li>
+                    <li><a href="https://modrinth.com/mod/viafabricplus">ViaFabricPlus</a> - Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.</li>
                     <li><a href="https://github.com/19MisterX98/SeedcrackerX">SeedcrackerX</a> - Fast, Automatic In-Game Seed Cracker for Minecraft.</li>
                     <li><a href="https://github.com/Earthcomputer/clientcommands">ClientCommands</a> - Duplicates few features from Meteor Client, but also contains useful features, like cracking rng seed or printing entity data</li>
                 </ul>

@@ -1,6 +1,6 @@
-import React from "react";
+import Layout from "../components/Layout/Layout";
 import Seo from "../components/Seo";
-import Layout from "../components/Layout";
+import React from "react";
 
 const CLIENTS = [
     ["Inertia Client", "https://inertiaclient.com/"],

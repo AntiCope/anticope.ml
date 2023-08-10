@@ -1,54 +1,36 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+  <img src="./src/images/logo.png" alt="logo" width="20%"/>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+<p align="center">
+  Welcome to the AntiCope Website! <br />
+  Here you can find a list of free and open-source <a href="https://meteorclient.com/">Meteor Client</a> (Minecraft utility client for Fabric) addons as well as other client-side Fabric mods.
+</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Anti-Cope!-orange" alt="AntiCope">
+  <img src="https://img.shields.io/badge/Verified%20Addons-18-blue" alt="Verified Addons Count">
+  <img src="https://img.shields.io/badge/Total%20Addons-71-blueviolet" alt="Total Addons Count">
+  <a href="https://github.com/AntiCope/anticope.ml/"><img src="https://img.shields.io/github/stars/AntiCope/anticope.ml?color=%23a17f1a&&label=Stars&logo=github" alt="Stars"></a>
+  <a href="https://github.com/AntiCope/anticope.ml/"><img src="https://img.shields.io/github/last-commit/AntiCope/anticope.ml?label=Last%20Commit&logo=git" alt="Last commit"></a>
+  <a href="https://anticope.ml/"><img src="https://img.shields.io/github/deployments/AntiCope/anticope.ml/github-pages?label=Pages&logo=github" alt="Deployment status"></a>
+</div>
+<p> </p>
 
-## 🚀 Quick start
+<hr />
 
-1.  **Create a Gatsby site.**
+<div align="center">
+  <a href="https://discord.gg/9mrRPGKYU3"><img src="https://invidget.switchblade.xyz/9mrRPGKYU3"></a>
+</div>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+If you are interested in contributing new features or information to this website, feel free to open a new issue or pull request on our [Github repository](https://github.com/AntiCope/anticope.ml/), or send a message in [#addon-verification-requests](https://discord.gg/9mrRPGKYU3) channel on discord.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- [Meteor Addons](pages/MeteorAddons.md)<br>
+  A list of verified addons to be used alongside Meteor Client.
 
-2.  **Start developing.**
+  - [Unverified Addons](pages/addons/UnverifiedAddons.md)<br>
+    List of **unverified** addons indexed by Github
 
-    Navigate into your new site’s directory and start it up.
+- [Meteor Additionals](pages/MeteorAdditionals.md)<br>
+  A list of recommended fabric mods to be used alongside Meteor Client.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [Meteor Incompatibilities](pages/Incompatibilities.md)<br>
+  A list of fabric mods known to be incompatible with Meteor Client.

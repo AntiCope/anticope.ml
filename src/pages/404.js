@@ -1,5 +1,5 @@
-import React from "react";
 import { navigate } from 'gatsby'
+import React from "react";
 
 const redirects = {
     "/MeteorAddons.html": "/addons/",

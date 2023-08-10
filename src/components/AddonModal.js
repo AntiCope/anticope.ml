@@ -18,7 +18,7 @@ import moment from "moment";
 import {
     GoVersions
 } from "react-icons/go"
-import { Img } from "react-image";
+import Icon from './Icon'
 
 import './AddonModal.sass';
 
@@ -46,7 +46,7 @@ function AddonModal({ addon, onHide }) {
             <FaWindowMinimize />
         </button>
         <div className="Line">
-            <Img src={[addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" />
+            <Icon src={addon.icon} />
             <div className="Col">
                 <h3 id="modal-label">{addon.name}</h3>
                 {(addon.authors && addon.authors.length > 0) &&

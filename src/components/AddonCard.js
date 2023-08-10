@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { useQueryString } from "../hooks/useQueryString";
 import Button from './Button'
+import Icon from './Icon'
 import Tooltiped from './Tooltiped'
-import {Img} from 'react-image'
 
 import {
     FaArchive,
@@ -13,8 +13,6 @@ import AddonModal from "./AddonModal";
 import { getImageProxyUrl } from "../utils";
 
 import './AddonCard.sass';
-
-import UNKNOWN_ICON from "../images/unknown_icon.png"
 
 function BackDrop(props) {
     return <div className="BackDrop" {...props}></div>
@@ -51,7 +49,7 @@ function AddonCard({ addon }) {
             </Modal>
 
             <div className="Line">
-                <Img src={[addon.icon, UNKNOWN_ICON]} alt="icon" className="Icon" crossorigin="anonymous" decode={false} />
+                <Icon src={addon.icon} />
                 <div className="Col AddonName">
                     <h3>
                         {addon.name}

@@ -11,3 +11,5 @@ function Icon({src}) {
 
     return <img src={currentSrc} alt="icon" className="Icon" crossOrigin="anonymous" onError={onError} />
 }
+
+export default Icon

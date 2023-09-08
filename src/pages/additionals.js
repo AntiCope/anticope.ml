@@ -20,13 +20,31 @@ function AdditionalsPage() {
             <section>
                 <h2>Optifine Alternatives</h2>
                 <p>
-                    Optifine is and never will be supported by Meteor Client. More alternatives and the reason why its not supported <a href="https://lambdaurora.dev/optifine_alternatives">here</a>.
+                    Optifine is not and never will be supported by Meteor Client. More alternatives and the reason why its not supported <a href="https://lambdaurora.dev/optifine_alternatives">here</a>.
                     <h3>Performance</h3>
                     <ul>
                         <li><a href="https://modrinth.com/mod/sodium">Sodium</a> - Performance improvements (way better than Optifine)</li>
                         <li><a href="https://modrinth.com/mod/lithium">Lithium</a> - Server optimizations</li>
                         <li><a href="https://modrinth.com/mod/starlight">Starlight</a> - Lighting engine rewrite (better compared to Phosphor)</li>
-                        <li><a href="https://modrinth.com/mod/phosphor">Phosphor</a> - Lighting engine improvements</li>
+                        <li><a href="https://modrinth.com/mod/nvidium">Nvidium</a> - Experimental mod FOR NVIDIA GPUs ONLY, that massively increases performance, should be compatible with most mods, automatically disables itself if and when shaders are enabled as it does not work with Iris, requires Sodium</li>
+                        <li><a href="https://modrinth.com/mod/ebe">Enhanced Block Entities</a> - Improved block entity rendering, significantly faster than vanilla</li>
+                        <li><a href="https://modrinth.com/mod/fastanim">FastAnim</a> - Vastly improves entity animation calculations</li>
+                        <li><a href="https://modrinth.com/mod/immediatelyfast">Immediately Fast</a> - Improves immediate mode rendering performance</li>
+                        <li><a href="https://modrinth.com/mod/no-telemetry">No Telemetry</a> - Just disables Telemetry</li>
+                        <li><a href="https://modrinth.com/mod/vmp-fabric">Very Many Players</a> - Improves performance with lots of players online</li>
+                        <li><a href="https://modrinth.com/mod/videotape">Video tape</a> - GPU fixes and optimizations</li>
+                        <li><a href="https://modrinth.com/mod/moreculling">More Culling</a> - Better culling, Requires Sodium</li>
+                        <li><a href="https://modrinth.com/mod/morecullingextra">More Culling Extra</a> - Even more culling</li>
+                        <li><a href="https://modrinth.com/mod/modernfix">Modern Fix</a> - General bugfix and optimization mod</li>
+                        <li><a href="https://modrinth.com/mod/lazydfu">LazyDFU</a> - Makes minecraft start up faster</li>
+                        <li><a href="https://modrinth.com/mod/exordium">Exordium</a> - Renders GUIs, HUD elements, etc. at a lower framerate to speed up world rendering</li>
+                        <li><a href="https://modrinth.com/mod/ksyxis">Ksyxis</a> - Speeds up world loading</li>
+                        <li><a href="https://modrinth.com/mod/alternate-current">Alternate Current</a> - Speeds up redstone calculations</li>
+                        <li><a href="https://modrinth.com/mod/blanket">Blanket</a> - general bugfix mod</li>
+                        <li><a href="https://modrinth.com/mod/c2me-fabric">Concurrent Chunk Management Engine</a> - Improve chunkloading performance</li>
+                        <li><a href="https://modrinth.com/mod/ferrite-core">FerriteCore</a> - Memory Usage optimizations</li>
+                        <li><a href="https://modrinth.com/mod/entityculling">Entity Culling</a> - It's... it's entity culling. That's about it.</li>
+                        <li><a href="https://modrinth.com/mod/noxesium">Noxesium</a> - Performance improvements and QOL stuff</li>
                     </ul>
                     <h3>Shaders</h3>
                     <ul>

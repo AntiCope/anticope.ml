@@ -41,6 +41,15 @@ function AdditionalsPage() {
                     <li><a href="https://modrinth.com/mod/viafabricplus">ViaFabricPlus</a> - Allows you to connect to older minecraft versions. Very useful since Meteor only supports latest versions.</li>
                     <li><a href="https://github.com/19MisterX98/SeedcrackerX">SeedcrackerX</a> - Fast, Automatic In-Game Seed Cracker for Minecraft.</li>
                     <li><a href="https://github.com/Earthcomputer/clientcommands">ClientCommands</a> - Duplicates few features from Meteor Client, but also contains useful features, like cracking rng seed or printing entity data</li>
+                    <li><a href="https://github.com/Avanatiker/WorldTools">WorldTools</a> - A World Downloader mod for modern versions, supports downloading chunk data, entity data, and block entity data from servers into a single player save</li>
+                    <li><a href="https://github.com/Coderx-Gamer/ui-utils">UI Utils</a> - A Dupe hunting mod for inventory GUIs</li>
+                    <li><a href="https://github.com/svenar-nl/FabricBlockedServersBypass">Blocked Servers Bypass</a> - Does what the name says, bypasses minecraft's server blacklist</li>
+                    <li><a href="https://github.com/JsMacros/JsMacros">JsMacros</a> - A powerful scripting mod for minecraft, has addons to support multiple coding languages</li>
+                    <li><a href="https://github.com/Fallen-Breath/fast-ip-ping">Fast IP Ping</a> - greatly speeds up pinging servers when you use an IP address to connect, perfect for use with an addon like Server Seeker</li>
+                    <li><a href="https://modrinth.com/mod/stendhal">Stendhal</a> - A great client-sided mod for editing text in books, signs, anvils, etc.</li>
+                    <li><a href="https://github.com/Sindercube/Server-Unpacker">Server Unpacker</a> - A server resource pack unpacker, uses minecraft game logic so it bypasses tricks to prevent resource pack unpacking, as long as the game can load it, the mod can unpack it</li>
+                    <li><a href="https://github.com/mega12345mega/NBT-Editor">NBT Editor</a> - A useful NBT Editor with a client-sided storage UI to easily save items and retrive them across servers, provided you have creative mode or OP.</li>
+                    <li><a href="https://github.com/Thatsmusic99/NoRefreshScroll">NoRefreshScroll</a> - A simple mod to stop the server list from scrolling to the top when refreshing, great for use with server seeker</li>
                 </ul>
             </section>
         </article>

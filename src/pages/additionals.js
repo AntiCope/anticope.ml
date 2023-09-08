@@ -20,7 +20,7 @@ function AdditionalsPage() {
             <section>
                 <h2>Optifine Alternatives</h2>
                 <p>
-                    Optifine is not and never will be supported by Meteor Client. More alternatives and the reason why its not supported <a href="https://lambdaurora.dev/optifine_alternatives">here</a>.
+                    Optifine is not, and never will be supported by Meteor Client. More alternatives and the reason why its not supported <a href="https://lambdaurora.dev/optifine_alternatives">here</a>.
                     <h3>Performance</h3>
                     <ul>
                         <li><a href="https://modrinth.com/mod/sodium">Sodium</a> - Performance improvements (way better than Optifine)</li>
@@ -46,10 +46,23 @@ function AdditionalsPage() {
                         <li><a href="https://modrinth.com/mod/entityculling">Entity Culling</a> - It's... it's entity culling. That's about it.</li>
                         <li><a href="https://modrinth.com/mod/noxesium">Noxesium</a> - Performance improvements and QOL stuff</li>
                     </ul>
-                    <h3>Shaders</h3>
+                    <h3>Shaders, Rendering, and Resource Pack features</h3>
                     <ul>
-                        <li><a href="https://modrinth.com/mod/iris">Iris</a> - Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with a custom modified version of Sodium.</li>
-                        <li><a href="https://www.curseforge.com/minecraft/mc-mods/canvas-renderer">Canvas Renderer</a> - A new rendering engine. Incompatible with Sodium</li>
+                        <li><a href="https://modrinth.com/mod/iris">Iris</a> - Shaders mod for Minecraft compatible with ShadersMod/Optifine shaders. Compatible with Sodium.</li>
+                        <li><a href="https://modrinth.com/mod/canvas">Canvas Renderer</a> - A new rendering engine. Incompatible with Sodium</li>
+                        <li><a href="https://modrinth.com/mod/animatica">Animatica</a> - Optifine and MCPatcher animated texture format support</li>
+                        <li><a href="https://modrinth.com/mod/indium">Indium</a> - Adds Fabric Rendering API support to sodium, many mods in this section require it</li>
+                        <li><a href="https://modrinth.com/mod/optigui">OptiGUI</a> - Optifine format custom GUI texture support</li>
+                        <li><a href="https://modrinth.com/mod/entitytexturefeatures">Entity Texture Features</a> - Custom entity texture features with Optifine Parity</li>
+                        <li><a href="https://modrinth.com/mod/entity-model-features">Entity Model Features</a> - Custom entity model support with Optifine Parity</li>
+                        <li><a href="https://modrinth.com/mod/fabricskyboxes">FabricSkyboxes</a> - Custom skybox support for resource packs</li>
+                        <li><a href="https://modrinth.com/mod/fabricskyboxes-interop">FabricSkyboxes Interop</a> - Adds Optifine and MCPatcher format support to FabricSkyboxes</li>
+                        <li><a href="https://modrinth.com/mod/fusion-connected-textures">Fusion</a> - Connected Texture support for resource packs</li>
+                        <li><a href="https://modrinth.com/mod/lambdynamiclights">LambDynamicLights</a> - Performant smooth dynamic lighting mod</li>
+                        <li><a href="https://modrinth.com/mod/vanadium">Vanadium</a> - A Mod that adds support for custom colors in resource packs</li>
+                        <li><a href="https://modrinth.com/mod/modern-ui">Modern UI</a> - Adds a modern UI framework, smooth text, emoji support, etc.</li>
+                        <li><a href="https://modrinth.com/mod/shimmer!">Shimmer</a> - A Mod that adds rendering features like fantasy bloom and colored lighting</li>
+                        <li><a href="https://modrinth.com/mod/bedrodium">Bedrodium</a> - Small mod that stops rendering the very bottom layer of the world (the bottom side of the last layer of bedrock) to increase performance</li>
                     </ul>
                 </p>
             </section>
@@ -68,6 +81,7 @@ function AdditionalsPage() {
                     <li><a href="https://github.com/Sindercube/Server-Unpacker">Server Unpacker</a> - A server resource pack unpacker, uses minecraft game logic so it bypasses tricks to prevent resource pack unpacking, as long as the game can load it, the mod can unpack it</li>
                     <li><a href="https://github.com/mega12345mega/NBT-Editor">NBT Editor</a> - A useful NBT Editor with a client-sided storage UI to easily save items and retrive them across servers, provided you have creative mode or OP.</li>
                     <li><a href="https://github.com/Thatsmusic99/NoRefreshScroll">NoRefreshScroll</a> - A simple mod to stop the server list from scrolling to the top when refreshing, great for use with server seeker</li>
+                    <li><a href="https://github.com/Boxadactle/MCShare">MCShare</a> - Adds a simple and useful system to export and import minecraft worlds, especially useful when used with ServerSeeker and WorldTools</li>
                 </ul>
             </section>
         </article>

@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import { FaDiscord, FaGithub, FaHeart } from "react-icons/fa";
 import "./Header.sass";
 
-import logo from "../images/icon.svg"
+import logo from "../../images/icon.svg"
 
 function Header() {
     return <header className="Header">

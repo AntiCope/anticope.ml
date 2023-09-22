@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from "react"
 
-import Header from "./Header"
+import Header from "../Header/Header"
 import "./Layout.sass"
 
 function Layout({ children }) {

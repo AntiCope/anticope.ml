@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
-import useWindowSize from '../hooks/useWindowSize'
+import useWindowSize from '../hooks/useWindowSize';
 import Fuse from "fuse.js";
 
-import AddonCard from "../components/AddonCard";
-import Tooltiped from "../components/Tooltiped";
-import Seo from "../components/Seo";
-import Paginator from "../components/Paginator";
+import AddonCard from "../components/AddonCard/AddonCard";
+import Tooltiped from "../components/Tooltiped/Tooltiped";
+import Paginator from "../components/Paginator/Paginator";
 import LastUpdate from "../components/LastUpdate";
+import Seo from "../components/Seo";
 
-import './addons.css';
-import { FaCheck } from "react-icons/fa";
-import Layout from "../components/Layout";
-import { Link } from "gatsby";
 import { useQueryString } from "../hooks/useQueryString";
+import Layout from "../components/Layout/Layout";
+import { FaCheck } from "react-icons/fa";
+import { Link } from "gatsby";
+import './addons.css';
 
 const fuse = new Fuse([], {
     useExtendedSearch: true,
@@ -56,7 +56,7 @@ function AddonsPage() {
     const [page, setPage] = useQueryString("page", 1);
     const size = useWindowSize();
     const per_page = (size.width > 1000) ? 12 : 5;
-
+    
     useEffect(() => {
         fetchChunk('ver')
         // eslint-disable-next-line
@@ -108,7 +108,6 @@ function AddonsPage() {
             return getWeight(b) - getWeight(a)
         })
     }
-
 
     return <Layout>
         <Seo title="Meteor Client Addons" summary="Browse free and open-source Addons that can be used alongside Meteor Client." />

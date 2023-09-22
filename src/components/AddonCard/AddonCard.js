@@ -1,16 +1,16 @@
 import React, { useRef } from "react";
-import { useQueryString } from "../hooks/useQueryString";
-import Button from './Button'
-import Icon from './Icon'
-import Tooltiped from './Tooltiped'
+import { useQueryString } from "../../hooks/useQueryString";
+import Button from '../Button/Button'
+import Icon from '../Icon'
+import Tooltiped from '../Tooltiped/Tooltiped'
 
 import {
     FaArchive,
     FaBiohazard,
 } from "react-icons/fa";
 import { Modal } from "react-overlays";
-import AddonModal from "./AddonModal";
-import { getImageProxyUrl } from "../utils";
+import AddonModal from "../AddonModal/AddonModal";
+import { getImageProxyUrl } from "../../utils";
 
 import './AddonCard.sass';
 

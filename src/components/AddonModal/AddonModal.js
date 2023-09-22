@@ -1,6 +1,6 @@
 import React from "react";
-import Button from './Button'
-import Tooltiped from './Tooltiped'
+import Button from '../Button/Button'
+import Tooltiped from '../Tooltiped/Tooltiped'
 
 import {
     FaWindowMinimize,
@@ -18,11 +18,11 @@ import moment from "moment";
 import {
     GoVersions
 } from "react-icons/go"
-import Icon from './Icon'
+import Icon from '../Icon'
 
 import './AddonModal.sass';
 
-import UNKNOWN_ICON from "../images/unknown_icon.png"
+import UNKNOWN_ICON from "../../images/unknown_icon.png"
 
 function formatStrings(strings) {
     if (strings.length === 0) return "";

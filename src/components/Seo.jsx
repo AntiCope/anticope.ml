@@ -1,9 +1,9 @@
-import React from "react"
-import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
+import React from "react"
 
-import logo from "../images/logo.png"
 import keywords from "../keywords.json"
+import logo from "../images/logo.png"
 
 const Seo = ({ summary, title, children }) => {
   const { site } = useStaticQuery(

@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
+import Layout from "../components/Layout/Layout";
 import Seo from "../components/Seo";
-import Layout from "../components/Layout";
+import { Link } from "gatsby";
+import React from "react";
 
 import './index.css';
 

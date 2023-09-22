@@ -1,7 +1,7 @@
+import Layout from "../components/Layout/Layout";
+import Seo from "../components/Seo";
 import { Link } from "gatsby";
 import React from "react";
-import Seo from "../components/Seo";
-import Layout from "../components/Layout";
 
 function AdditionalsPage() {
 

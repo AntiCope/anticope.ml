@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button/Button";
 
 import './Paginator.sass';
 import { FaArrowLeft, FaAngleDoubleLeft, FaArrowRight,FaAngleDoubleRight } from "react-icons/fa";

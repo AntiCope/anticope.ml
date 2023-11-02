@@ -16,7 +16,7 @@ HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.gith
 
 # regex
 FEATURE_RE = re.compile("(?:add\(new )([^(]+)(?:\([^)]*)\)\)")
-INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[a-zA-z0-9-\/]+)")
+INVITE_RE = re.compile("((?:https?:\/\/)?(?:www.)?(?:discord.(?:gg|io|me|li|com)|discordapp.com\/invite|dsc.gg)\/[\W\/]+)")
 MCVER_RE = re.compile("(?:['\"]com\.mojang:minecraft:)([0-9a-z.]+)(?:[\"'])")
 
 def sleep_if_rate_limited(type="search"):
